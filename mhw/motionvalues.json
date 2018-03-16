@@ -800,5 +800,85 @@
       "Stun": "55",
       "Exhaust": "10"
     }
+  },
+  "hunting horn": {
+    "Right Swing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "27",
+      "Stun": "20",
+      "Exhaust": "15"
+    },
+    "Left Swing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "22",
+      "Stun": "20",
+      "Exhaust": "15"
+    },
+    "Forward Swing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "34",
+      "Stun": "20",
+      "Exhaust": "25"
+    },
+    "Backward Slam": {
+      "Damage Type": "Blunt",
+      "Motion Value": "34",
+      "Stun": "20",
+      "Exhaust": "25"
+    },
+    "Handle Poke": {
+      "Damage Type": "Sever",
+      "Motion Value": "10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Forward Slam": {
+      "Damage Type": "Blunt",
+      "Motion Value": "14+39",
+      "Stun": "5+22",
+      "Exhaust": "10+15"
+    },
+    "Double Right Swing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "15+22",
+      "Stun": "6+8",
+      "Exhaust": "6+8"
+    },
+    "Performance": {
+      "Damage Type": "Blunt",
+      "Motion Value": "29",
+      "Stun": "22",
+      "Exhaust": "22"
+    },
+    "Encore": {
+      "Damage Type": "Blunt",
+      "Motion Value": "35",
+      "Stun": "27",
+      "Exhaust": "22"
+    },
+    "Shockwave": {
+      "Damage Type": "Blunt",
+      "Motion Value": "27",
+      "Stun": "27",
+      "Exhaust": "27"
+    },
+    "Jumping Smash": {
+      "Damage Type": "Blunt",
+      "Motion Value": "35",
+      "Stun": "20",
+      "Exhaust": "20"
+    },
+    "Jumping Strong Overhead Smash": {
+      "Damage Type": "Blunt",
+      "Motion Value": "55",
+      "Stun": "30",
+      "Exhaust": "20"
+    },
+    "Mid-air Performance": {
+      "Damage Type": "Blunt",
+      "Motion Value": "35",
+      "Stun": "22",
+      "Exhaust": "22"
+    }
   }
 }
