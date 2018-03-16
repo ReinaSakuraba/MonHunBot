@@ -636,5 +636,169 @@
       "Stun": "0",
       "Exhaust": "0"
     }
+  },
+  "hammer": {
+    "Swing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "20",
+      "Stun": "15",
+      "Exhaust": "10"
+    },
+    "Backswing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "16",
+      "Stun": "15",
+      "Exhaust": "10"
+    },
+    "Overhead Smash I": {
+      "Damage Type": "Blunt",
+      "Motion Value": "37",
+      "Stun": "20",
+      "Exhaust": "10"
+    },
+    "Side Smash": {
+      "Damage Type": "Blunt",
+      "Motion Value": "15",
+      "Stun": "20",
+      "Exhaust": "5"
+    },
+    "Overhead Smash II": {
+      "Damage Type": "Blunt",
+      "Motion Value": "23",
+      "Stun": "25",
+      "Exhaust": "15"
+    },
+    "Upswing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "86",
+      "Stun": "50",
+      "Exhaust": "10"
+    },
+    "Big Bang I": {
+      "Damage Type": "Blunt",
+      "Motion Value": "28",
+      "Stun": "5",
+      "Exhaust": "5"
+    },
+    "Big Bang II": {
+      "Damage Type": "Blunt",
+      "Motion Value": "32",
+      "Stun": "5",
+      "Exhaust": "5"
+    },
+    "Big Bang III": {
+      "Damage Type": "Blunt",
+      "Motion Value": "45",
+      "Stun": "10",
+      "Exhaust": "10"
+    },
+    "Big Bang IV": {
+      "Damage Type": "Blunt",
+      "Motion Value": "65",
+      "Stun": "10",
+      "Exhaust": "10"
+    },
+    "Big Bang Finisher": {
+      "Damage Type": "Blunt",
+      "Motion Value": "28+28+100",
+      "Stun": "5+5+15",
+      "Exhaust": "5+5+15"
+    },
+    "Charged Side Blow": {
+      "Damage Type": "Blunt",
+      "Motion Value": "18",
+      "Stun": "15",
+      "Exhaust": "10"
+    },
+    "Charged Upswing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "38",
+      "Stun": "35",
+      "Exhaust": "10"
+    },
+    "Charged Big Bang": {
+      "Damage Type": "Blunt",
+      "Motion Value": "15+76",
+      "Stun": "25",
+      "Exhaust": "40"
+    },
+    "Spinning Bludgeon": {
+      "Damage Type": "Blunt",
+      "Motion Value": "26+18+18+18+18+18+32",
+      "Stun": "2+2+2+2+2+2+25",
+      "Exhaust": "2+2+2+2+2+2+10"
+    },
+    "Charged Brutal Upswing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "45",
+      "Stun": "45",
+      "Exhaust": "20"
+    },
+    "Charged Brutal Big Bang": {
+      "Damage Type": "Blunt",
+      "Motion Value": "15+15+85",
+      "Stun": "20+20+55",
+      "Exhaust": "5+5+30"
+    },
+    "Charged Follow Up": {
+      "Damage Type": "Blunt",
+      "Motion Value": "25",
+      "Stun": "10",
+      "Exhaust": "5"
+    },
+    "Charged Follow Up (Power Charge)": {
+      "Damage Type": "Blunt",
+      "Motion Value": "55",
+      "Stun": "25",
+      "Exhaust": "5"
+    },
+    "Spinning Side Smash": {
+      "Damage Type": "Blunt",
+      "Motion Value": "15",
+      "Stun": "20",
+      "Exhaust": "10"
+    },
+    "Spinning Follow Up": {
+      "Damage Type": "Blunt",
+      "Motion Value": "55",
+      "Stun": "25",
+      "Exhaust": "10"
+    },
+    "Spinning Strong Upswing": {
+      "Damage Type": "Blunt",
+      "Motion Value": "90",
+      "Stun": "50",
+      "Exhaust": "10"
+    },
+    "Jumping Smash": {
+      "Damage Type": "Blunt",
+      "Motion Value": "37",
+      "Stun": "20",
+      "Exhaust": "10"
+    },
+    "Midair Spinning Bludgeon": {
+      "Damage Type": "Blunt",
+      "Motion Value": "25*N+100",
+      "Stun": "10*N+60",
+      "Exhaust": "3*N+30"
+    },
+    "Jumping Charge Attack": {
+      "Damage Type": "Blunt",
+      "Motion Value": "65",
+      "Stun": "40",
+      "Exhaust": "10"
+    },
+    "Jumping Charge Attack II": {
+      "Damage Type": "Blunt",
+      "Motion Value": "70",
+      "Stun": "45",
+      "Exhaust": "10"
+    },
+    "Jumping Charge Attack III": {
+      "Damage Type": "Blunt",
+      "Motion Value": "80",
+      "Stun": "55",
+      "Exhaust": "10"
+    }
   }
 }
