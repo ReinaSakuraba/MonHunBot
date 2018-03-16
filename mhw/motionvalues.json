@@ -1,0 +1,214 @@
+{
+  "great sword": {
+    "Charged Slash Lv 1": {
+      "Damage Type": "Sever",
+      "Motion Value": "48",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Slash Lv 2": {
+      "Damage Type": "Sever",
+      "Motion Value": "70",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Slash Lv 3": {
+      "Damage Type": "Sever",
+      "Motion Value": "91",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Slash Lv 4": {
+      "Damage Type": "Sever",
+      "Motion Value": "70",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Overhead Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "48",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Charged Slash Lv 1": {
+      "Damage Type": "Sever",
+      "Motion Value": "65",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Charged Slash Lv 2": {
+      "Damage Type": "Sever",
+      "Motion Value": "82",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Charged Slash Lv 3": {
+      "Damage Type": "Sever",
+      "Motion Value": "97",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Charged Slash Lv 4": {
+      "Damage Type": "Sever",
+      "Motion Value": "82",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "True Charged Slash Lv 1": {
+      "Damage Type": "Sever",
+      "Motion Value": "15+165",
+      "Stun": 0,
+      "Exhaust": 0
+    },
+    "True Charged Slash Lv 2": {
+      "Damage Type": "Sever",
+      "Motion Value": "20+182",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "True Charged Slash Lv 3": {
+      "Damage Type": "Sever",
+      "Motion Value": "22+211",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "True Charged Slash Lv 4": {
+      "Damage Type": "Sever",
+      "Motion Value": "20+182",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wide Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "26",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Rising Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "38",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Side Blow": {
+      "Damage Type": "Blunt",
+      "Motion Value": "16",
+      "Stun": "20",
+      "Exhaust": "15"
+    },
+    "Tackle Lv 1": {
+      "Damage Type": "Blunt",
+      "Motion Value": "26",
+      "Stun": "30",
+      "Exhaust": "20"
+    },
+    "Tackle Lv 2": {
+      "Damage Type": "Blunt",
+      "Motion Value": "36",
+      "Stun": "40",
+      "Exhaust": "25"
+    },
+    "Tackle Lv 3": {
+      "Damage Type": "Blunt",
+      "Motion Value": "48",
+      "Stun": "55",
+      "Exhaust": "30"
+    },
+    "Jumping Wide Slash Lv 1": {
+      "Damage Type": "Sever",
+      "Motion Value": "71",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Wide Slash Lv 2": {
+      "Damage Type": "Sever",
+      "Motion Value": "85",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Wide Slash Lv 3": {
+      "Damage Type": "Sever",
+      "Motion Value": "110",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "70",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Midair Charged Slash Lv 1": {
+      "Damage Type": "Sever",
+      "Motion Value": "70",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Midair Charged Slash Lv 2": {
+      "Damage Type": "Sever",
+      "Motion Value": "92",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Midair Charged Slash Lv 3": {
+      "Damage Type": "Sever",
+      "Motion Value": "106",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Wide Slash Lv 1": {
+      "Damage Type": "Sever",
+      "Motion Value": "56",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Wide Slash Lv 2": {
+      "Damage Type": "Sever",
+      "Motion Value": "66",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Wide Slash Lv 3": {
+      "Damage Type": "Sever",
+      "Motion Value": "78",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Rising Slash Lv 1": {
+      "Damage Type": "Sever",
+      "Motion Value": "48",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Rising Slash Lv 2": {
+      "Damage Type": "Sever",
+      "Motion Value": "72",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Rising Slash Lv 3": {
+      "Damage Type": "Sever",
+      "Motion Value": "98",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Plunging Thrust Lv 1": {
+      "Damage Type": "Sever",
+      "Motion Value": "16",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Plunging Thrust Lv 2": {
+      "Damage Type": "Sever",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Plunging Thrust Lv 3": {
+      "Damage Type": "Sever",
+      "Motion Value": "27",
+      "Stun": "0",
+      "Exhaust": "0"
+    }
+  }
+}
