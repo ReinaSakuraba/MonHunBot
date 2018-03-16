@@ -210,5 +210,139 @@
       "Stun": "0",
       "Exhaust": "0"
     }
+  },
+  "long sword": {
+    "Step Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "24",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Thrust": {
+      "Damage Type": "Sever",
+      "Motion Value": "12",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Overhead Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "21",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Rising Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "18",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    " Fade Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Lateral Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spirit Jumping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "18",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spirit Blade I": {
+      "Damage Type": "Sever",
+      "Motion Value": "14",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spirit Blade II": {
+      "Damage Type": "Sever",
+      "Motion Value": "30",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spirit Blade III": {
+      "Damage Type": "Sever",
+      "Motion Value": "12+14+34",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spirit Roundlslash": {
+      "Damage Type": "Sever",
+      "Motion Value": "38",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spirit Thrust": {
+      "Damage Type": "Sever",
+      "Motion Value": "42",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spirit Helm Breaker (White)": {
+      "Damage Type": "Sever",
+      "Motion Value": "10*7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spirit Helm Breaker (Yellow)": {
+      "Damage Type": "Sever",
+      "Motion Value": "10*7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spirit Helm Breaker (Red)": {
+      "Damage Type": "Sever",
+      "Motion Value": "25*7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Foresight Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "14",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "26",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Rising Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Aerial Draw Spirit Blade": {
+      "Damage Type": "Sever",
+      "Motion Value": "26",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Spirit Blade": {
+      "Damage Type": "Sever",
+      "Motion Value": "16",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Spirit Blade II": {
+      "Damage Type": "Sever",
+      "Motion Value": "4+16",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Spirit Blade III": {
+      "Damage Type": "Sever",
+      "Motion Value": "4+16+28",
+      "Stun": "0",
+      "Exhaust": "0"
+    }
   }
 }
