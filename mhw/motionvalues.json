@@ -344,5 +344,157 @@
       "Stun": "0",
       "Exhaust": "0"
     }
+  },
+  "sword and shield": {
+    "Chop": {
+      "Damage Type": "Sever",
+      "Motion Value": "14",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Side Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "13",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword/Shield Combo": {
+      "Damage Type": "Sever+Blunt",
+      "Motion Value": "10+20",
+      "Stun": "15",
+      "Exhaust": "15"
+    },
+    "Spiral Slash (Right)": {
+      "Damage Type": "Sever",
+      "Motion Value": "16",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spiral Slash (Left)": {
+      "Damage Type": "Sever",
+      "Motion Value": "16",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spiral Slash (Back)": {
+      "Damage Type": "Sever",
+      "Motion Value": "17",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Thrust": {
+      "Damage Type": "Sever",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Lateral Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Return Stroke": {
+      "Damage Type": "Sever",
+      "Motion Value": "21",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Advancing Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "18",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Short Shield Bash": {
+      "Damage Type": "Blunt",
+      "Motion Value": "6",
+      "Stun": "15",
+      "Exhaust": "10"
+    },
+    "Round Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "24",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Shield Attack": {
+      "Damage Type": "Blunt",
+      "Motion Value": "8",
+      "Stun": "15",
+      "Exhaust": "10"
+    },
+    "Shield Bash": {
+      "Damage Type": "Blunt",
+      "Motion Value": "16",
+      "Stun": "15",
+      "Exhaust": "25"
+    },
+    "Hard Bash": {
+      "Damage Type": "Blunt",
+      "Motion Value": "31",
+      "Stun": "30",
+      "Exhaust": "25"
+    },
+    "Sliding Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "10+35",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Guard Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "14",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Rising Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "14",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Slash": {
+      "Damage Type": "Blunt+Sever",
+      "Motion Value": "29+40",
+      "Stun": "15",
+      "Exhaust": "25"
+    },
+    "Scaling Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "15",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Falling Bash": {
+      "Damage Type": "Blunt",
+      "Motion Value": "39",
+      "Stun": "15",
+      "Exhaust": "15"
+    },
+    "Jumping Rising Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Advancing Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "18",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Helm Breaker": {
+      "Damage Type": "Sever",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    }
   }
 }
