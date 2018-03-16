@@ -496,5 +496,145 @@
       "Stun": "0",
       "Exhaust": "0"
     }
+  },
+  "dual blades": {
+    "Double Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "8+10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Double Slash Return Stroke": {
+      "Damage Type": "Sever",
+      "Motion Value": "9+10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Circle Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "11+9+11",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Lunging Strike": {
+      "Damage Type": "Sever",
+      "Motion Value": "3+3+5+5",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Left Roundslash": {
+      "Damage Type": "Sever",
+      "Motion Value": "7+5+15",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Right Roundslash": {
+      "Damage Type": "Sever",
+      "Motion Value": "7+5+15",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Turn Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "5+5",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Rising Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sliding Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "10+10+13+13",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Demon Fangs": {
+      "Damage Type": "Sever",
+      "Motion Value": "11",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Twofold Demon Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "7+14",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sixfold Demon Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "10+10+9+9+16+16",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Demon Flurry Rush": {
+      "Damage Type": "Sever",
+      "Motion Value": "5+5+4+4+8+8",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Right Fade Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Left Fade Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Right Double Roundslash": {
+      "Damage Type": "Sever",
+      "Motion Value": "19+7+11",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Left Double Roundslash": {
+      "Damage Type": "Sever",
+      "Motion Value": "19+7+11",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Blade Dance": {
+      "Damage Type": "Sever",
+      "Motion Value": "17+17+6+6+10+10+9+9+11+11+9+9+12+7+12",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Demon Flurry": {
+      "Damage Type": "Sever",
+      "Motion Value": "9+9+7+7+3+17+17",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Double Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "9+12",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Heavenly Blade Dance": {
+      "Damage Type": "Sever",
+      "Motion Value": "17+11+11+17+20+20+12+12+21+21",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Midair Spinning Blade Dance": {
+      "Damage Type": "Sever",
+      "Motion Value": "15+10+15+10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spinning Blade Dance Finisher": {
+      "Damage Type": "Sever",
+      "Motion Value": "20+20+20+20+12+12",
+      "Stun": "0",
+      "Exhaust": "0"
+    }
   }
 }
