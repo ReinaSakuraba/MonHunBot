@@ -880,5 +880,133 @@
       "Stun": "22",
       "Exhaust": "22"
     }
+  },
+  "lance": {
+    "Mid Thrust I": {
+      "Damage Type": "Pierce",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Mid Thrust II": {
+      "Damage Type": "Pierce",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Mid Thrust III": {
+      "Damage Type": "Pierce",
+      "Motion Value": "27",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "High Thrust I": {
+      "Damage Type": "Pierce",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "High Thrust II": {
+      "Damage Type": "Pierce",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "High Thrust III": {
+      "Damage Type": "Pierce",
+      "Motion Value": "27",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wide Sweep I": {
+      "Damage Type": "Pierce",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wide Sweep II": {
+      "Damage Type": "Pierce",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wide Sweep III": {
+      "Damage Type": "Pierce",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Counter Thrust": {
+      "Damage Type": "Pierce",
+      "Motion Value": "40",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Cancel Thrust": {
+      "Damage Type": "Pierce",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Guard Thrust": {
+      "Damage Type": "Pierce",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Dash Attack": {
+      "Damage Type": "Pierce",
+      "Motion Value": "11",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Mid-Air Dash Attack": {
+      "Damage Type": "Pierce",
+      "Motion Value": "25",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Reverse Attack": {
+      "Damage Type": "Pierce",
+      "Motion Value": "50",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Advancing Jump Thrust": {
+      "Damage Type": "Pierce",
+      "Motion Value": "50",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Finishing Thrust": {
+      "Damage Type": "Pierce",
+      "Motion Value": "50",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Finishing Twin Thrust": {
+      "Damage Type": "Pierce",
+      "Motion Value": "25+50",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Shield Attack": {
+      "Damage Type": "Blunt",
+      "Motion Value": "14",
+      "Stun": "27",
+      "Exhaust": "27"
+    },
+    "Leaping Thrust": {
+      "Damage Type": "Pierce",
+      "Motion Value": "8+8+8",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Thrust": {
+      "Damage Type": "Pierce",
+      "Motion Value": "30",
+      "Stun": "0",
+      "Exhaust": "0"
+    }
   }
 }
