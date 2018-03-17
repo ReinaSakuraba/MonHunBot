@@ -1246,5 +1246,169 @@
       "Stun": "0",
       "Exhaust": "0"
     }
+  },
+  "charge blade": {
+    "Sword: Forward Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Weak Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "12",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Charged Rising Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "13",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Charged Double Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "27+18",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Sliding Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "25",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Return Stroke": {
+      "Damage Type": "Sever",
+      "Motion Value": "15",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Shield Thrust": {
+      "Damage Type": "Sever",
+      "Motion Value": "12+8",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Spinning Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "28",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Morph Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "44",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Condensed Element Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "75",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Jumping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Jumping Morph Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "46",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sword: Jumping Rising Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "21",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Smash": {
+      "Damage Type": "Sever",
+      "Motion Value": "44",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Morph Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "28",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Elemental Roundslash": {
+      "Damage Type": "Sever",
+      "Motion Value": "50",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Rising Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "35",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Overhead Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "37",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Dash Slam": {
+      "Damage Type": "Sever",
+      "Motion Value": "45",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Elemental Discharge I": {
+      "Damage Type": "Sever",
+      "Motion Value": "21",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Rushing Elemental Discharge I": {
+      "Damage Type": "Sever",
+      "Motion Value": "21",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Elemental Discharge II": {
+      "Damage Type": "Sever",
+      "Motion Value": "10+66",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Amped Elemental Discharge": {
+      "Damage Type": "Sever",
+      "Motion Value": "90",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Super Amped Elemental Discharge": {
+      "Damage Type": "Sever",
+      "Motion Value": "15+90+97",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Super Amped Elemental Discharge (0 Phials)": {
+      "Damage Type": "Sever",
+      "Motion Value": "15+97",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Jumping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "46",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Axe: Jumping Morph Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    }
   }
 }
