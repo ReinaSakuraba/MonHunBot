@@ -1532,5 +1532,37 @@
       "Stun": "18",
       "Exhaust": "0"
     }
+  },
+  "light bowgun": {
+    "Melee Attack": {
+      "Damage Type": "Blunt",
+      "Motion Value": "25",
+      "Stun": "30",
+      "Exhaust": "30"
+    },
+    "Jumping Reload": {
+      "Damage Type": "Blunt",
+      "Motion Value": "25",
+      "Stun": "30",
+      "Exhaust": "30"
+    },
+    "Wyvernblast (S)": {
+      "Damage Type": "N/A",
+      "Motion Value": "26",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wyvernblast (M)": {
+      "Damage Type": "N/A",
+      "Motion Value": "32",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wyvernblast (L)": {
+      "Damage Type": "N/A",
+      "Motion Value": "49",
+      "Stun": "0",
+      "Exhaust": "0"
+    }
   }
 }
