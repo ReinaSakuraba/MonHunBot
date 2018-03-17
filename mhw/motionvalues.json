@@ -1410,5 +1410,127 @@
       "Stun": "0",
       "Exhaust": "0"
     }
+  },
+  "insect glaive": {
+    "Leaping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "26",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Rising Slash Combo": {
+      "Damage Type": "Sever",
+      "Motion Value": "16+14",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wide Sweep": {
+      "Damage Type": "Sever",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Overhead Smash": {
+      "Damage Type": "Sever",
+      "Motion Value": "30",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Thrust": {
+      "Damage Type": "Sever",
+      "Motion Value": "10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Reaping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "18",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Double Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "18+24",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Rising Slash Combo": {
+      "Damage Type": "Sever",
+      "Motion Value": "16+14+15",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Wide Sweep": {
+      "Damage Type": "Sever",
+      "Motion Value": "18+26",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Tornado Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "24+42",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Thrust": {
+      "Damage Type": "Sever",
+      "Motion Value": "12+11",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Reaping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "15+19",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Double Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "16+14+28",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Dodge Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "17",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "15",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Jumping Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Advance Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "28",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Strong Jumping Advancing Slash": {
+      "Damage Type": "Sever",
+      "Motion Value": "6+4+7+4+2+32",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Kinsect (Mark Target)": {
+      "Damage Type": "Blunt",
+      "Motion Value": "5",
+      "Stun": "5",
+      "Exhaust": "5"
+    },
+    "Kinsect: Harvest Extract": {
+      "Damage Type": "Sever/Blunt",
+      "Motion Value": "20",
+      "Stun": "18",
+      "Exhaust": "0"
+    }
   }
 }
