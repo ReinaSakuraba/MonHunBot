@@ -1564,5 +1564,49 @@
       "Stun": "0",
       "Exhaust": "0"
     }
+  },
+  "heavy bowgun": {
+    "Melee Attack": {
+      "Damage Type": "Blunt",
+      "Motion Value": "30",
+      "Stun": "30",
+      "Exhaust": "30"
+    },
+    "Jumping Reload": {
+      "Damage Type": "Blunt",
+      "Motion Value": "30",
+      "Stun": "30",
+      "Exhaust": "30"
+    },
+    "Wyvernheart": {
+      "Damage Type": "Shot",
+      "Motion Value": "9",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wyvernsnipe": {
+      "Damage Type": "Shot",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wyvernsnipe Explosion (S)": {
+      "Damage Type": "N/A",
+      "Motion Value": "38",
+      "Stun": "20",
+      "Exhaust": "0"
+    },
+    "Wyvernsnipe Explosion (M)": {
+      "Damage Type": "N/A",
+      "Motion Value": "49",
+      "Stun": "35",
+      "Exhaust": "0"
+    },
+    "Wyvernsnipe Explosion (L)": {
+      "Damage Type": "N/A",
+      "Motion Value": "81",
+      "Stun": "55",
+      "Exhaust": "0"
+    }
   }
 }
