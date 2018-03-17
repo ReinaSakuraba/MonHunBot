@@ -1608,5 +1608,139 @@
       "Stun": "55",
       "Exhaust": "0"
     }
+  },
+  "bow": {
+    "Charged Shot Lv 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Shot Lv 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Shot Lv 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "11",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Charged Shot Lv 4": {
+      "Damage Type": "Shot",
+      "Motion Value": "12",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Power Shot Lv 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "6",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Power Shot Lv 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "9",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Power Shot Lv 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "11",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Power Shot Lv 4": {
+      "Damage Type": "Shot",
+      "Motion Value": "13",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Arc Shot Lv 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "5",
+      "Exhaust": "5"
+    },
+    "Arc Shot Lv 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "2",
+      "Stun": "5",
+      "Exhaust": "10"
+    },
+    "Arc Shot Lv 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "2",
+      "Stun": "10",
+      "Exhaust": "15"
+    },
+    "Arc Shot Lv 4": {
+      "Damage Type": "Shot",
+      "Motion Value": "2",
+      "Stun": "15",
+      "Exhaust": "20"
+    },
+    "Dragon Piercer Lv 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "19",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Dragon Piercer Lv 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Dragon Piercer Lv 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "23",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Quick Shot": {
+      "Damage Type": "Shot",
+      "Motion Value": "6",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Lunging Melee Attack": {
+      "Damage Type": "Sever",
+      "Motion Value": "35",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wall Climb Power Shot": {
+      "Damage Type": "Sever",
+      "Motion Value": "35",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Jumping Melee Attack": {
+      "Damage Type": "Sever",
+      "Motion Value": "10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Mid-air Charged Shot Lv 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Mid-air Charged Shot Lv 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "10",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Mid-air Charged Shot Lv 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "11",
+      "Stun": "0",
+      "Exhaust": "0"
+    }
   }
 }
