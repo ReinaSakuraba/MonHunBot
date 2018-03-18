@@ -1742,5 +1742,241 @@
       "Stun": "0",
       "Exhaust": "0"
     }
+  },
+  "shot": {
+    "Normal 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Normal 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "15",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Normal 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "20",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Pierce 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "6",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Pierce 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "6",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Pierce 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spread 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "6",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spread 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Spread 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "8",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sticyk 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "12",
+      "Stun": "30",
+      "Exhaust": "0"
+    },
+    "Sticky 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "16",
+      "Stun": "50",
+      "Exhaust": "0"
+    },
+    "Sticyk 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "19",
+      "Stun": "100",
+      "Exhaust": "0"
+    },
+    "Sticky Projectile": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Cluster Bomb 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "19",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Cluster Bomb 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "22",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Cluster Bomb 3": {
+      "Damage Type": "Shot",
+      "Motion Value": "28",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Cluster Projectile": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Recover 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "0",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Recover 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "0",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Poison 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Poison 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Paralysis 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Paralysis 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sleep 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Sleep 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Exhaust 1": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "20",
+      "Exhaust": "50"
+    },
+    "Exhaust 2": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "30",
+      "Exhaust": "100"
+    },
+    "Flaming": {
+      "Damage Type": "Shot",
+      "Motion Value": "5",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Water": {
+      "Damage Type": "Shot",
+      "Motion Value": "5",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Freeze": {
+      "Damage Type": "Shot",
+      "Motion Value": "5",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Thunder": {
+      "Damage Type": "Shot",
+      "Motion Value": "5",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Dragon": {
+      "Damage Type": "Shot",
+      "Motion Value": "2",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Slicing": {
+      "Damage Type": "Shot",
+      "Motion Value": "7",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Slicing Projectile": {
+      "Damage Type": "Shot",
+      "Motion Value": "1",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wyvern (Primary)": {
+      "Damage Type": "Shot",
+      "Motion Value": "70",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Wyvern (Additional)": {
+      "Damage Type": "Shot",
+      "Motion Value": "15",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Demon": {
+      "Damage Type": "Shot",
+      "Motion Value": "0",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Armor": {
+      "Damage Type": "Shot",
+      "Motion Value": "0",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Tranq": {
+      "Damage Type": "Shot",
+      "Motion Value": "0",
+      "Stun": "0",
+      "Exhaust": "0"
+    }
   }
 }

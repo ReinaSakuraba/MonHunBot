@@ -89,7 +89,11 @@ class World:
             'heavy bow gun': 'heavy bowgun',
             'heavybow gun': 'heavy bowgun',
             'heavybowgun': 'heavy bowgun',
-            'bow': 'bow'
+            'bow': 'bow',
+            'shot': 'shot',
+            'shots': 'shot',
+            'bullet': 'shot',
+            'bullets': 'shot'
         }
 
         weapon = transformations.get(weapon)
