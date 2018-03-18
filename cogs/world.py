@@ -31,15 +31,22 @@ class World:
 
         embed = discord.Embed(title=f'{name.title()} Charm')
 
-        skills = '\n'.join(f'{"I" * i} - {", ".join(level["Skills"])}' for i, level in enumerate(charm["Levels"], 1))
-        embed.add_field(name='Skills', value=skills)
+        skills = []
+        for index, level in enumerate(charm["Levels"], 1):
+            skill_levels = ", ".join(f'{skill["Name"]} {skill["Level"]}' for skill in level["Skills"])
+            skills.append(f'{"I"* index} - {skill_levels}')
+
+        embed.add_field(name='Skills', value='\n'.join(skills))
 
         try:
-            mats = '\n'.join(f'{"I" * i} - {", ".join(level["Materials"])}' for i, level in enumerate(charm["Levels"], 1))
+            mats = []
+            for index, level in enumerate(charm["Levels"], 1):
+                materials = ", ".join(f'{mat["Name"]} x{mat["Amount"]}' for mat in level["Materials"])
+                mats.append(f'{"I"* index} - {materials}')
         except KeyError:
             pass
         else:
-            embed.add_field(name='Materials', value=mats, inline=False)
+            embed.add_field(name='Materials', value='\n'.join(mats), inline=False)
 
         await ctx.send(embed=embed)
 

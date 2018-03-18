@@ -4,37 +4,82 @@
       {
         "Name": "Poison Charm I",
         "Skills": [
-          "Poison Resistance 1"
+          {
+            "Name": "Poison Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Pukei-Pukei Sac x1",
-          "Pukei-Pukei Tail x2",
-          "Earth Crystal x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Pukei-Pukei Sac",
+            "Amount": 1
+          },
+          {
+            "Name": "Pukei-Pukei Tail",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Poison Charm II",
         "Skills": [
-          "Poison Resistance 2"
+          {
+            "Name": "Poison Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Pukei-Pukei Sac+ x2",
-          "Pukei-Pukei Wing x2",
-          "Dragonvein Crystal x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Pukei-Pukei Sac+",
+            "Amount": 2
+          },
+          {
+            "Name": "Pukei-Pukei Wing",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Poison Charm III",
         "Skills": [
-          "Poison Resistance 3"
+          {
+            "Name": "Poison Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Rathalos Ruby x1",
-          "Rathalos Wing x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Rathalos Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathalos Wing",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -44,37 +89,82 @@
       {
         "Name": "Attack Charm I",
         "Skills": [
-          "Attack Boost 1"
+          {
+            "Name": "Attack Boost",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Sturdy Bone x4",
-          "Boulder Bone x4",
-          "Lightcrystal x1",
-          "Aquacore Ore x1"
+          {
+            "Name": "Sturdy Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Boulder Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Attack Charm II",
         "Skills": [
-          "Attack Boost 2"
+          {
+            "Name": "Attack Boost",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Quality Bone x3",
-          "Dragonbone Relic x1",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Quality Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Attack Charm III",
         "Skills": [
-          "Attack Boost 3"
+          {
+            "Name": "Attack Boost",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Elder Dragon Bone x2",
-          "High Commendation x1",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Elder Dragon Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -84,37 +174,82 @@
       {
         "Name": "Defense Charm I",
         "Skills": [
-          "Defense Boost 1"
+          {
+            "Name": "Defense Boost",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Dragonite Ore x4",
-          "Machalite Ore x4",
-          "Lightcrystal x1",
-          "Aquacore Ore x1"
+          {
+            "Name": "Dragonite Ore",
+            "Amount": 4
+          },
+          {
+            "Name": "Machalite Ore",
+            "Amount": 4
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Defense Charm II",
         "Skills": [
-          "Defense Boost 2"
+          {
+            "Name": "Defense Boost",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Carbalite Ore x6",
-          "Dragonite Ore x8",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Carbalite Ore",
+            "Amount": 6
+          },
+          {
+            "Name": "Dragonite Ore",
+            "Amount": 8
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Defense Charm III",
         "Skills": [
-          "Defense Boost 3"
+          {
+            "Name": "Defense Boost",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Fucium Ore x6",
-          "Carbalite Ore x8",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Fucium Ore",
+            "Amount": 6
+          },
+          {
+            "Name": "Carbalite Ore",
+            "Amount": 8
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -124,37 +259,82 @@
       {
         "Name": "Paralysis Charm I",
         "Skills": [
-          "Paralysis Resistance 1"
+          {
+            "Name": "Paralysis Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Great Girros Hood x1",
-          "Great Girros Fang x2",
-          "Warped Bone x6",
-          "Aquacore Ore x1"
+          {
+            "Name": "Great Girros Hood",
+            "Amount": 1
+          },
+          {
+            "Name": "Great Girros Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 6
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Paralysis Charm II",
         "Skills": [
-          "Paralysis Resistance 2"
+          {
+            "Name": "Paralysis Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Great Girros Hood+ x2",
-          "Omniplegia Sac x4",
-          "Dragonvein Crystal x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Great Girros Hood+",
+            "Amount": 2
+          },
+          {
+            "Name": "Omniplegia Sac",
+            "Amount": 4
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Paralysis Charm III",
         "Skills": [
-          "Paralysis Resistance 3"
+          {
+            "Name": "Paralysis Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -164,37 +344,82 @@
       {
         "Name": "Sleep Charm I",
         "Skills": [
-          "Sleep Resistance 1"
+          {
+            "Name": "Sleep Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Radobaan Marrow x1",
-          "Radobaan Oilshell x2",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Radobaan Marrow",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Sleep Charm II",
         "Skills": [
-          "Sleep Resistance 2"
+          {
+            "Name": "Sleep Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Radobaan Medulla x1",
-          "Radobaan Oilshell x3",
-          "Dragonvein Crystal x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Radobaan Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Sleep Charm III",
         "Skills": [
-          "Sleep Resistance 3"
+          {
+            "Name": "Sleep Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Uragaan Ruby x1",
-          "Uragaan Jaw x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Uragaan Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Uragaan Jaw",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -204,37 +429,82 @@
       {
         "Name": "Stun Charm I",
         "Skills": [
-          "Stun Resistance 1"
+          {
+            "Name": "Stun Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Tzitzi-Ya-Ku Photophore x1",
-          "Tzitzi-Ya-Ku Claw x2",
-          "Coral Crystal x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Tzitzi-Ya-Ku Photophore",
+            "Amount": 1
+          },
+          {
+            "Name": "Tzitzi-Ya-Ku Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Stun Charm II",
         "Skills": [
-          "Stun Resistance 2"
+          {
+            "Name": "Stun Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Tzitzi-Ya-Ku Photophore+ x2",
-          "Tzitzi-Ya-Ku Claw+ x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Tzitzi-Ya-Ku Photophore+",
+            "Amount": 2
+          },
+          {
+            "Name": "Tzitzi-Ya-Ku Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Stun Charm III",
         "Skills": [
-          "Stun Resistance 3"
+          {
+            "Name": "Stun Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Black Spiral Horn+ x3",
-          "Black Diablos Ridge+ x2",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Black Spiral Horn+",
+            "Amount": 3
+          },
+          {
+            "Name": "Black Diablos Ridge+",
+            "Amount": 2
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -244,37 +514,82 @@
       {
         "Name": "Windproof Charm I",
         "Skills": [
-          "Windproof 1"
+          {
+            "Name": "Windproof",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Paolumu Webbing x3",
-          "Paolumu Shell x5",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Paolumu Webbing",
+            "Amount": 3
+          },
+          {
+            "Name": "Paolumu Shell",
+            "Amount": 5
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Windproof Charm II",
         "Skills": [
-          "Windproof 2"
+          {
+            "Name": "Windproof",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Paolumu Wing x3",
-          "Wyvern Gem x2",
-          "Dragonvein Crystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Paolumu Wing",
+            "Amount": 3
+          },
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Windproof Charm III",
         "Skills": [
-          "Windproof 3"
+          {
+            "Name": "Windproof",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Azure Rathalos Wing x3",
-          "Rathalos Ruby x1",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Azure Rathalos Wing",
+            "Amount": 3
+          },
+          {
+            "Name": "Rathalos Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -284,37 +599,82 @@
       {
         "Name": "Health Charm I",
         "Skills": [
-          "Health Boost 1"
+          {
+            "Name": "Health Boost",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Rathian Plate x1",
-          "Rathian Webbing x3",
-          "Earth Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Rathian Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathian Webbing",
+            "Amount": 3
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Health Charm II",
         "Skills": [
-          "Health Boost 2"
+          {
+            "Name": "Health Boost",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Rathian Ruby x1",
-          "Rathian Spike x2",
-          "Dragonvein Crystal x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Rathian Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathian Spike",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Health Charm III",
         "Skills": [
-          "Health Boost 3"
+          {
+            "Name": "Health Boost",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Nergigante Talon x2",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -324,37 +684,82 @@
       {
         "Name": "Recovery Charm I",
         "Skills": [
-          "Recovery Up 1"
+          {
+            "Name": "Recovery Up",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Rathian Plate x1",
-          "Rathian Spike x2",
-          "Earth Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Rathian Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathian Spike",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Recovery Charm II",
         "Skills": [
-          "Recovery Up 2"
+          {
+            "Name": "Recovery Up",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Pink Rathian Carapace x2",
-          "Rathian Spike+ x1",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Pink Rathian Carapace",
+            "Amount": 2
+          },
+          {
+            "Name": "Rathian Spike+",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Recovery Charm III",
         "Skills": [
-          "Recovery Up 3"
+          {
+            "Name": "Recovery Up",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Nergigante Talon x2",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -364,37 +769,82 @@
       {
         "Name": "Fire Charm I",
         "Skills": [
-          "Fire Resistance 1"
+          {
+            "Name": "Fire Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Anjanath Plate x1",
-          "Anjanath Fang x2",
-          "Warped Bone x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Anjanath Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Anjanath Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Fire Charm II",
         "Skills": [
-          "Fire Resistance 2"
+          {
+            "Name": "Fire Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Anjanath Gem x1",
-          "Anjanath Fang+ x2",
-          "Earth Crystal x4",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Anjanath Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Anjanath Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Fire Charm III",
         "Skills": [
-          "Fire Resistance 3"
+          {
+            "Name": "Fire Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Rathalos Ruby x1",
-          "Inferno Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathalos Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Inferno Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -404,37 +854,82 @@
       {
         "Name": "Water Charm I",
         "Skills": [
-          "Water Resistance 1"
+          {
+            "Name": "Water Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Jyuratodus Fin x3",
-          "Jyuratodus Fang x3",
-          "Earth Crystal x6",
-          "Aquacore Ore x1"
+          {
+            "Name": "Jyuratodus Fin",
+            "Amount": 3
+          },
+          {
+            "Name": "Jyuratodus Fang",
+            "Amount": 3
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 6
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Water Charm II",
         "Skills": [
-          "Water Resistance 2"
+          {
+            "Name": "Water Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Jyuratodus Fin+ x3",
-          "Jyuratodus Fang+ x2",
-          "Coral Crystal x4",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Jyuratodus Fin+",
+            "Amount": 3
+          },
+          {
+            "Name": "Jyuratodus Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Water Charm III",
         "Skills": [
-          "Water Resistance 3"
+          {
+            "Name": "Water Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Wyvern Gem x1",
-          "Torrent Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Torrent Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -444,37 +939,82 @@
       {
         "Name": "Thunder Charm I",
         "Skills": [
-          "Thunder Resistance 1"
+          {
+            "Name": "Thunder Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Tobi-Kadachi Electrode x1",
-          "Tobi-Kadachi Claw x2",
-          "Ancient Bone x6",
-          "Aquacore Ore x1"
+          {
+            "Name": "Tobi-Kadachi Electrode",
+            "Amount": 1
+          },
+          {
+            "Name": "Tobi-Kadachi Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Ancient Bone",
+            "Amount": 6
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Thunder Charm II",
         "Skills": [
-          "Thunder Resistance 2"
+          {
+            "Name": "Thunder Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Tobi-Kadachi Electrode+ x1",
-          "Tobi-Kadachi Claw+ x2",
-          "Earth Crystal x4",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Tobi-Kadachi Electrode+",
+            "Amount": 1
+          },
+          {
+            "Name": "Tobi-Kadachi Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Thunder Charm III",
         "Skills": [
-          "Thunder Resistance 3"
+          {
+            "Name": "Thunder Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Wyvern Gem x1",
-          "Thunder Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Thunder Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -484,37 +1024,82 @@
       {
         "Name": "Blaze Charm I",
         "Skills": [
-          "Fire Attack 1"
+          {
+            "Name": "Fire Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Anjanath Plate x1",
-          "Anjanath Fang x2",
-          "Warped Bone x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Anjanath Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Anjanath Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Blaze Charm II",
         "Skills": [
-          "Fire Attack 2"
+          {
+            "Name": "Fire Attack",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Lavasioth Fin+ x3",
-          "Lavasioth Fang+ x2",
-          "Earth Crystal x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Lavasioth Fin+",
+            "Amount": 3
+          },
+          {
+            "Name": "Lavasioth Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Blaze Charm III",
         "Skills": [
-          "Fire Attack 3"
+          {
+            "Name": "Fire Attack",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Inferno Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Inferno Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -524,37 +1109,82 @@
       {
         "Name": "Flood Charm I",
         "Skills": [
-          "Water Attack 1"
+          {
+            "Name": "Water Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Jyuratodus Fin x2",
-          "Jyuratodus Fang x2",
-          "Earth Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Jyuratodus Fin",
+            "Amount": 2
+          },
+          {
+            "Name": "Jyuratodus Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Flood Charm II",
         "Skills": [
-          "Water Attack 2"
+          {
+            "Name": "Water Attack",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Jyuratodus Fin+ x3",
-          "Jyuratodus Fang+ x2",
-          "Coral Crystal x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Jyuratodus Fin+",
+            "Amount": 3
+          },
+          {
+            "Name": "Jyuratodus Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Flood Charm III",
         "Skills": [
-          "Water Attack 3"
+          {
+            "Name": "Water Attack",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Talon x2",
-          "Torrent Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Torrent Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -564,37 +1194,82 @@
       {
         "Name": "Shock Charm I",
         "Skills": [
-          "Thunder Attack 1"
+          {
+            "Name": "Thunder Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Tobi-Kadachi Electrode x2",
-          "Tobi-Kadachi Claw x2",
-          "Ancient Bone x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Tobi-Kadachi Electrode",
+            "Amount": 2
+          },
+          {
+            "Name": "Tobi-Kadachi Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Ancient Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Shock Charm II",
         "Skills": [
-          "Thunder Attack 2"
+          {
+            "Name": "Thunder Attack",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Tobi-Kadachi Electrode+ x2",
-          "Tobi-Kadachi Claw+ x2",
-          "Earth Crystal x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Tobi-Kadachi Electrode+",
+            "Amount": 2
+          },
+          {
+            "Name": "Tobi-Kadachi Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Shock Charm III",
         "Skills": [
-          "Thunder Attack 3"
+          {
+            "Name": "Thunder Attack",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Kirin Azure Horn x1",
-          "Kirin Thundertail x2",
-          "Thunder Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Kirin Azure Horn",
+            "Amount": 1
+          },
+          {
+            "Name": "Kirin Thundertail",
+            "Amount": 2
+          },
+          {
+            "Name": "Thunder Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -604,37 +1279,82 @@
       {
         "Name": "Venom Charm I",
         "Skills": [
-          "Poison Attack 1"
+          {
+            "Name": "Poison Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Rathian Plate x1",
-          "Rathian Spike x1",
-          "Earth Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Rathian Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathian Spike",
+            "Amount": 1
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Venom Charm II",
         "Skills": [
-          "Poison Attack 2"
+          {
+            "Name": "Poison Attack",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Pink Rathian Carapace x2",
-          "Rathian Spike+ x1",
-          "Carbalite Ore x4",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Pink Rathian Carapace",
+            "Amount": 2
+          },
+          {
+            "Name": "Rathian Spike+",
+            "Amount": 1
+          },
+          {
+            "Name": "Carbalite Ore",
+            "Amount": 4
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Venom Charm III",
         "Skills": [
-          "Poison Attack 3"
+          {
+            "Name": "Poison Attack",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Rathian Ruby x1",
-          "Toxin Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathian Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Toxin Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -644,37 +1364,82 @@
       {
         "Name": "Immobilize Charm I",
         "Skills": [
-          "Paralysis Attack 1"
+          {
+            "Name": "Paralysis Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Great Girros Hood x2",
-          "Great Girros Fang x2",
-          "Warped Bone x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Great Girros Hood",
+            "Amount": 2
+          },
+          {
+            "Name": "Great Girros Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Immobilize Charm II",
         "Skills": [
-          "Paralysis Attack 2"
+          {
+            "Name": "Paralysis Attack",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Great Girros Hood+ x1",
-          "Great Girros Fang+ x2",
-          "Carbalite Ore x4",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Great Girros Hood+",
+            "Amount": 1
+          },
+          {
+            "Name": "Great Girros Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Carbalite Ore",
+            "Amount": 4
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Immobilize Charm III",
         "Skills": [
-          "Paralysis Attack 3"
+          {
+            "Name": "Paralysis Attack",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Wyvern Gem x1",
-          "Omniplegia Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Omniplegia Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -684,37 +1449,82 @@
       {
         "Name": "Tranq Charm I",
         "Skills": [
-          "Sleep Attack 1"
+          {
+            "Name": "Sleep Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Radobaan Marrow x1",
-          "Radobaan Oilshell x2",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Radobaan Marrow",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Tranq Charm II",
         "Skills": [
-          "Sleep Attack 2"
+          {
+            "Name": "Sleep Attack",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Radobaan Medulla x1",
-          "Radobaan Oilshell x3",
-          "Carbalite Ore x4",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Radobaan Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 3
+          },
+          {
+            "Name": "Carbalite Ore",
+            "Amount": 4
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Tranq Charm III",
         "Skills": [
-          "Sleep Attack 3"
+          {
+            "Name": "Sleep Attack",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Vaal Hazak Gem x1",
-          "Coma Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Coma Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -724,37 +1534,82 @@
       {
         "Name": "KO Charm I",
         "Skills": [
-          "Slugger 1"
+          {
+            "Name": "Slugger",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Radobaan Marrow x1",
-          "Radobaan Oilshell x2",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Radobaan Marrow",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "KO Charm II",
         "Skills": [
-          "Slugger 2"
+          {
+            "Name": "Slugger",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Radobaan Medulla x1",
-          "Radobaan Oilshell x3",
-          "Warped Bone x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Radobaan Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 3
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "KO Charm III",
         "Skills": [
-          "Slugger 3"
+          {
+            "Name": "Slugger",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -764,37 +1619,82 @@
       {
         "Name": "Enervate Charm I",
         "Skills": [
-          "Stamina Thief 1"
+          {
+            "Name": "Stamina Thief",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Barroth Scalp x2",
-          "Barroth Claw x2",
-          "Earth Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Barroth Scalp",
+            "Amount": 2
+          },
+          {
+            "Name": "Barroth Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Enervate Charm II",
         "Skills": [
-          "Stamina Thief 2"
+          {
+            "Name": "Stamina Thief",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Barroth Scalp x3",
-          "Barroth Claw+ x2",
-          "Warped Bone x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Barroth Scalp",
+            "Amount": 3
+          },
+          {
+            "Name": "Barroth Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Enervate Charm III",
         "Skills": [
-          "Stamina Thief 3"
+          {
+            "Name": "Stamina Thief",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Blos Medulla x1",
-          "Diablos Fang x3",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Blos Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Diablos Fang",
+            "Amount": 3
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -804,37 +1704,82 @@
       {
         "Name": "Artillery Charm I",
         "Skills": [
-          "Artillery 1"
+          {
+            "Name": "Artillery",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Anjanath Plate x1",
-          "Anjanath Fang x2",
-          "Warped Bone x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Anjanath Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Anjanath Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Artillery Charm II",
         "Skills": [
-          "Artillery 2"
+          {
+            "Name": "Artillery",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Anjanath Gem x1",
-          "Anjanath Fang+ x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Anjanath Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Anjanath Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Artillery Charm III",
         "Skills": [
-          "Artillery 3"
+          {
+            "Name": "Artillery",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -844,37 +1789,82 @@
       {
         "Name": "Hungerless Charm I",
         "Skills": [
-          "Hunger Resistance 1"
+          {
+            "Name": "Hunger Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Girros Fang x2",
-          "Girros Hide x4",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Girros Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Girros Hide",
+            "Amount": 4
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Hungerless Charm II",
         "Skills": [
-          "Hunger Resistance 2"
+          {
+            "Name": "Hunger Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Jagras Hide+ x6",
-          "Jagras Scale+ x8",
-          "Lightcrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Jagras Hide+",
+            "Amount": 6
+          },
+          {
+            "Name": "Jagras Scale+",
+            "Amount": 8
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Hungerless Charm III",
         "Skills": [
-          "Hunger Resistance 3"
+          {
+            "Name": "Hunger Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Wyvern Gem x1",
-          "Fucium Ore x5",
-          "Dragonbone Relic x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Fucium Ore",
+            "Amount": 5
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -884,37 +1874,82 @@
       {
         "Name": "Ironside Charm I",
         "Skills": [
-          "Guard 1"
+          {
+            "Name": "Guard",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Radobaan Marrow x1",
-          "Radobaan Oilshell x2",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Radobaan Marrow",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Ironside Charm II",
         "Skills": [
-          "Guard 2"
+          {
+            "Name": "Guard",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Radobaan Medulla x1",
-          "Radobaan Oilshell x3",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Radobaan Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 3
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Ironside Charm III",
         "Skills": [
-          "Guard 3"
+          {
+            "Name": "Guard",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Talon x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -924,37 +1959,82 @@
       {
         "Name": "Friendship Charm I",
         "Skills": [
-          "Wide-Range 1"
+          {
+            "Name": "Wide-Range",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Tzitzi-Ya-Ku Photophore x2",
-          "Tzitzi-Ya-Ku Claw x2",
-          "Coral Crystal x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Tzitzi-Ya-Ku Photophore",
+            "Amount": 2
+          },
+          {
+            "Name": "Tzitzi-Ya-Ku Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Friendship Charm II",
         "Skills": [
-          "Wide-Range 2"
+          {
+            "Name": "Wide-Range",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Tzitzi-Ya-Ku Photophore+ x1",
-          "Tzitzi-Ya-Ku Claw+ x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Tzitzi-Ya-Ku Photophore+",
+            "Amount": 1
+          },
+          {
+            "Name": "Tzitzi-Ya-Ku Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Friendship Charm III",
         "Skills": [
-          "Wide-Range 3"
+          {
+            "Name": "Wide-Range",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Elder Dragon Blood x1",
-          "High Commendation x1",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Elder Dragon Blood",
+            "Amount": 1
+          },
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -964,37 +2044,82 @@
       {
         "Name": "Extension Charm I",
         "Skills": [
-          "Item Prolonger 1"
+          {
+            "Name": "Item Prolonger",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Kulu-Ya-Ku Beak x2",
-          "Kulu-Ya-Ku Plume x2",
-          "Ancient Bone x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Kulu-Ya-Ku Beak",
+            "Amount": 2
+          },
+          {
+            "Name": "Kulu-Ya-Ku Plume",
+            "Amount": 2
+          },
+          {
+            "Name": "Ancient Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Extension Charm II",
         "Skills": [
-          "Item Prolonger 2"
+          {
+            "Name": "Item Prolonger",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Pink Rathian Carapace x2",
-          "Rathian Spike+ x1",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Pink Rathian Carapace",
+            "Amount": 2
+          },
+          {
+            "Name": "Rathian Spike+",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Extension Charm III",
         "Skills": [
-          "Item Prolonger 3"
+          {
+            "Name": "Item Prolonger",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Daora Tail x1",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Daora Tail",
+            "Amount": 1
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1004,37 +2129,82 @@
       {
         "Name": "Glutton's Charm I",
         "Skills": [
-          "Speed Eating 1"
+          {
+            "Name": "Speed Eating",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Great Jagras Mane x2",
-          "Great Jagras Claw x2",
-          "Ancient Bone x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Great Jagras Mane",
+            "Amount": 2
+          },
+          {
+            "Name": "Great Jagras Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Ancient Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Glutton's Charm II",
         "Skills": [
-          "Speed Eating 2"
+          {
+            "Name": "Speed Eating",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Anjanath Gem x1",
-          "Anjanath Fang+ x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Anjanath Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Anjanath Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Glutton's Charm III",
         "Skills": [
-          "Speed Eating 3"
+          {
+            "Name": "Speed Eating",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Nergigante Talon x2",
-          "Quality Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Quality Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1044,37 +2214,82 @@
       {
         "Name": "Blessing Charm I",
         "Skills": [
-          "Divine Blessing 1"
+          {
+            "Name": "Divine Blessing",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Paolumu Webbing x2",
-          "Paolumu Pelt x3",
-          "Coral Bone x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Paolumu Webbing",
+            "Amount": 2
+          },
+          {
+            "Name": "Paolumu Pelt",
+            "Amount": 3
+          },
+          {
+            "Name": "Coral Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Blessing Charm II",
         "Skills": [
-          "Divine Blessing 2"
+          {
+            "Name": "Divine Blessing",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Paolumu Wing x2",
-          "Paolumu Pelt+ x4",
-          "Sturdy Bone x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Paolumu Wing",
+            "Amount": 2
+          },
+          {
+            "Name": "Paolumu Pelt+",
+            "Amount": 4
+          },
+          {
+            "Name": "Sturdy Bone",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Blessing Charm III",
         "Skills": [
-          "Divine Blessing 3"
+          {
+            "Name": "Divine Blessing",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Dragonbone Relic x1",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 1
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1084,37 +2299,82 @@
       {
         "Name": "Rally Charm I",
         "Skills": [
-          "Palico Rally 1"
+          {
+            "Name": "Palico Rally",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Tailraider Voucher x1",
-          "Sinister Cloth x1",
-          "Lightcrystal x1",
-          "Aquacore Ore x1"
+          {
+            "Name": "Tailraider Voucher",
+            "Amount": 1
+          },
+          {
+            "Name": "Sinister Cloth",
+            "Amount": 1
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Rally Charm II",
         "Skills": [
-          "Palico Rally 2"
+          {
+            "Name": "Palico Rally",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Tailraider Voucher x2",
-          "Lightcrystal x2",
-          "Sturdy Bone x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Tailraider Voucher",
+            "Amount": 2
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Sturdy Bone",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Rally Charm III",
         "Skills": [
-          "Palico Rally 3"
+          {
+            "Name": "Palico Rally",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Tailraider Voucher x3",
-          "High Commendation x2",
-          "Quality Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Tailraider Voucher",
+            "Amount": 3
+          },
+          {
+            "Name": "High Commendation",
+            "Amount": 2
+          },
+          {
+            "Name": "Quality Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1124,37 +2384,82 @@
       {
         "Name": "Botany Charm I",
         "Skills": [
-          "Botanist 1"
+          {
+            "Name": "Botanist",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Ancient Bone x3",
-          "Boulder Bone x3",
-          "Lightcrystal x1",
-          "Aquacore Ore x1"
+          {
+            "Name": "Ancient Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Boulder Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Botany Charm II",
         "Skills": [
-          "Botanist 2"
+          {
+            "Name": "Botanist",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Quality Bone x3",
-          "Dragonbone Relic x1",
-          "Earth Crystal x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Quality Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 1
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Botany Charm III",
         "Skills": [
-          "Botanist 3"
+          {
+            "Name": "Botanist",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Novacrystal x1",
-          "Quality Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Quality Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1164,37 +2469,82 @@
       {
         "Name": "Geology Charm I",
         "Skills": [
-          "Geologist 1"
+          {
+            "Name": "Geologist",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Dragonite Ore x4",
-          "Machalite Ore x4",
-          "Lightcrystal x1",
-          "Aquacore Ore x1"
+          {
+            "Name": "Dragonite Ore",
+            "Amount": 4
+          },
+          {
+            "Name": "Machalite Ore",
+            "Amount": 4
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Geology Charm II",
         "Skills": [
-          "Geologist 2"
+          {
+            "Name": "Geologist",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Carbalite Ore x6",
-          "Dragonite Ore x8",
-          "Lightcrystal x2",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Carbalite Ore",
+            "Amount": 6
+          },
+          {
+            "Name": "Dragonite Ore",
+            "Amount": 8
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Geology Charm III",
         "Skills": [
-          "Geologist 3"
+          {
+            "Name": "Geologist",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Novacrystal x1",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1204,37 +2554,82 @@
       {
         "Name": "Slinger Charm I",
         "Skills": [
-          "Slinger Capacity 1"
+          {
+            "Name": "Slinger Capacity",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Radobaan Marrow x1",
-          "Radobaan Oilshell x2",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Radobaan Marrow",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Slinger Charm II",
         "Skills": [
-          "Slinger Capacity 2"
+          {
+            "Name": "Slinger Capacity",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Radobaan Medulla x1",
-          "Radobaan Oilshell x3",
-          "Dragonbone Relic x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Radobaan Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Radobaan Oilshell",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Slinger Charm III",
         "Skills": [
-          "Slinger Capacity 3"
+          {
+            "Name": "Slinger Capacity",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Bird Wyvern Gem x1",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Bird Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1244,37 +2639,82 @@
       {
         "Name": "Stealth Charm I",
         "Skills": [
-          "Stealth 1"
+          {
+            "Name": "Stealth",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Great Jagras Mane x2",
-          "Great Jagras Claw x2",
-          "Lightcrystal x1",
-          "Aquacore Ore x1"
+          {
+            "Name": "Great Jagras Mane",
+            "Amount": 2
+          },
+          {
+            "Name": "Great Jagras Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Stealth Charm II",
         "Skills": [
-          "Stealth 2"
+          {
+            "Name": "Stealth",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Lavasioth Fin+ x3",
-          "Lavasioth Fang+ x2",
-          "Dragonbone Relic x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Lavasioth Fin+",
+            "Amount": 3
+          },
+          {
+            "Name": "Lavasioth Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Stealth Charm III",
         "Skills": [
-          "Stealth 3"
+          {
+            "Name": "Stealth",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Bird Wyvern Gem x1",
-          "Quality Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Bird Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Quality Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1284,37 +2724,82 @@
       {
         "Name": "Smoke Charm I",
         "Skills": [
-          "Sporepuff Expert 1"
+          {
+            "Name": "Sporepuff Expert",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Pukei-Pukei Sac x2",
-          "Pukei-Pukei Tail x2",
-          "Earth Crystal x2",
-          "Aquacore Ore x1"
+          {
+            "Name": "Pukei-Pukei Sac",
+            "Amount": 2
+          },
+          {
+            "Name": "Pukei-Pukei Tail",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Smoke Charm II",
         "Skills": [
-          "Sporepuff Expert 2"
+          {
+            "Name": "Sporepuff Expert",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Wyvern Gem x1",
-          "Commendation x5",
-          "Earth Crystal x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Commendation",
+            "Amount": 5
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Smoke Charm III",
         "Skills": [
-          "Sporepuff Expert 3"
+          {
+            "Name": "Sporepuff Expert",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Bird Wyvern Gem x1",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Bird Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1324,37 +2809,82 @@
       {
         "Name": "Mirewalker Charm I",
         "Skills": [
-          "Aquatic Expert 1"
+          {
+            "Name": "Aquatic Expert",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Jyuratodus Fin x2",
-          "Jyuratodus Fang x2",
-          "Earth Crystal x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Jyuratodus Fin",
+            "Amount": 2
+          },
+          {
+            "Name": "Jyuratodus Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Mirewalker Charm II",
         "Skills": [
-          "Aquatic Expert 2"
+          {
+            "Name": "Aquatic Expert",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Jyuratodus Fin+ x3",
-          "Jyuratodus Fang+ x2",
-          "Coral Crystal x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Jyuratodus Fin+",
+            "Amount": 3
+          },
+          {
+            "Name": "Jyuratodus Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Mirewalker Charm III",
         "Skills": [
-          "Aquatic Expert 3"
+          {
+            "Name": "Aquatic Expert",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Wyvern Gem x1",
-          "Commendation x5",
-          "Coral Bone x6",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Commendation",
+            "Amount": 5
+          },
+          {
+            "Name": "Coral Bone",
+            "Amount": 6
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1364,37 +2894,82 @@
       {
         "Name": "Insect Charm I",
         "Skills": [
-          "Entomologist 1"
+          {
+            "Name": "Entomologist",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Vespoid Wing x2",
-          "Vespoid Shell x2",
-          "Ancient Bone x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Vespoid Wing",
+            "Amount": 2
+          },
+          {
+            "Name": "Vespoid Shell",
+            "Amount": 2
+          },
+          {
+            "Name": "Ancient Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Insect Charm II",
         "Skills": [
-          "Entomologist 2"
+          {
+            "Name": "Entomologist",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Vespoid Innerwing x4",
-          "Vespoid Carapace x6",
-          "Lightcrystal x2",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Vespoid Innerwing",
+            "Amount": 4
+          },
+          {
+            "Name": "Vespoid Carapace",
+            "Amount": 6
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Insect Charm III",
         "Skills": [
-          "Entomologist 3"
+          {
+            "Name": "Entomologist",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Wyvern Gem x1",
-          "Commendation x5",
-          "Quality Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Commendation",
+            "Amount": 5
+          },
+          {
+            "Name": "Quality Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1404,37 +2979,82 @@
       {
         "Name": "Intimidator Charm I",
         "Skills": [
-          "Intimidator 1"
+          {
+            "Name": "Intimidator",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Great Girros Hood x2",
-          "Great Girros Fang x2",
-          "Warped Bone x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Great Girros Hood",
+            "Amount": 2
+          },
+          {
+            "Name": "Great Girros Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Intimidator Charm II",
         "Skills": [
-          "Intimidator 2"
+          {
+            "Name": "Intimidator",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Great Jagras Mane x3",
-          "Great Jagras Claw+ x2",
-          "Boulder Bone x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Great Jagras Mane",
+            "Amount": 3
+          },
+          {
+            "Name": "Great Jagras Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Boulder Bone",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Intimidator Charm III",
         "Skills": [
-          "Intimidator 3"
+          {
+            "Name": "Intimidator",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Rathalos Ruby x1",
-          "Rathalos Wing x2",
-          "Warped Bone x4",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Rathalos Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathalos Wing",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1444,25 +3064,55 @@
       {
         "Name": "Heavy Artillery Charm I",
         "Skills": [
-          "Heavy Artillery 1"
+          {
+            "Name": "Heavy Artillery",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Dragonite Ore x4",
-          "Tzitzi-Ya-Ku Claw x3",
-          "Lightcrystal x1",
-          "Aquacore Ore x1"
+          {
+            "Name": "Dragonite Ore",
+            "Amount": 4
+          },
+          {
+            "Name": "Tzitzi-Ya-Ku Claw",
+            "Amount": 3
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Heavy Artillery Charm II",
         "Skills": [
-          "Heavy Artillery 2"
+          {
+            "Name": "Heavy Artillery",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Zorah Magdaros Magma x3",
-          "Zorah Magdaros Pleura x1",
-          "Dragonvein Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Zorah Magdaros Magma",
+            "Amount": 3
+          },
+          {
+            "Name": "Zorah Magdaros Pleura",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1472,13 +3122,28 @@
       {
         "Name": "Light Eater's Charm",
         "Skills": [
-          "Free Meal 1"
+          {
+            "Name": "Free Meal",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Hornetaur Head x4",
-          "Hornetaur Wing x6",
-          "Great Girros Fang x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Hornetaur Head",
+            "Amount": 4
+          },
+          {
+            "Name": "Hornetaur Wing",
+            "Amount": 6
+          },
+          {
+            "Name": "Great Girros Fang",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1488,13 +3153,28 @@
       {
         "Name": "Tracker Charm",
         "Skills": [
-          "Scenthound 1"
+          {
+            "Name": "Scenthound",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Anjanath Nosebone x1",
-          "Anjanath Pelt x5",
-          "Barroth Scalp x2",
-          "Aquacore Ore x1"
+          {
+            "Name": "Anjanath Nosebone",
+            "Amount": 1
+          },
+          {
+            "Name": "Anjanath Pelt",
+            "Amount": 5
+          },
+          {
+            "Name": "Barroth Scalp",
+            "Amount": 2
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1504,13 +3184,28 @@
       {
         "Name": "Fortification Charm",
         "Skills": [
-          "Fortify 1"
+          {
+            "Name": "Fortify",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Sinister Cloth x3",
-          "Anjanath Fang x3",
-          "Warped Bone x5",
-          "Aquacore Ore x1"
+          {
+            "Name": "Sinister Cloth",
+            "Amount": 3
+          },
+          {
+            "Name": "Anjanath Fang",
+            "Amount": 3
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 5
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1520,13 +3215,28 @@
       {
         "Name": "Performer's Charm",
         "Skills": [
-          "Horn Maestro 1"
+          {
+            "Name": "Horn Maestro",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Great Girros Hood x3",
-          "Pukei-Pukei Sac x5",
-          "Sturdy Bone x5",
-          "Aquacore Ore x1"
+          {
+            "Name": "Great Girros Hood",
+            "Amount": 3
+          },
+          {
+            "Name": "Pukei-Pukei Sac",
+            "Amount": 5
+          },
+          {
+            "Name": "Sturdy Bone",
+            "Amount": 5
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1536,13 +3246,28 @@
       {
         "Name": "Capacity Charm",
         "Skills": [
-          "Capacity Boost 1"
+          {
+            "Name": "Capacity Boost",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Dragonite Ore x8",
-          "Rath Wingtalon x3",
-          "Lightcrystal x2",
-          "Aquacore Ore x1"
+          {
+            "Name": "Dragonite Ore",
+            "Amount": 8
+          },
+          {
+            "Name": "Rath Wingtalon",
+            "Amount": 3
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1552,37 +3277,82 @@
       {
         "Name": "Bleed Charm I",
         "Skills": [
-          "Bleeding Resistance 1"
+          {
+            "Name": "Bleeding Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Odogaron Plate x1",
-          "Odogaron Fang x2",
-          "Warped Bone x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Odogaron Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Odogaron Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Bleed Charm II",
         "Skills": [
-          "Bleeding Resistance 2"
+          {
+            "Name": "Bleeding Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Odogaron Gem x1",
-          "Odogaron Claw+ x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Odogaron Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Odogaron Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Bleed Charm III",
         "Skills": [
-          "Bleeding Resistance 3"
+          {
+            "Name": "Bleeding Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Talon x2",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1592,37 +3362,82 @@
       {
         "Name": "Speed Heal Charm I",
         "Skills": [
-          "Recovery Speed 1"
+          {
+            "Name": "Recovery Speed",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Commendation x1",
-          "Sturdy Bone x3",
-          "Lightcrystal x1",
-          "Aquacore Ore x1"
+          {
+            "Name": "Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Sturdy Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Speed Heal Charm II",
         "Skills": [
-          "Recovery Speed 2"
+          {
+            "Name": "Recovery Speed",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Lavasioth Fin+ x3",
-          "Lavasioth Fang+ x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Lavasioth Fin+",
+            "Amount": 3
+          },
+          {
+            "Name": "Lavasioth Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Speed Heal Charm III",
         "Skills": [
-          "Recovery Speed 3"
+          {
+            "Name": "Recovery Speed",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Wing x2",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Wing",
+            "Amount": 2
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1632,37 +3447,82 @@
       {
         "Name": "Ice Charm I",
         "Skills": [
-          "Ice Resistance 1"
+          {
+            "Name": "Ice Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Legiana Plate x1",
-          "Legiana Claw x2",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Legiana Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Legiana Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Ice Charm II",
         "Skills": [
-          "Ice Resistance 2"
+          {
+            "Name": "Ice Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Wyvern Gem x1",
-          "Legiana Claw+ x2",
-          "Coral Crystal x4",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Legiana Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Ice Charm III",
         "Skills": [
-          "Ice Resistance 3"
+          {
+            "Name": "Ice Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x1",
-          "Legiana Gem x1",
-          "Freezer Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Legiana Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Freezer Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1672,37 +3532,82 @@
       {
         "Name": "Blight Charm I",
         "Skills": [
-          "Blight Resistance 1"
+          {
+            "Name": "Blight Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Kirin Thunderhorn x1",
-          "Kirin Mane x2",
-          "Coral Bone x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Kirin Thunderhorn",
+            "Amount": 1
+          },
+          {
+            "Name": "Kirin Mane",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Blight Charm II",
         "Skills": [
-          "Blight Resistance 2"
+          {
+            "Name": "Blight Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Kirin Azure Horn x1",
-          "Kirin Thundertail x2",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Kirin Azure Horn",
+            "Amount": 1
+          },
+          {
+            "Name": "Kirin Thundertail",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Blight Charm III",
         "Skills": [
-          "Blight Resistance 3"
+          {
+            "Name": "Blight Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Daora Gem x1",
-          "Xeno'jiiva Tail x2",
-          "Brutal Bone x2",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Daora Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Tail",
+            "Amount": 2
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1712,37 +3617,82 @@
       {
         "Name": "Frost Charm I",
         "Skills": [
-          "Ice Attack 1"
+          {
+            "Name": "Ice Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Legiana Plate x1",
-          "Legiana Claw x2",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Legiana Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Legiana Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Frost Charm II",
         "Skills": [
-          "Ice Attack 2"
+          {
+            "Name": "Ice Attack",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Legiana Gem x1",
-          "Legiana Claw+ x2",
-          "Coral Crystal x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Legiana Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Legiana Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Frost Charm III",
         "Skills": [
-          "Ice Attack 3"
+          {
+            "Name": "Ice Attack",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Daora Gem x1",
-          "Daora Tail x1",
-          "Freezer Sac x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Daora Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Daora Tail",
+            "Amount": 1
+          },
+          {
+            "Name": "Freezer Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1752,37 +3702,82 @@
       {
         "Name": "Master's Charm I",
         "Skills": [
-          "Critical Eye 1"
+          {
+            "Name": "Critical Eye",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Odogaron Plate x1",
-          "Odogaron Fang x2",
-          "Warped Bone x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Odogaron Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Odogaron Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Master's Charm II",
         "Skills": [
-          "Critical Eye 2"
+          {
+            "Name": "Critical Eye",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Odogaron Gem x1",
-          "Odogaron Claw+ x2",
-          "Quality Bone x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Odogaron Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Odogaron Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Quality Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Master's Charm III",
         "Skills": [
-          "Critical Eye 3"
+          {
+            "Name": "Critical Eye",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Nergigante Talon x2",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1792,37 +3787,82 @@
       {
         "Name": "Evasion Charm I",
         "Skills": [
-          "Evade Window 1"
+          {
+            "Name": "Evade Window",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Legiana Tail Webbing x2",
-          "Legiana Claw x2",
-          "Coral Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Legiana Tail Webbing",
+            "Amount": 2
+          },
+          {
+            "Name": "Legiana Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Evasion Charm II",
         "Skills": [
-          "Evade Window 2"
+          {
+            "Name": "Evade Window",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Legiana Gem x1",
-          "Legiana Claw+ x2",
-          "Fucium Ore x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Legiana Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Legiana Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Fucium Ore",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Evasion Charm III",
         "Skills": [
-          "Evade Window 3"
+          {
+            "Name": "Evade Window",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Daora Gem x1",
-          "Daora Tail x1",
-          "Brutal Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Daora Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Daora Tail",
+            "Amount": 1
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1832,37 +3872,82 @@
       {
         "Name": "Sheath Charm I",
         "Skills": [
-          "Quick Sheath 1"
+          {
+            "Name": "Quick Sheath",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Diablos Marrow x1",
-          "Diablos Fang x2",
-          "Earth Crystal x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Diablos Marrow",
+            "Amount": 1
+          },
+          {
+            "Name": "Diablos Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Sheath Charm II",
         "Skills": [
-          "Quick Sheath 2"
+          {
+            "Name": "Quick Sheath",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Lavasioth Fin+ x1",
-          "Lavasioth Fang+ x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Lavasioth Fin+",
+            "Amount": 1
+          },
+          {
+            "Name": "Lavasioth Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Sheath Charm III",
         "Skills": [
-          "Quick Sheath 3"
+          {
+            "Name": "Quick Sheath",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Bazelgeuse Gem x1",
-          "Xeno'jiiva Horn x1",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Bazelgeuse Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Horn",
+            "Amount": 1
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1872,37 +3957,82 @@
       {
         "Name": "Whetstone Charm I",
         "Skills": [
-          "Speed Sharpening 1"
+          {
+            "Name": "Speed Sharpening",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Odogaron Plate x1",
-          "Odogaron Fang x2",
-          "Warped Bone x3",
-          "Aquacore Ore x1"
+          {
+            "Name": "Odogaron Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Odogaron Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Whetstone Charm II",
         "Skills": [
-          "Speed Sharpening 2"
+          {
+            "Name": "Speed Sharpening",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Odogaron Gem x1",
-          "Odogaron Claw+ x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Odogaron Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Odogaron Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Whetstone Charm III",
         "Skills": [
-          "Speed Sharpening 3"
+          {
+            "Name": "Speed Sharpening",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Nergigante Talon x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1912,37 +4042,82 @@
       {
         "Name": "Blast Charm I",
         "Skills": [
-          "Blast Resistance 1"
+          {
+            "Name": "Blast Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Dodogama Jaw x1",
-          "Dodogama Talon x2",
-          "Firecell Stone x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Dodogama Jaw",
+            "Amount": 1
+          },
+          {
+            "Name": "Dodogama Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Blast Charm II",
         "Skills": [
-          "Blast Resistance 2"
+          {
+            "Name": "Blast Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Bazelgeuse Gem x1",
-          "Bazelgeuse Talon x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Bazelgeuse Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Bazelgeuse Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Blast Charm III",
         "Skills": [
-          "Blast Resistance 3"
+          {
+            "Name": "Blast Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1952,37 +4127,82 @@
       {
         "Name": "Dragon Charm I",
         "Skills": [
-          "Dragon Resistance 1"
+          {
+            "Name": "Dragon Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Dragonbone Relic x1",
-          "Quality Bone x3",
-          "Dragonvein Crystal x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 1
+          },
+          {
+            "Name": "Quality Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Dragon Charm II",
         "Skills": [
-          "Dragon Resistance 2"
+          {
+            "Name": "Dragon Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Uragaan Ruby x1",
-          "Uragaan Jaw x1",
-          "Dragonvein Crystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Uragaan Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Uragaan Jaw",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Dragon Charm III",
         "Skills": [
-          "Dragon Resistance 3"
+          {
+            "Name": "Dragon Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Elder Dragon Blood x1",
-          "Vaal Hazak Gem x1",
-          "Dragonbone Relic x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Elder Dragon Blood",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -1992,37 +4212,82 @@
       {
         "Name": "Wyrmsbane Charm I",
         "Skills": [
-          "Dragon Attack 1"
+          {
+            "Name": "Dragon Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Dragonbone Relic x1",
-          "Quality Bone x3",
-          "Dragonvein Crystal x2",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 1
+          },
+          {
+            "Name": "Quality Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Wyrmsbane Charm II",
         "Skills": [
-          "Dragon Attack 2"
+          {
+            "Name": "Dragon Attack",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Talon x2",
-          "Dragonvein Crystal x4",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Wyrmsbane Charm III",
         "Skills": [
-          "Dragon Attack 3"
+          {
+            "Name": "Dragon Attack",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Xeno'jiiva Gem x1",
-          "Xeno'jiiva Claw x2",
-          "Dragonbone Relic x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2032,37 +4297,82 @@
       {
         "Name": "Demolition Charm I",
         "Skills": [
-          "Blast Attack 1"
+          {
+            "Name": "Blast Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Dodogama Jaw x2",
-          "Dodogama Talon x2",
-          "Firecell Stone x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Dodogama Jaw",
+            "Amount": 2
+          },
+          {
+            "Name": "Dodogama Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Demolition Charm II",
         "Skills": [
-          "Blast Attack 2"
+          {
+            "Name": "Blast Attack",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Bazelgeuse Gem x1",
-          "Bazelgeuse Talon x2",
-          "Carbalite Ore x4",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Bazelgeuse Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Bazelgeuse Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Carbalite Ore",
+            "Amount": 4
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Demolition Charm III",
         "Skills": [
-          "Blast Attack 3"
+          {
+            "Name": "Blast Attack",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Xeno'jiiva Shell x3",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Shell",
+            "Amount": 3
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2072,25 +4382,55 @@
       {
         "Name": "Draw Charm I",
         "Skills": [
-          "Critical Draw 1"
+          {
+            "Name": "Critical Draw",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Diablos Marrow x1",
-          "Diablos Fang x3",
-          "Earth Crystal x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Diablos Marrow",
+            "Amount": 1
+          },
+          {
+            "Name": "Diablos Fang",
+            "Amount": 3
+          },
+          {
+            "Name": "Earth Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Draw Charm II",
         "Skills": [
-          "Critical Draw 2"
+          {
+            "Name": "Critical Draw",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Fucium Ore x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Fucium Ore",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2100,38 +4440,86 @@
       {
         "Name": "Trickshot Charm I",
         "Skills": [
-          "Special Ammo Boost 1"
+          {
+            "Name": "Special Ammo Boost",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Anjanath Plate x1",
-          "Anjanath Fang x2",
-          "Warped Bone x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Anjanath Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Anjanath Fang",
+            "Amount": 2
+          },
+          {
+            "Name": "Warped Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Trickshot Charm II",
         "Skills": [
-          "Special Ammo Boost 2"
+          {
+            "Name": "Special Ammo Boost",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Bazelgeuse Gem x1",
-          "Xeno'jiiva Wing x2",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Bazelgeuse Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Wing",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Trickshot Charm",
         "Skills": [
-          "Dungmaster 1",
-          "Blindsider 1"
+          {
+            "Name": "Dungmaster",
+            "Level": 1
+          },
+          {
+            "Name": "Blindsider",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Barroth Claw+ x2",
-          "Tzitzi-Ya-Ku Photophore+ x3",
-          "Lightcrystal x2",
-          "Spiritcore Ore x2"
+          {
+            "Name": "Barroth Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Tzitzi-Ya-Ku Photophore+",
+            "Amount": 3
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 2
+          }
         ]
       }
     ]
@@ -2141,25 +4529,55 @@
       {
         "Name": "Marathon Charm I",
         "Skills": [
-          "Marathon Runner 1"
+          {
+            "Name": "Marathon Runner",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Barroth Scalp x2",
-          "Barroth Claw+ x2",
-          "Dragonvein Crystal x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Barroth Scalp",
+            "Amount": 2
+          },
+          {
+            "Name": "Barroth Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Marathon Charm II",
         "Skills": [
-          "Marathon Runner 2"
+          {
+            "Name": "Marathon Runner",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Xeno'jiiva Gem x1",
-          "Xeno'jiiva Veil x2",
-          "Fucium Ore x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Veil",
+            "Amount": 2
+          },
+          {
+            "Name": "Fucium Ore",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2169,37 +4587,82 @@
       {
         "Name": "Fitness Charm I",
         "Skills": [
-          "Constitution 1"
+          {
+            "Name": "Constitution",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Tobi-Kadachi Electrode+ x2",
-          "Tobi-Kadachi Claw+ x2",
-          "Dragonvein Crystal x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Tobi-Kadachi Electrode+",
+            "Amount": 2
+          },
+          {
+            "Name": "Tobi-Kadachi Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Fitness Charm II",
         "Skills": [
-          "Constitution 2"
+          {
+            "Name": "Constitution",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Odogaron Gem x1",
-          "Odogaron Claw+ x2",
-          "Fucium Ore x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Odogaron Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Odogaron Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Fucium Ore",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Fitness Charm III",
         "Skills": [
-          "Constitution 3"
+          {
+            "Name": "Constitution",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Daora Gem x1",
-          "Daora Claw+ x1",
-          "Coral Crystal x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Daora Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Daora Claw+",
+            "Amount": 1
+          },
+          {
+            "Name": "Coral Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2209,25 +4672,55 @@
       {
         "Name": "Surge Charm I",
         "Skills": [
-          "Stamina Surge 1"
+          {
+            "Name": "Stamina Surge",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Paolumu Wing x2",
-          "Paolumu Pelt+ x3",
-          "Dragonbone Relic x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Paolumu Wing",
+            "Amount": 2
+          },
+          {
+            "Name": "Paolumu Pelt+",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Surge Charm II",
         "Skills": [
-          "Stamina Surge 2"
+          {
+            "Name": "Stamina Surge",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Nergigante Talon x2",
-          "Fucium Ore x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Fucium Ore",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2237,25 +4730,55 @@
       {
         "Name": "Leaping Charm I",
         "Skills": [
-          "Evade Extender 1"
+          {
+            "Name": "Evade Extender",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Tobi-Kadachi Electrode+ x2",
-          "Tobi-Kadachi Claw+ x2",
-          "Dragonvein Crystal x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Tobi-Kadachi Electrode+",
+            "Amount": 2
+          },
+          {
+            "Name": "Tobi-Kadachi Claw+",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Leaping Charm II",
         "Skills": [
-          "Evade Extender 2"
+          {
+            "Name": "Evade Extender",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Daora Gem x1",
-          "Daora Tail x1",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Daora Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Daora Tail",
+            "Amount": 1
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2265,37 +4788,82 @@
       {
         "Name": "Bombardier Charm I",
         "Skills": [
-          "Bombardier 1"
+          {
+            "Name": "Bombardier",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Dodogama Jaw x2",
-          "Dodogama Talon x2",
-          "Firecell Stone x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Dodogama Jaw",
+            "Amount": 2
+          },
+          {
+            "Name": "Dodogama Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Bombardier Charm II",
         "Skills": [
-          "Bombardier 2"
+          {
+            "Name": "Bombardier",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Bazelgeuse Gem x1",
-          "Bazelgeuse Talon x2",
-          "Novacrystal x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Bazelgeuse Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Bazelgeuse Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Bombardier Charm III",
         "Skills": [
-          "Bombardier 3"
+          {
+            "Name": "Bombardier",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2305,25 +4873,55 @@
       {
         "Name": "Mushroom Charm I",
         "Skills": [
-          "Mushroomancer 1"
+          {
+            "Name": "Mushroomancer",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Commendation x1",
-          "Mosswine Hide x5",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Mosswine Hide",
+            "Amount": 5
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Mushroom Charm II",
         "Skills": [
-          "Mushroomancer 2"
+          {
+            "Name": "Mushroomancer",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Research Commission Ticket x1",
-          "High Commendation x1",
-          "Novacrystal x1",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Research Commission Ticket",
+            "Amount": 1
+          },
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2333,25 +4931,55 @@
       {
         "Name": "Awakening Charm I",
         "Skills": [
-          "Free Elem/Ammo Up 1"
+          {
+            "Name": "Free Elem/Ammo Up",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Zorah Magdaros Gem x1",
-          "Zorah Magdaros Magma x5",
-          "Dragonvein Crystal x4",
-          "Aquacore Ore x1"
+          {
+            "Name": "Zorah Magdaros Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Zorah Magdaros Magma",
+            "Amount": 5
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Aquacore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Awakening Charm II",
         "Skills": [
-          "Free Elem/Ammo Up 2"
+          {
+            "Name": "Free Elem/Ammo Up",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Kirin Azure Horn x1",
-          "Kirin Thundertail x1",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Kirin Azure Horn",
+            "Amount": 1
+          },
+          {
+            "Name": "Kirin Thundertail",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2361,37 +4989,82 @@
       {
         "Name": "Handicraft Charm I",
         "Skills": [
-          "Handicraft 1"
+          {
+            "Name": "Handicraft",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Zorah Magdaros Gem x1",
-          "Zorah Magdaros Pleura x3",
-          "Dragonvein Crystal x4",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Zorah Magdaros Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Zorah Magdaros Pleura",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 4
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Handicraft Charm II",
         "Skills": [
-          "Handicraft 2"
+          {
+            "Name": "Handicraft",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Daora Gem x1",
-          "Daora Tail x1",
-          "Wyvern Gem x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Daora Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Daora Tail",
+            "Amount": 1
+          },
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Handicraft Charm III",
         "Skills": [
-          "Handicraft 3"
+          {
+            "Name": "Handicraft",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Research Commission Ticket x1",
-          "Xeno'jiiva Gem x1",
-          "Xeno'jiiva Claw x2",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Research Commission Ticket",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2401,14 +5074,32 @@
       {
         "Name": "Mud Puppy Charm",
         "Skills": [
-          "Muck Resistance 1",
-          "Leap of Faith 1"
+          {
+            "Name": "Muck Resistance",
+            "Level": 1
+          },
+          {
+            "Name": "Leap of Faith",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Jyuratodus Fang+ x2",
-          "Tobi-Kadachi Electrode+ x3",
-          "Dragonvein Crystal x5",
-          "Spiritcore Ore x2"
+          {
+            "Name": "Jyuratodus Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Tobi-Kadachi Electrode+",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 5
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 2
+          }
         ]
       }
     ]
@@ -2418,14 +5109,32 @@
       {
         "Name": "Hunter's Life Charm",
         "Skills": [
-          "BBQ Master 1",
-          "Master Fisher 1"
+          {
+            "Name": "BBQ Master",
+            "Level": 1
+          },
+          {
+            "Name": "Master Fisher",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "High-quality Pelt x3",
-          "Warm Pelt x5",
-          "Piercing Claw x5",
-          "Spiritcore Ore x1"
+          {
+            "Name": "High-quality Pelt",
+            "Amount": 3
+          },
+          {
+            "Name": "Warm Pelt",
+            "Amount": 5
+          },
+          {
+            "Name": "Piercing Claw",
+            "Amount": 5
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2435,14 +5144,32 @@
       {
         "Name": "Procurer's Charm",
         "Skills": [
-          "Pro Transporter 1",
-          "Honey Hunter 1"
+          {
+            "Name": "Pro Transporter",
+            "Level": 1
+          },
+          {
+            "Name": "Honey Hunter",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Kestodon Carapace x5",
-          "Kestodon Scalp x5",
-          "Vespoid Carapace x5",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Kestodon Carapace",
+            "Amount": 5
+          },
+          {
+            "Name": "Kestodon Scalp",
+            "Amount": 5
+          },
+          {
+            "Name": "Vespoid Carapace",
+            "Amount": 5
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2452,14 +5179,32 @@
       {
         "Name": "Gatherer's Charm",
         "Skills": [
-          "Master Gatherer 1",
-          "Carving Pro 1"
+          {
+            "Name": "Master Gatherer",
+            "Level": 1
+          },
+          {
+            "Name": "Carving Pro",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Mosswine Hide x5",
-          "Jagras Scale+ x5",
-          "Jagras Hide+ x5",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Mosswine Hide",
+            "Amount": 5
+          },
+          {
+            "Name": "Jagras Scale+",
+            "Amount": 5
+          },
+          {
+            "Name": "Jagras Hide+",
+            "Amount": 5
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2469,37 +5214,82 @@
       {
         "Name": "Guard Charm I",
         "Skills": [
-          "Iron Skin 1"
+          {
+            "Name": "Iron Skin",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Barnos Talon x3",
-          "Barnos Hide+ x3",
-          "Brutal Bone x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Barnos Talon",
+            "Amount": 3
+          },
+          {
+            "Name": "Barnos Hide+",
+            "Amount": 3
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Guard Charm II",
         "Skills": [
-          "Iron Skin 2"
+          {
+            "Name": "Iron Skin",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Wyvern Gem x1",
-          "Firecell Stone x1",
-          "Dragonite Ore x6",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragonite Ore",
+            "Amount": 6
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Guard Charm III",
         "Skills": [
-          "Iron Skin 3"
+          {
+            "Name": "Iron Skin",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Elder Dragon Blood x1",
-          "High Commendation x1",
-          "Dragonvein Crystal x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Elder Dragon Blood",
+            "Amount": 1
+          },
+          {
+            "Name": "High Commendation",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2509,37 +5299,82 @@
       {
         "Name": "Earplugs Charm I",
         "Skills": [
-          "Earplugs 1"
+          {
+            "Name": "Earplugs",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Blos Medulla x1",
-          "Majestic Horn x2",
-          "Firecell Stone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Blos Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Majestic Horn",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Earplugs Charm II",
         "Skills": [
-          "Earplugs 2"
+          {
+            "Name": "Earplugs",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Bazelgeuse Gem x1",
-          "Bazelgeuse Talon x2",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Bazelgeuse Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Bazelgeuse Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Earplugs Charm III",
         "Skills": [
-          "Earplugs 3"
+          {
+            "Name": "Earplugs",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Wyvern Gem x1",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2549,25 +5384,55 @@
       {
         "Name": "Tremor Charm I",
         "Skills": [
-          "Tremor Resistance 1"
+          {
+            "Name": "Tremor Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Blos Medulla x1",
-          "Diablos Ridge+ x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Blos Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Diablos Ridge+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Tremor Charm II",
         "Skills": [
-          "Tremor Resistance 2"
+          {
+            "Name": "Tremor Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Talon x2",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2577,25 +5442,55 @@
       {
         "Name": "Exploiter Charm I",
         "Skills": [
-          "Weakness Exploit 1"
+          {
+            "Name": "Weakness Exploit",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Rathalos Plate x1",
-          "Rathalos Medulla x1",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Rathalos Plate",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathalos Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Exploiter Charm II",
         "Skills": [
-          "Weakness Exploit 2"
+          {
+            "Name": "Weakness Exploit",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Firecell Stone x1",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2605,25 +5500,55 @@
       {
         "Name": "Focus Charm I",
         "Skills": [
-          "Focus 1"
+          {
+            "Name": "Focus",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Blos Medulla x1",
-          "Diablos Ridge+ x2",
-          "Firecell Stone x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Blos Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Diablos Ridge+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Focus Charm II",
         "Skills": [
-          "Focus 2"
+          {
+            "Name": "Focus",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Talon x2",
-          "Fucium Ore x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Fucium Ore",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2633,25 +5558,55 @@
       {
         "Name": "Breaker Charm I",
         "Skills": [
-          "Partbreaker 1"
+          {
+            "Name": "Partbreaker",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Uragaan Marrow x1",
-          "Uragaan Jaw x2",
-          "Firecell Stone x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Uragaan Marrow",
+            "Amount": 1
+          },
+          {
+            "Name": "Uragaan Jaw",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Breaker Charm II",
         "Skills": [
-          "Partbreaker 2"
+          {
+            "Name": "Partbreaker",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Xeno'jiiva Soulscale x6",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Soulscale",
+            "Amount": 6
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2661,25 +5616,55 @@
       {
         "Name": "Fury Charm I",
         "Skills": [
-          "Resentment 1"
+          {
+            "Name": "Resentment",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Black Spiral Horn+ x1",
-          "Diablos Ridge+ x2",
-          "Firecell Stone x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Black Spiral Horn+",
+            "Amount": 1
+          },
+          {
+            "Name": "Diablos Ridge+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Fury Charm II",
         "Skills": [
-          "Resentment 2"
+          {
+            "Name": "Resentment",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Xeno'jiiva Soulscale x6",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Soulscale",
+            "Amount": 6
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2689,25 +5674,55 @@
       {
         "Name": "Grit Charm I",
         "Skills": [
-          "Heroics 1"
+          {
+            "Name": "Heroics",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Blos Medulla x1",
-          "Diablos Ridge+ x2",
-          "Firecell Stone x1",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Blos Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Diablos Ridge+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Grit Charm II",
         "Skills": [
-          "Heroics 2"
+          {
+            "Name": "Heroics",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Daora Gem x1",
-          "Daora Tail x2",
-          "Dragonvein Crystal x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Daora Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Daora Tail",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2717,37 +5732,82 @@
       {
         "Name": "Maintenance Charm I",
         "Skills": [
-          "Tool Specialist 1"
+          {
+            "Name": "Tool Specialist",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Pink Rathian Carapace x2",
-          "Rathian Spike x2",
-          "Brutal Bone x3",
-          "Spiritcore Ore x1"
+          {
+            "Name": "Pink Rathian Carapace",
+            "Amount": 2
+          },
+          {
+            "Name": "Rathian Spike",
+            "Amount": 2
+          },
+          {
+            "Name": "Brutal Bone",
+            "Amount": 3
+          },
+          {
+            "Name": "Spiritcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Maintenance Charm II",
         "Skills": [
-          "Tool Specialist 2"
+          {
+            "Name": "Tool Specialist",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Quality Bone x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Quality Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Maintenance Charm III",
         "Skills": [
-          "Tool Specialist 3"
+          {
+            "Name": "Tool Specialist",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Xeno'jiiva Veil x2",
-          "Dragonvein Crystal x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Veil",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonvein Crystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2757,25 +5817,55 @@
       {
         "Name": "Power Charm I",
         "Skills": [
-          "Latent Power 1"
+          {
+            "Name": "Latent Power",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Teostra Horn+ x3",
-          "Teostra Mane x2",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 3
+          },
+          {
+            "Name": "Teostra Mane",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Power Charm II",
         "Skills": [
-          "Latent Power 2"
+          {
+            "Name": "Latent Power",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Teostra Horn+ x2",
-          "Firecell Stone x1",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Teostra Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2785,25 +5875,55 @@
       {
         "Name": "Challenger Charm I",
         "Skills": [
-          "Agitator 1"
+          {
+            "Name": "Agitator",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Nergigante Horn+ x2",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Challenger Charm II",
         "Skills": [
-          "Agitator 2"
+          {
+            "Name": "Agitator",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Nergigante Talon x2",
-          "Fucium Ore x1",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Fucium Ore",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2813,25 +5933,55 @@
       {
         "Name": "Unscathed Charm I",
         "Skills": [
-          "Peak Performance 1"
+          {
+            "Name": "Peak Performance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Fang+ x2",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Unscathed Charm II",
         "Skills": [
-          "Peak Performance 2"
+          {
+            "Name": "Peak Performance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Talon x2",
-          "Fucium Ore x1",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Fucium Ore",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2841,25 +5991,55 @@
       {
         "Name": "Mighty Charm I",
         "Skills": [
-          "Maximum Might 1"
+          {
+            "Name": "Maximum Might",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Nergigante Horn+ x2",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Mighty Charm II",
         "Skills": [
-          "Maximum Might 2"
+          {
+            "Name": "Maximum Might",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Xeno'jiiva Gem x1",
-          "Xeno'jiiva Tail x2",
-          "Novacrystal x1",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Tail",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2869,25 +6049,55 @@
       {
         "Name": "Impact Charm I",
         "Skills": [
-          "Flinch Free 1"
+          {
+            "Name": "Flinch Free",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Xeno'jiiva Gem x1",
-          "Xeno'jiiva Horn x2",
-          "Firecell Stone x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Horn",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Impact Charm II",
         "Skills": [
-          "Flinch Free 2"
+          {
+            "Name": "Flinch Free",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Daora Gem x1",
-          "Xeno'jiiva Shell x5",
-          "Elder Dragon Bone x2",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Daora Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Shell",
+            "Amount": 5
+          },
+          {
+            "Name": "Elder Dragon Bone",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2897,37 +6107,82 @@
       {
         "Name": "Miasma Charm I",
         "Skills": [
-          "Effluvia Resistance 1"
+          {
+            "Name": "Effluvia Resistance",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Fang+ x2",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Fang+",
+            "Amount": 2
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Miasma Charm II",
         "Skills": [
-          "Effluvia Resistance 2"
+          {
+            "Name": "Effluvia Resistance",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Talon x2",
-          "Lightcrystal x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Talon",
+            "Amount": 2
+          },
+          {
+            "Name": "Lightcrystal",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Miasma Charm III",
         "Skills": [
-          "Effluvia Resistance 3"
+          {
+            "Name": "Effluvia Resistance",
+            "Level": 3
+          }
         ],
         "Materials": [
-          "High Commendation x3",
-          "Xeno'jiiva Wing x2",
-          "Dragonbone Relic x3",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 3
+          },
+          {
+            "Name": "Xeno'jiiva Wing",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragonbone Relic",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2937,13 +6192,28 @@
       {
         "Name": "Normal Shots Charm",
         "Skills": [
-          "Normal Shots 1"
+          {
+            "Name": "Normal Shots",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "High Commendation x2",
-          "Wyvern Gem x1",
-          "Bird Wyvern Gem x2",
-          "Dreamcore Ore x1"
+          {
+            "Name": "High Commendation",
+            "Amount": 2
+          },
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Bird Wyvern Gem",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -2953,14 +6223,32 @@
       {
         "Name": "Clearmind Charm",
         "Skills": [
-          "Heat Guard 1",
-          "Effluvial Expert 1"
+          {
+            "Name": "Heat Guard",
+            "Level": 1
+          },
+          {
+            "Name": "Effluvial Expert",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Teostra Gem x1",
-          "Vaal Hazak Gem x1",
-          "Vaal Hazak Carapace x5",
-          "Dreamcore Ore x2"
+          {
+            "Name": "Teostra Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Carapace",
+            "Amount": 5
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 2
+          }
         ]
       }
     ]
@@ -2970,14 +6258,32 @@
       {
         "Name": "Rider's Charm",
         "Skills": [
-          "Master Mounter 1",
-          "Jump Master 1"
+          {
+            "Name": "Master Mounter",
+            "Level": 1
+          },
+          {
+            "Name": "Jump Master",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Daora Gem x1",
-          "Legiana Gem x1",
-          "Legiana Scale+ x5",
-          "Dreamcore Ore x2"
+          {
+            "Name": "Daora Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Legiana Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Legiana Scale+",
+            "Amount": 5
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 2
+          }
         ]
       }
     ]
@@ -2987,14 +6293,32 @@
       {
         "Name": "Surveyor's Charm",
         "Skills": [
-          "Scoutfly Range Up 1",
-          "Scholar 1"
+          {
+            "Name": "Scoutfly Range Up",
+            "Level": 1
+          },
+          {
+            "Name": "Scholar",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Zorah Magdaros Heat Scale x5",
-          "Zorah Magdaros Magma x3",
-          "Dreamcore Ore x2"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Zorah Magdaros Heat Scale",
+            "Amount": 5
+          },
+          {
+            "Name": "Zorah Magdaros Magma",
+            "Amount": 3
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 2
+          }
         ]
       }
     ]
@@ -3004,13 +6328,28 @@
       {
         "Name": "Critical Charm I",
         "Skills": [
-          "Critical Boost 1"
+          {
+            "Name": "Critical Boost",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Rathalos Ruby x1",
-          "Rathian Ruby x1",
-          "Xeno'jiiva Gem x1",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Rathalos Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathian Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -3020,25 +6359,55 @@
       {
         "Name": "Invigorate Charm I",
         "Skills": [
-          "Power Prolonger 1"
+          {
+            "Name": "Power Prolonger",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Xeno'jiiva Gem x1",
-          "Xeno'jiiva Horn x1",
-          "Novacrystal x1",
-          "Dreamcore Ore x1"
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Horn",
+            "Amount": 1
+          },
+          {
+            "Name": "Novacrystal",
+            "Amount": 1
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 1
+          }
         ]
       },
       {
         "Name": "Invigorate Charm II",
         "Skills": [
-          "Power Prolonger 2"
+          {
+            "Name": "Power Prolonger",
+            "Level": 2
+          }
         ],
         "Materials": [
-          "Nergigante Gem x1",
-          "Xeno'jiiva Claw x2",
-          "Firecell Stone x3",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Claw",
+            "Amount": 2
+          },
+          {
+            "Name": "Firecell Stone",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -3048,13 +6417,28 @@
       {
         "Name": "Penetration Charm",
         "Skills": [
-          "Piercing Shots 1"
+          {
+            "Name": "Piercing Shots",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Research Commission Ticket x1",
-          "Xeno'jiiva Gem x1",
-          "Xeno'jiiva Tail x3",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Research Commission Ticket",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Tail",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -3064,13 +6448,28 @@
       {
         "Name": "Dispersal Charm",
         "Skills": [
-          "Spread/Power Shots 1"
+          {
+            "Name": "Spread/Power Shots",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Research Commission Ticket x1",
-          "Nergigante Gem x1",
-          "Nergigante Tail x3",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Research Commission Ticket",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Nergigante Tail",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -3080,13 +6479,28 @@
       {
         "Name": "Poison Coating Charm",
         "Skills": [
-          "Poison Functionality 1"
+          {
+            "Name": "Poison Functionality",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Rathian Ruby x1",
-          "Rathian Spike+ x3",
-          "Toxin Sac x3",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Rathian Ruby",
+            "Amount": 1
+          },
+          {
+            "Name": "Rathian Spike+",
+            "Amount": 3
+          },
+          {
+            "Name": "Toxin Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -3096,13 +6510,28 @@
       {
         "Name": "Para Coating Charm",
         "Skills": [
-          "Para Functionality 1"
+          {
+            "Name": "Para Functionality",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Great Girros Hood+ x5",
-          "Great Girros Tail x5",
-          "Omniplegia Sac x3",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Great Girros Hood+",
+            "Amount": 5
+          },
+          {
+            "Name": "Great Girros Tail",
+            "Amount": 5
+          },
+          {
+            "Name": "Omniplegia Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -3112,13 +6541,28 @@
       {
         "Name": "Sleep Coating Charm",
         "Skills": [
-          "Sleep Functionality 1"
+          {
+            "Name": "Sleep Functionality",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Radobaan Medulla x1",
-          "Wyvern Gem x2",
-          "Coma Sac x3",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Radobaan Medulla",
+            "Amount": 1
+          },
+          {
+            "Name": "Wyvern Gem",
+            "Amount": 2
+          },
+          {
+            "Name": "Coma Sac",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -3128,13 +6572,28 @@
       {
         "Name": "Blast Coating Charm",
         "Skills": [
-          "Blast Functionality 1"
+          {
+            "Name": "Blast Functionality",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Bazelgeuse Gem x1",
-          "Bazelgeuse Tail x3",
-          "Bazelgeuse Fuse x3",
-          "Dragoncore Ore x1"
+          {
+            "Name": "Bazelgeuse Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Bazelgeuse Tail",
+            "Amount": 3
+          },
+          {
+            "Name": "Bazelgeuse Fuse",
+            "Amount": 3
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 1
+          }
         ]
       }
     ]
@@ -3144,14 +6603,32 @@
       {
         "Name": "Geomancy Charm",
         "Skills": [
-          "Forager's Luck 1",
-          "Detector 1"
+          {
+            "Name": "Forager's Luck",
+            "Level": 1
+          },
+          {
+            "Name": "Detector",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Xeno'jiiva Gem x1",
-          "Xeno'jiiva Veil x3",
-          "Teostra Mane x2",
-          "Dreamcore Ore x2"
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Veil",
+            "Amount": 3
+          },
+          {
+            "Name": "Teostra Mane",
+            "Amount": 2
+          },
+          {
+            "Name": "Dreamcore Ore",
+            "Amount": 2
+          }
         ]
       }
     ]
@@ -3161,14 +6638,32 @@
       {
         "Name": "Gale Charm",
         "Skills": [
-          "Affinity Sliding 1",
-          "Airborne 1"
+          {
+            "Name": "Affinity Sliding",
+            "Level": 1
+          },
+          {
+            "Name": "Airborne",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Research Commission Ticket x1",
-          "Odogaron Gem x1",
-          "Legiana Gem x1",
-          "Dragoncore Ore x2"
+          {
+            "Name": "Research Commission Ticket",
+            "Amount": 1
+          },
+          {
+            "Name": "Odogaron Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Legiana Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 2
+          }
         ]
       }
     ]
@@ -3178,14 +6673,32 @@
       {
         "Name": "Wyrmslayer Charm",
         "Skills": [
-          "Elderseal Boost 1",
-          "Dragon Attack 1"
+          {
+            "Name": "Elderseal Boost",
+            "Level": 1
+          },
+          {
+            "Name": "Dragon Attack",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Research Commission Ticket x1",
-          "Xeno'jiiva Gem x1",
-          "Vaal Hazak Talon x1",
-          "Dragoncore Ore x2"
+          {
+            "Name": "Research Commission Ticket",
+            "Amount": 1
+          },
+          {
+            "Name": "Xeno'jiiva Gem",
+            "Amount": 1
+          },
+          {
+            "Name": "Vaal Hazak Talon",
+            "Amount": 1
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 2
+          }
         ]
       }
     ]
@@ -3195,14 +6708,32 @@
       {
         "Name": "Bulwark Charm",
         "Skills": [
-          "Guard Up 1",
-          "Resuscitate 1"
+          {
+            "Name": "Guard Up",
+            "Level": 1
+          },
+          {
+            "Name": "Resuscitate",
+            "Level": 1
+          }
         ],
         "Materials": [
-          "Research Commission Ticket x1",
-          "Majestic Horn x2",
-          "Black Spiral Horn+ x2",
-          "Dragoncore Ore x2"
+          {
+            "Name": "Research Commission Ticket",
+            "Amount": 1
+          },
+          {
+            "Name": "Majestic Horn",
+            "Amount": 2
+          },
+          {
+            "Name": "Black Spiral Horn+",
+            "Amount": 2
+          },
+          {
+            "Name": "Dragoncore Ore",
+            "Amount": 2
+          }
         ]
       }
     ]
@@ -3212,8 +6743,14 @@
       {
         "Name": "Fair Wind Charm",
         "Skills": [
-          "Attack Boost 1",
-          "Divine Blessing 1"
+          {
+            "Name": "Attack Boost",
+            "Level": 1
+          },
+          {
+            "Name": "Divine Blessing",
+            "Level": 1
+          }
         ]
       }
     ]
