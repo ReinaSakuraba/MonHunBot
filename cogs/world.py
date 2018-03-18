@@ -20,8 +20,6 @@ class World:
     @commands.command()
     async def charm(self, ctx, *, name: str.lower):
         match = self.charm_re.match(name)
-        if not match:
-            return await ctx.send('ass')
 
         name = match.group('name')
         charm = self.charms.get(name)
