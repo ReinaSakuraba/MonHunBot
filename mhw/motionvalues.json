@@ -8,19 +8,19 @@
     },
     "Charged Slash Lv 2": {
       "Damage Type": "Sever",
-      "Motion Value": "70",
+      "Motion Value": "77",
       "Stun": "0",
       "Exhaust": "0"
     },
     "Charged Slash Lv 3": {
       "Damage Type": "Sever",
-      "Motion Value": "91",
+      "Motion Value": "105",
       "Stun": "0",
       "Exhaust": "0"
     },
     "Charged Slash Lv 4": {
       "Damage Type": "Sever",
-      "Motion Value": "70",
+      "Motion Value": "77",
       "Stun": "0",
       "Exhaust": "0"
     },
@@ -38,19 +38,19 @@
     },
     "Strong Charged Slash Lv 2": {
       "Damage Type": "Sever",
-      "Motion Value": "82",
+      "Motion Value": "90",
       "Stun": "0",
       "Exhaust": "0"
     },
     "Strong Charged Slash Lv 3": {
       "Damage Type": "Sever",
-      "Motion Value": "97",
+      "Motion Value": "115",
       "Stun": "0",
       "Exhaust": "0"
     },
     "Strong Charged Slash Lv 4": {
       "Damage Type": "Sever",
-      "Motion Value": "82",
+      "Motion Value": "90",
       "Stun": "0",
       "Exhaust": "0"
     },
@@ -1746,37 +1746,37 @@
   "shot": {
     "Normal 1": {
       "Damage Type": "Shot",
-      "Motion Value": "7",
+      "Motion Value": "10",
       "Stun": "0",
       "Exhaust": "0"
     },
     "Normal 2": {
       "Damage Type": "Shot",
-      "Motion Value": "15",
+      "Motion Value": "20",
       "Stun": "0",
       "Exhaust": "0"
     },
     "Normal 3": {
       "Damage Type": "Shot",
-      "Motion Value": "20",
+      "Motion Value": "32",
       "Stun": "0",
       "Exhaust": "0"
     },
     "Pierce 1": {
       "Damage Type": "Shot",
-      "Motion Value": "6",
+      "Motion Value": "7",
       "Stun": "0",
       "Exhaust": "0"
     },
     "Pierce 2": {
       "Damage Type": "Shot",
-      "Motion Value": "6",
+      "Motion Value": "7",
       "Stun": "0",
       "Exhaust": "0"
     },
     "Pierce 3": {
       "Damage Type": "Shot",
-      "Motion Value": "7",
+      "Motion Value": "8",
       "Stun": "0",
       "Exhaust": "0"
     },
@@ -1938,7 +1938,7 @@
     },
     "Slicing": {
       "Damage Type": "Shot",
-      "Motion Value": "7",
+      "Motion Value": "6",
       "Stun": "0",
       "Exhaust": "0"
     },
@@ -1956,7 +1956,7 @@
     },
     "Wyvern (Additional)": {
       "Damage Type": "Shot",
-      "Motion Value": "15",
+      "Motion Value": "16",
       "Stun": "0",
       "Exhaust": "0"
     },
