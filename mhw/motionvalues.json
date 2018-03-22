@@ -414,7 +414,7 @@
     },
     "Round Slash": {
       "Damage Type": "Sever",
-      "Motion Value": "24",
+      "Motion Value": "30",
       "Stun": "0",
       "Exhaust": "0"
     },
@@ -713,13 +713,13 @@
     "Charged Upswing": {
       "Damage Type": "Blunt",
       "Motion Value": "38",
-      "Stun": "35",
+      "Stun": "45",
       "Exhaust": "10"
     },
     "Charged Big Bang": {
       "Damage Type": "Blunt",
       "Motion Value": "15+76",
-      "Stun": "25",
+      "Stun": "35",
       "Exhaust": "40"
     },
     "Spinning Bludgeon": {
@@ -731,7 +731,7 @@
     "Charged Brutal Upswing": {
       "Damage Type": "Blunt",
       "Motion Value": "45",
-      "Stun": "45",
+      "Stun": "55",
       "Exhaust": "20"
     },
     "Charged Brutal Big Bang": {
@@ -1204,21 +1204,45 @@
       "Stun": "0",
       "Exhaust": "0"
     },
-    "Sword: Element Discharge": {
+    "Element Discharge (Initial Hit)": {
       "Damage Type": "Sever",
       "Motion Value": "10",
       "Stun": "0",
       "Exhaust": "0"
     },
-    "Sword: Element Discharge (Bash)": {
+    "Element Discharge (Bash)": {
       "Damage Type": "Sever",
       "Motion Value": "6",
       "Stun": "0",
       "Exhaust": "0"
     },
-    "Element Discharge Finisher": {
+    "Element Discharge (Finisher)": {
       "Damage Type": "Sever",
       "Motion Value": "80",
+      "Stun": "0",
+      "Exhaust": "0"
+    },,
+    "Element Discharge (Early Release)": {
+      "Damage Type": "Sever",
+      "Motion Value": "67",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Zero Sum Discharge (Initial Hit)": {
+      "Damage Type": "Sever",
+      "Motion Value": "15",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Zero Sum Discharge (Bash)": {
+      "Damage Type": "Sever",
+      "Motion Value": "12",
+      "Stun": "0",
+      "Exhaust": "0"
+    },
+    "Zero Sum Discharge (Finisher)": {
+      "Damage Type": "Sever",
+      "Motion Value": "96",
       "Stun": "0",
       "Exhaust": "0"
     },
