@@ -20,6 +20,8 @@ class Bot(commands.Bot):
                 print(f'Failed to load extension {extension}')
                 traceback.print_exc()
 
+        self.add_command(self.invite)
+
     async def on_ready(self):
         print(f'Logged in as {self.user}')
         print('---------')
@@ -29,6 +31,20 @@ class Bot(commands.Bot):
             return
 
         await self.process_commands(message)
+
+    @commands.command()
+    async def invite(self, ctx):
+        """Invite the bot to a server."""
+
+        app_info = await self.application_info()
+
+        permissions = discord.Permissions()
+        permissions.read_messages = True
+        permissions.send_messages = True
+        permissions.embed_links = True
+
+        invite = discord.utils.oauth_url(app_info.id, permissions=permissions)
+        await ctx.send(invite)
 
 
 def main():
