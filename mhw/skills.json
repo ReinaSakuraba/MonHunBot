@@ -1,0 +1,1169 @@
+{
+  "poison resistance": {
+    "Name": "Poison Resistance",
+    "Description": "Grants protection against the effects of poison.",
+    "Levels": 3,
+    "Tiers": [
+      "Reduces the duration of poison by 30%.",
+      "Reduces the duration of poison by 60%.",
+      "Prevents poison."
+    ]
+  },
+  "paralysis resistance": {
+    "Name": "Paralysis Resistance",
+    "Description": "Grants protection against the effects of paralysis.",
+    "Levels": 3,
+    "Tiers": [
+      "Reduces the duration of paralysis by 30%.",
+      "Reduces the duration of paralysis by 60%.",
+      "Prevents paralysis."
+    ]
+  },
+  "sleep resistance": {
+    "Name": "Sleep Resistance",
+    "Description": "Grants protection against the effects of sleep.",
+    "Levels": 3,
+    "Tiers": [
+      "Reduces the duration of sleep by 30%.",
+      "Reduces the duration of sleep by 60%.",
+      "Prevents sleep."
+    ]
+  },
+  "stun resistance": {
+    "Name": "Stun Resistance",
+    "Description": "Grants protection against the effects of stun.",
+    "Levels": 3,
+    "Tiers": [
+      "Reduces the duration of stun by 30%.",
+      "Reduces the duration of stun by 60%.",
+      "Prevents stun."
+    ]
+  },
+  "muck resistance": {
+    "Name": "Muck Resistance",
+    "Description": "Reduces impairmens to mobility while stuck in monster muck.",
+    "Levels": 1,
+    "Tiers": [
+      "Reduces limits to mobility while stuck in monster muck."
+    ]
+  },
+  "blast resistance": {
+    "Name": "Blast Resistance",
+    "Description": "Grants protection against blastblight.",
+    "Levels": 3,
+    "Tiers": [
+      "Delays blastlbight and reduces blast damage.",
+      "Greatly delats blastblight and greatly reduces blast damage.",
+      "Prevents blastlight."
+    ]
+  },
+  "bleed resistance": {
+    "Name": "Bleed Resistance",
+    "Description": "Grants protection against bleeding.",
+    "Levels": 3,
+    "Tiers": [
+      "Reduces damage while bleeding.",
+      "Greatly reduces damage while bleeding.",
+      "Prevents bleeding."
+    ]
+  },
+  "iron skin": {
+    "Name": "Iron Skin",
+    "Description": "Grants protection against Defense Down.",
+    "Levels": 3,
+    "Tiers": [
+      "Reduces the duration of Defense Down by 30%.",
+      "Reduces the duration of Defense Down by 60%.",
+      "Prevents Defense Down."
+    ]
+  },
+  "earplugs": {
+    "Name": "Earplugs",
+    "Description": "Grants protection from large monsters' roars.",
+    "Levels": 5,
+    "Tiers": [
+      "Slightly reduces the effects of weak monster roars.",
+      "Reduces the effects of weak monster roars.",
+      "Nullifies weak monster roars.",
+      "Nullifies weak monster roars and reduces the effects of strong monster roars.",
+      "Nullifies weak and strong monster roars."
+    ]
+  },
+  "tremor resistance": {
+    "Name": "Tremor Resistance",
+    "Description": "Grants protection against tremors.",
+    "Levels": 3,
+    "Tiers": [
+      "Nullifies minor ground tremors.",
+      "Nullifies minor ground tremors and reduces the effects of major ground tremors.",
+      "Nullifies minor and major ground tremors."
+    ]
+  },
+  "dungmaster": {
+    "Name": "Dungmaster",
+    "Description": "Makes monsters hit with slinger dung pods more likely to run.",
+    "Levels": 1,
+    "Tiers": [
+      "Makes slinger dung pods more effective at making monsters run away."
+    ]
+  },
+  "effluvial expert": {
+    "Name": "Effluvial Expert",
+    "Description": "Nullifies or reduces environmental damage in the Rotten Vale.",
+    "Levels": 1,
+    "Tiers": [
+      "Nullifies damage from effluvia and reduces damage from acids."
+    ]
+  },
+  "heat guard": {
+    "Name": "Heat Guard",
+    "Description": "Nullifies damage from heat.",
+    "Levels": 1,
+    "Tiers": [
+      "Nullifies heat damage."
+    ]
+  },
+  "attack boost": {
+    "Name": "Attack Boost",
+    "Description": "Increases attack power. Also improves affinity at higher levels.",
+    "Levels": 7,
+    "Tiers": [
+      "Attack +3",
+      "Attack +6",
+      "Attack +9",
+      "Attack +12 Affinity +5%",
+      "Attack +15 Affinity +5%",
+      "Attack +18 Affinity +5%",
+      "Attack +21 Affinity +5%"
+    ]
+  },
+  "defense boost": {
+    "Name": "Defense Boost",
+    "Description": "Increases defense. Level up to improve resistances as well.",
+    "Levels": 7,
+    "Tiers": [
+      "Defense +5",
+      "Defense +10",
+      "Defense +15",
+      "Defense +12 All Elemental Resistances +3",
+      "Defense +15 All Elemental Resistances +3",
+      "Defense +18 All Elemental Resistances +3",
+      "Defense +21 All Elemental Resistances +3"
+    ]
+  },
+  "health boost": {
+    "Name": "Health Boost",
+    "Description": "Increases health.",
+    "Levels": 3,
+    "Tiers": [
+      "Health +15",
+      "Health +30",
+      "Health +50"
+    ]
+  },
+  "recovery up": {
+    "Name": "Recovery Up",
+    "Description": "Increases the amount recovered when restoring health.",
+    "Levels": 3,
+    "Tiers": [
+      "Recovery +10%",
+      "Recovery +20%",
+      "Recovery +30%"
+    ]
+  },
+  "fire resistance": {
+    "Name": "Fire Resistance",
+    "Description": "Increases Fire resistance. Also improves defense at higher levels.",
+    "Levels": 3,
+    "Tiers": [
+      "Fire Resistance +6",
+      "Fire Resistance +12",
+      "Fire Resistance +20 Defense +10"
+    ]
+  },
+  "water resistance": {
+    "Name": "Water Resistance",
+    "Description": "Increases Water resistance. Also improves defense at higher levels.",
+    "Levels": 3,
+    "Tiers": [
+      "Water Resistance +6",
+      "Water Resistance +12",
+      "Water Resistance +20 Defense +10"
+    ]
+  },
+  "ice resistance": {
+    "Name": "Ice Resistance",
+    "Description": "Increases Ice resistance. Also improves defense at higher levels.",
+    "Levels": 3,
+    "Tiers": [
+      "Ice Resistance +6",
+      "Ice Resistance +12",
+      "Ice Resistance +20 Defense +10"
+    ]
+  },
+  "thunder resistance": {
+    "Name": "Thunder Resistance",
+    "Description": "Increases Thunder resistance. Also improves defense at higher levels.",
+    "Levels": 3,
+    "Tiers": [
+      "Thunder Resistance +6",
+      "Thunder Resistance +12",
+      "Thunder Resistance +20 Defense +10"
+    ]
+  },
+  "dragon resistance": {
+    "Name": "Dragon Resistance",
+    "Description": "Increases Dragon resistance. Also improves defense at higher levels.",
+    "Levels": 3,
+    "Tiers": [
+      "Dragon Resistance +6",
+      "Dragon Resistance +12",
+      "Dragon Resistance +20 Defense +10"
+    ]
+  },
+  "blight resistance": {
+    "Name": "Blight Resistance",
+    "Description": "Grants protection against all elemental blights.",
+    "Levels": 3,
+    "Tiers": [
+      "Reduces the duration of all elemental blights by 30%",
+      "Reduces the duration of all elemental blights by 60%",
+      "Nullifies all elemental blights"
+    ]
+  },
+  "fire attack": {
+    "Name": "Fire Attack",
+    "Description": "Increases Fire element attack power. (Elemental attack has a maximum limit.)",
+    "Levels": 5,
+    "Tiers": [
+      "Fire Attack +30",
+      "Fire Attack +60",
+      "Fire Attack +100",
+      "Fire Attack +5% Bonus +100",
+      "Fire Attack +10% Bonus +100"
+    ]
+  },
+  "water attack": {
+    "Name": "Water Attack",
+    "Description": "Increases Water element attack power. (Elemental attack has a maximum limit.)",
+    "Levels": 5,
+    "Tiers": [
+      "Water Attack +30",
+      "Water Attack +60",
+      "Water Attack +100",
+      "Water Attack +5% Bonus +100",
+      "Water Attack +10% Bonus +100"
+    ]
+  },
+  "ice attack": {
+    "Name": "Ice Attack",
+    "Description": "Increases Ice element attack power. (Elemental attack has a maximum limit.)",
+    "Levels": 5,
+    "Tiers": [
+      "Ice Attack +30",
+      "Ice Attack +60",
+      "Ice Attack +100",
+      "Ice Attack +5% Bonus +100",
+      "Ice Attack +10% Bonus +100"
+    ]
+  },
+  "thunder attack": {
+    "Name": "Thunder Attack",
+    "Description": "Increases Thunder element attack power. (Elemental attack has a maximum limit.)",
+    "Levels": 5,
+    "Tiers": [
+      "Thunder Attack +30",
+      "Thunder Attack +60",
+      "Thunder Attack +100",
+      "Thunder Attack +5% Bonus +100",
+      "Thunder Attack +10% Bonus +100"
+    ]
+  },
+  "dragon attack": {
+    "Name": "Dragon Attack",
+    "Description": "Increases Dragon element attack power. (Elemental attack has a maximum limit.)",
+    "Levels": 5,
+    "Tiers": [
+      "Dragon Attack +30",
+      "Dragon Attack +60",
+      "Dragon Attack +100",
+      "Dragon Attack +5% Bonus +100",
+      "Dragon Attack +10% Bonus +100"
+    ]
+  },
+  "poison attack": {
+    "Name": "Poison Attack",
+    "Description": "Increases the rate of Poison buildup. (Elemental buildup has a maximum limit.)",
+    "Levels": 3,
+    "Tiers": [
+      "Poison Buildup +5% Bonus +10",
+      "Poison Buildup +10% Bonus +10",
+      "Poison Buildup +20% Bonus +10"
+    ]
+  },
+  "paralysis attack": {
+    "Name": "Paralysis Attack",
+    "Description": "Increases the rate of Paralysis buildup. (Elemental buildup has a maximum limit.)",
+    "Levels": 3,
+    "Tiers": [
+      "Paralysis Buildup +5% Bonus +10",
+      "Paralysis Buildup +10% Bonus +10",
+      "Paralysis Buildup +20% Bonus +10"
+    ]
+  },
+  "sleep attack": {
+    "Name": "Sleep Attack",
+    "Description": "Increases the rate of Sleep buildup. (Elemental buildup has a maximum limit.)",
+    "Levels": 3,
+    "Tiers": [
+      "Sleep Buildup +5% Bonus +10",
+      "Sleep Buildup +10% Bonus +10",
+      "Sleep Buildup +20% Bonus +10"
+    ]
+  },
+  "blast attack": {
+    "Name": "Blast Attack",
+    "Description": "Increases the rate of Blast buildup. (Elemental buildup has a maximum limit.)",
+    "Levels": 3,
+    "Tiers": [
+      "Blast Buildup +5% Bonus +10",
+      "Blast Buildup +10% Bonus +10",
+      "Blast Buildup +20% Bonus +10"
+    ]
+  },
+  "normal shots": {
+    "Name": "Normal Shots",
+    "Description": "Increases the attack power of Normal ammo and Normal arrows.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases the power of Normal ammo and Normal arrows."
+    ]
+  },
+  "piercing shots": {
+    "Name": "Piercing Shots",
+    "Description": "Increases the attack power of Piercing ammo and Dragon Piercer.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases the power of Piercing shots and Dragon Piercer."
+    ]
+  },
+  "spread/power shots": {
+    "Name": "Spread/Power Shots",
+    "Description": "Increases the attack power of Spread ammo and Power Shot arrows.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases the power of Spread ammo and Power Shot arrows."
+    ]
+  },
+  "free elem/ammo up": {
+    "Name": "Free Elem/Ammo Up",
+    "Description": "Unlocks your weapon's hidden element. Also increases Bowgun loading capacity. (There is a cap to loading capacity.)",
+    "Levels": 3,
+    "Tiers": [
+      "Draws out 33% of hidden element and expands clip size for some ammo.",
+      "Draws out 66% of hidden element and expands clip size for most ammo.",
+      "Draws out 100% of hidden element and expands clip size for almost all ammo."
+    ]
+  },
+  "critical eye": {
+    "Name": "Critical Eye",
+    "Description": "Increases Affinity.",
+    "Levels": 7,
+    "Tiers": [
+      "Affinity +3%",
+      "Affinity +6%",
+      "Affinity +10%",
+      "Affinity +15%",
+      "Affinity +20%",
+      "Affinity +25%",
+      "Affinity +30%"
+    ]
+  },
+  "critical boost": {
+    "Name": "Critical Boost",
+    "Description": "Increases the damage of critical hits.",
+    "Levels": 3,
+    "Tiers": [
+      "Increases damage dealt by critical hits by 30%.",
+      "Increases damage dealt by critical hits by 35%.",
+      "Increases damage dealt by critical hits by 40%."
+    ]
+  },
+  "weakness exploit": {
+    "Name": "Weakness Exploit",
+    "Description": "Increases the Affinity of attacks that exploit a monster's weak spot.",
+    "Levels": 3,
+    "Tiers": [
+      "Attacks that hit weak spots have 15% increased Affinity.",
+      "Attacks that hit weak spots have 30% increased Affinity.",
+      "Attacks that hit weak spots have 50% increased Affinity."
+    ]
+  },
+  "focus": {
+    "Name": "Focus",
+    "Description": "Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.",
+    "Levels": 3,
+    "Tiers": [
+      "Increases gauge fill rate by 5% and reduces charge times by 5%.",
+      "Increases gauge fill rate by 10% and reduces charge times by 10%.",
+      "Increases gauge fill rate by 20% and reduces charge times by 20%."
+    ]
+  },
+  "power prolonger": {
+    "Name": "Power Prolonger",
+    "Description": "Allows Long Swords, Dual Blades, Insect Glaives, Switch Axes and Charge Blades to stay powered up longer.",
+    "Levels": 3,
+    "Tiers": [
+      "Bonus Duration +10%",
+      "Bonus Duration +20%",
+      "Bonus Duration +30%"
+    ]
+  },
+  "handicraft": {
+    "Name": "Handicraft",
+    "Description": "Extends the weapon sharpness gauge. However, it will not increase the gauge past its maximum.",
+    "Levels": 5,
+    "Tiers": [
+      "Weapon Sharpness +10",
+      "Weapon Sharpness +20",
+      "Weapon Sharpness +30",
+      "Weapon Sharpness +40",
+      "Weapon Sharpness +50"
+    ]
+  },
+  "critical draw": {
+    "Name": "Critical Draw",
+    "Description": "Increases Affinity when performing draw attacks.",
+    "Levels": 3,
+    "Tiers": [
+      "Draw Attack Affinity +30%",
+      "Draw Attack Affinity +60%",
+      "Draw Attack Affinity +100%"
+    ]
+  },
+  "partbreaker": {
+    "Name": "Partbreaker",
+    "Description": "Makes it easier to break or sever parts of large monsters.",
+    "Levels": 3,
+    "Tiers": [
+      "Part Damage +10%",
+      "Part Damage +20%",
+      "Part Damage +30%"
+    ]
+  },
+  "slugger": {
+    "Name": "Slugger",
+    "Description": "Makes it easier to stun monsters.",
+    "Levels": 3,
+    "Tiers": [
+      "Stun Power +10%",
+      "Stun Power +20%",
+      "Stun Power +30%"
+    ]
+  },
+  "stamina thief": {
+    "Name": "Stamina Thief",
+    "Description": "Increases certain attacks' ability to exhaust monsters.",
+    "Levels": 3,
+    "Tiers": [
+      "Exhaust Power +10%",
+      "Exhaust Power +20%",
+      "Exhaust Power +30%"
+    ]
+  },
+  "master mounter": {
+    "Name": "Master Mounter",
+    "Description": "Makes it easier to mount monsters.",
+    "Levels": 1,
+    "Tiers": [
+      "Makes it easier to mount monsters and down mounted monsters."
+    ]
+  },
+  "airborne": {
+    "Name": "Airborne",
+    "Description": "Increases the damage done by jumping attacks.",
+    "Levels": 1,
+    "Tiers": [
+      "Jumping Attack Power +10%"
+    ]
+  },
+  "latent power": {
+    "Name": "Latent Power",
+    "Description": "Temporarily increases Affinity and reduces stamina depletion when certain conditions are met.",
+    "Levels": 5,
+    "Tiers": [
+      "While active, increases Affinity by 10% and reduces stamina depletion by 10%.",
+      "While active, increases Affinity by 20% and reduces stamina depletion by 20%.",
+      "While active, increases Affinity by 30% and reduces stamina depletion by 30%.",
+      "While active, increases Affinity by 40% and reduces stamina depletion by 40%.",
+      "While active, increases Affinity by 50% and reduces stamina depletion by 50%."
+    ]
+  },
+  "agitator": {
+    "Name": "Agitator",
+    "Description": "Increases Attack power and Affinity when large monsters become enraged.",
+    "Levels": 5,
+    "Tiers": [
+      "While active, grants Attack +4 and increases Affinity by 3%",
+      "While active, grants Attack +8 and increases Affinity by 6%",
+      "While active, grants Attack +12 and increases Affinity by 9%",
+      "While active, grants Attack +16 and increases Affinity by 12%",
+      "While active, grants Attack +20 and increases Affinity by 15%"
+    ]
+  },
+  "peak performance": {
+    "Name": "Peak Performance",
+    "Description": "Increases Attack when your Health is full.",
+    "Levels": 3,
+    "Tiers": [
+      "While active, grants Attack +5",
+      "While active, grants Attack +10",
+      "While active, grants Attack +20"
+    ]
+  },
+  "heroics": {
+    "Name": "Heroics",
+    "Description": "Increases Attack power and Defense when health drops to 35% or lower.",
+    "Levels": 5,
+    "Tiers": [
+      "While active, increases Attack power by 5% and increases Defense by +15",
+      "While active, increases Attack power by 10% and increases Defense by +20",
+      "While active, increases Attack power by 15% and increases Defense by +25",
+      "While active, increases Attack power by 20% and increases Defense by +30",
+      "While active, increases Attack power by 30% and increases Defense by +40"
+    ]
+  },
+  "fortify": {
+    "Name": "Fortify",
+    "Description": "Increases your Attack and Defense every time you fall in battle. (This effect can stack twice.)",
+    "Levels": 1,
+    "Tiers": [
+      "Increases Attack by 10% and Defense by 15% with each use."
+    ]
+  },
+  "resentment": {
+    "Name": "Resentment",
+    "Description": "Increases Attack when you have recoverable damage (the red portion of your health gauge).",
+    "Levels": 5,
+    "Tiers": [
+      "While active, grants Attack +5",
+      "While active, grants Attack +10",
+      "While active, grants Attack +15",
+      "While active, grants Attack +20",
+      "While active, grants Attack +25"
+    ]
+  },
+  "resuscitate": {
+    "Name": "Resuscitate",
+    "Description": "Improves evasion and reduces stamina depletion when affected with abnormal status effects.",
+    "Levels": 1,
+    "Tiers": [
+      "While active, greatly improves evasion invulnerability time and reduces stamina depletion."
+    ]
+  },
+  "horn maestro": {
+    "Name": "Horn Maestro",
+    "Description": "Increases the effect duration of Hunting Horn effects.",
+    "Levels": 1,
+    "Tiers": [
+      "Extends melody effect duration and increases health recovery."
+    ]
+  },
+  "capacity boost": {
+    "Name": "Capacity Boost",
+    "Description": "Increases the Gunlance's shell capacity and Charge Blade's phial capacity.",
+    "Levels": 1,
+    "Tiers": [
+      "Loading Capacity +1"
+    ]
+  },
+  "special ammo boost": {
+    "Name": "Special Ammo Boost",
+    "Description": "Increases the power of Bowgun special ammo and Dragon Piercer.",
+    "Levels": 2,
+    "Tiers": [
+      "Increases the power of Bowgun special ammo and Dragon Piercer by 10%",
+      "Increases the power of Bowgun special ammo and Dragon Piercer by 20%"
+    ]
+  },
+  "artillery": {
+    "Name": "Artillery",
+    "Description": "Strengthens explosive attacks like Gunlance shells, Wyvern's Fire, Charge Blade phial attacks, and Sticky ammo.",
+    "Levels": 3,
+    "Tiers": [
+      "Increases the power of each attack by 10% and reduces Wyvern's Fire cooldown by 15%",
+      "Increases the power of each attack by 20% and reduces Wyvern's Fire cooldown by 30%",
+      "Increases the power of each attack by 30% and reduces Wyvern's Fire cooldown by 50%"
+    ]
+  },
+  "heavy artillery": {
+    "Name": "Heavy Artillery",
+    "Description": "Increases the firepower of ballistae and cannons.",
+    "Levels": 2,
+    "Tiers": [
+      "Firepower +10%",
+      "Firepower +20%"
+    ]
+  },
+  "marathon runner": {
+    "Name": "Marathon Runner",
+    "Description": "Slows down stamina depletion for actions which continuously deplete stamina (such as dashing).",
+    "Levels": 3,
+    "Tiers": [
+      "Reduces continuous stamina depletion by 15%",
+      "Reduces continuous stamina depletion by 30%",
+      "Reduces continuous stamina depletion by 50%"
+    ]
+  },
+  "constitution": {
+    "Name": "Constitution",
+    "Description": "Reduces stamina depletion when performing stamina-draining moves such as evading, etc.",
+    "Levels": 5,
+    "Tiers": [
+      "Reduces fixed stamina depletion by 10%",
+      "Reduces fixed stamina depletion by 20%",
+      "Reduces fixed stamina depletion by 30%",
+      "Reduces fixed stamina depletion by 40%",
+      "Reduces fixed stamina depletion by 50%"
+    ]
+  },
+  "leap of faith": {
+    "Name": "Leap of Faith",
+    "Description": "Allows you to do a dive-evade when facing large monsters, and extends the dive-evde distance.",
+    "Levels": 1,
+    "Tiers": [
+      "Enables Leap of Faith."
+    ]
+  },
+  "stamina surge": {
+    "Name": "Stamina Surge",
+    "Description": "Speeds up stamina recovery.",
+    "Levels": 3,
+    "Tiers": [
+      "Stamina Recovery Speed +10%",
+      "Stamina Recovery Speed +20%",
+      "Stamina Recovery Speed +30%"
+    ]
+  },
+  "hunger resistance": {
+    "Name": "Hunger Resistance",
+    "Description": "Reduces maximum stamina depletion over time.",
+    "Levels": 3,
+    "Tiers": [
+      "Extends the time until your stamina cap decreases by 30%.",
+      "Extends the time until your stamina cap decreases by 60%.",
+      "Prevents your stamina cap from decreasing."
+    ]
+  },
+  "evade window": {
+    "Name": "Evade Window",
+    "Description": "Extends the invulnerability period when evading.",
+    "Levels": 5,
+    "Tiers": [
+      "Very slightly increases invulnerability window.",
+      "Slightly increases invulnerability window.",
+      "Increases invulnerability window.",
+      "Greatly increases invulnerability window.",
+      "Massively increases invulnerability window."
+    ]
+  },
+  "evade extender": {
+    "Name": "Evade Extender",
+    "Description": "Increases evade distance.",
+    "Levels": 3,
+    "Tiers": [
+      "Slightly extends evasion distance.",
+      "Extends evasion distance.",
+      "Greatly extends evasion distance."
+    ]
+  },
+  "guard": {
+    "Name": "Guard",
+    "Description": "Reduces knockbacks and stamina depletion when guarding.",
+    "Levels": 5,
+    "Tiers": [
+      "Very slightly decreases the impact of attacks.",
+      "Slightly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "Greatly decreases the impact of attacks and reduces stamina depletion by 15%.",
+      "Greatly decreases the impact of attacks and reduces stamina depletion by 30%.",
+      "Massively decreases the impact of attacks and reduces stamina depletion by 50%."
+    ]
+  },
+  "quick sheath": {
+    "Name": "Quick Sheath",
+    "Description": "Speeds up weapon sheathing.",
+    "Levels": 3,
+    "Tiers": [
+      "Slightly increases sheathing speed.",
+      "Moderately increases sheathing speed.",
+      "Greatly increases sheathing speed."
+    ]
+  },
+  "wide-ranged": {
+    "Name": "Wide-Ranged",
+    "Description": "Allows the effects of certain items to also affect nearby allies.",
+    "Levels": 5,
+    "Tiers": [
+      "Items affect nearby allies with 33% of their efficacy.",
+      "Items affect nearby allies in a wider radius with 33% of their efficacy.",
+      "Items affect nearby allies in a wider radius with 66% of their efficacy.",
+      "Items affect nearby allies in a much wider radius with 66% of their efficacy.",
+      "Items affect nearby allies in a much wider radius with full efficacy."
+    ]
+  },
+  "item prolonger": {
+    "Name": "Item Prolonger",
+    "Description": "Extends the duration of some item effects.",
+    "Levels": 3,
+    "Tiers": [
+      "Item Effect Duration +10%",
+      "Item Effect Duration +25%",
+      "Item Effect Duration +50%"
+    ]
+  },
+  "free meal": {
+    "Name": "Free Meal",
+    "Description": "Gives you a predetermined chance of consuming a food or drink item for free.",
+    "Levels": 1,
+    "Tiers": [
+      "Activates 25% of the time."
+    ]
+  },
+  "speed eating": {
+    "Name": "Speed Eating",
+    "Description": "Increases meat-eating and item-consumption speed.",
+    "Levels": 3,
+    "Tiers": [
+      "Slightly increases item use speed.",
+      "Moderately increases item use speed.",
+      "Greatly increases item use speed."
+    ]
+  },
+  "speed sharpening": {
+    "Name": "Speed Sharpening",
+    "Description": "Speeds up weapon sharpening when using a whetstone.",
+    "Levels": 3,
+    "Tiers": [
+      "Removes one cycle from the sharpening process.",
+      "Removes two cycles from the sharpening process.",
+      "Removes three cycles from the sharpening process."
+    ]
+  },
+  "bombardier": {
+    "Name": "Bombardier",
+    "Description": "Increases the damage of explosive items.",
+    "Levels": 3,
+    "Tiers": [
+      "Explosive power +10%",
+      "Explosive power +20%",
+      "Explosive power +30%"
+    ]
+  },
+  "mushroomancer": {
+    "Name": "Mushroomancer",
+    "Description": "Lets you digest mushrooms that would otherwise be inedible and gain their advantageous effects.",
+    "Levels": 3,
+    "Tiers": [
+      "Lets you digest blue mushrooms and toadstools.",
+      "Additionally lets you digest nitroshrooms and parashrooms.",
+      "Additionally lets you digest mandragoras, devil's blight, and exciteshrooms."
+    ]
+  },
+  "master fisher": {
+    "Name": "Master Fisher",
+    "Description": "Improves your skill at fishing.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases the time window for reeling in fish, and makes it easier to catch large fish."
+    ]
+  },
+  "pro transporter": {
+    "Name": "Pro Transporter",
+    "Description": "Increases your speed while transporting items and decreases the likelihood of dropping them.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases movement speed while transporting and reduces downtime on landings."
+    ]
+  },
+  "master gatherer": {
+    "Name": "Master Gatherer",
+    "Description": "Allows you to gather more quickly, and also prevents attacks from knocking you back while gathering.",
+    "Levels": 1,
+    "Tiers": [
+      "Speeds up gathering and prevents knockbacks while gathering."
+    ]
+  },
+  "honey hunter": {
+    "Name": "Honey Hunter",
+    "Description": "Increases the quantity of honey you receive when gathering in the field.",
+    "Levels": 1,
+    "Tiers": [
+      "One extra honey per gather."
+    ]
+  },
+  "carving pro": {
+    "Name": "Carving Pro",
+    "Description": "Prevents knockback from attacks while carving.",
+    "Levels": 1,
+    "Tiers": [
+      "Prevents knockback while carving."
+    ]
+  },
+  "divine blessing": {
+    "Name": "Divine Blessing",
+    "Description": "Has a predetermined chance of reducing the damage you take.",
+    "Levels": 3,
+    "Tiers": [
+      "While active, reduces damage taken by 15%.",
+      "While active, reduces damage taken by 30%.",
+      "While active, reduces damage taken by 50%."
+    ]
+  },
+  "palico rally": {
+    "Name": "Palico Rally",
+    "Description": "Powers up Palicoes.",
+    "Levels": 5,
+    "Tiers": [
+      "Increases Palico attack power and defense by 5%.",
+      "Increases Palico attack power and defense by 10%.",
+      "Increases Palico attack power and defense by 15%.",
+      "Increases Palico attack power and defense by 20%.",
+      "Increases Palico attack power and defense by 25%."
+    ]
+  },
+  "botanist": {
+    "Name": "Botanist",
+    "Description": "Increases the quantity of herbs and other consumable items you gather.",
+    "Levels": 4,
+    "Tiers": [
+      "One extra consumable herb item per gather.",
+      "One extra consumable herb, fruit, nut, or seed item per gather.",
+      "One extra consumable herb, fruit, nut, seed, or insect item per gather.",
+      "One extra consumable herb, fruit, nut, seed, insect, or mushroom item per gather."
+    ]
+  },
+  "geologist": {
+    "Name": "Geologist",
+    "Description": "Increases the number of times you can use a gathering point.",
+    "Levels": 3,
+    "Tiers": [
+      "Allows you to gather one extra time from bonepiles.",
+      "Allows you to gather one extra time from bonepiles and special item gathering points.",
+      "Allows you to gather one extra time from bonepiles, gathering points, and mining outcrops."
+    ]
+  },
+  "maximum might": {
+    "Name": "Maximum Might",
+    "Description": "Increases affinity when stamina is full.",
+    "Levels": 3,
+    "Tiers": [
+      "While active, increases affinity by 10%.",
+      "While active, increases affinity by 20%.",
+      "While active, increases affinity by 30%."
+    ]
+  },
+  "slinger capacity": {
+    "Name": "Slinger Capacity",
+    "Description": "Increases the loading capacity for slinger ammo obtained in the field.",
+    "Levels": 3,
+    "Tiers": [
+      "Increases the loading capacity for slinger ammo collected from the ground or plants.",
+      "In addition, increases the loading capacity for some slinger ammo dropped by monsters.",
+      "In addition, increases the loading capacity for all slinger ammo dropped by monsters."
+    ]
+  },
+  "stealth": {
+    "Name": "Stealth",
+    "Description": "Makes it easier for monsters to lose sight of you.",
+    "Levels": 3,
+    "Tiers": [
+      "Makes it slightly easier for monsters to lose sight of you.",
+      "Makes it moderately easier for monsters to lose sight of you.",
+      "Makes it much easier for monsters to lose sight of you."
+    ]
+  },
+  "flinch free": {
+    "Name": "Flinch Free",
+    "Description": "Prevents knockbacks and other reactions to small damage.",
+    "Levels": 3,
+    "Tiers": [
+      "Prevents knockback.",
+      "Prevents standard knockbacks. Tripping is reduced to a knockback instead.",
+      "Prevents knockbacks and tripping."
+    ]
+  },
+  "scoutfly range up": {
+    "Name": "Scoutfly Range Up",
+    "Description": "Expands your scoutflies' detection range.",
+    "Levels": 1,
+    "Tiers": [
+      "Expands your scoutflies' detection range."
+    ]
+  },
+  "speed crawler": {
+    "Name": "Speed Crawler",
+    "Description": "Increases movement speed while crouching.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases movement speed while crouching."
+    ]
+  },
+  "jump master": {
+    "Name": "Jump Master",
+    "Description": "Prevents attacks from knocking you back during a jump.",
+    "Levels": 1,
+    "Tiers": [
+      "Negates knockback during jumps."
+    ]
+  },
+  "sporepuff expert": {
+    "Name": "Sporepuff Expert",
+    "Description": "Recover health when using sporepuffs.",
+    "Levels": 3,
+    "Tiers": [
+      "Sporepuffs restore 20 health.",
+      "Sporepuffs restore 35 health.",
+      "Sporepuffs restore 60 health."
+    ]
+  },
+  "aquatic expert": {
+    "Name": "Aquatic Expert",
+    "Description": "Improves mobility in water.",
+    "Levels": 3,
+    "Tiers": [
+      "Prevents water from slowing movement.",
+      "Prevents water from slowing movement and improves evasion while in water.",
+      "Prevents water from slowing movement and greatly improves evasion while in water."
+    ]
+  },
+  "cliffhanger": {
+    "Name": "Cliffhanger",
+    "Description": "Decreases stamina depletion when evading while clinging to walls or ivy.",
+    "Levels": 1,
+    "Tiers": [
+      "Reduces stamina depletion while climbing by 25%."
+    ]
+  },
+  "blindsider": {
+    "Name": "Blindsider",
+    "Description": "Improves the effectiveness of flash attacks and items.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases the success rate of flash effects."
+    ]
+  },
+  "scholar": {
+    "Name": "Scholar",
+    "Description": "Speeds up progress on research levels and special investigations.",
+    "Levels": 1,
+    "Tiers": [
+      "Speeds up progress on research levels and special investigations."
+    ]
+  },
+  "Entomologist": {
+    "Name": "Entomologist",
+    "Description": "Decreases the chances of destroying the bodies of small insect monsters, allowing them to be carved.",
+    "Levels": 3,
+    "Tiers": [
+      "Increases the chances of a corpse being left behind.",
+      "Greatly increases the chances of a corpse being left behind.",
+      "Makes it so corpses will always be left behind."
+    ]
+  },
+  "effluvia resistance": {
+    "Name": "Effluvia Resistance",
+    "Description": "Gain a resistance to effluvial buildup.",
+    "Levels": 3,
+    "Tiers": [
+      "Reduces effluvial buildup.",
+      "Greatly reduces effluvial buildup.",
+      "Prevents effluvial buildup."
+    ]
+  },
+  "scenthound": {
+    "Name": "Scenthound",
+    "Description": "Increases your scoutflies' gauge fill rate when you find tracks and other traces left by monsters.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases gauge fill rate by 50%."
+    ]
+  },
+  "forager's luck": {
+    "Name": "Forager's Luck",
+    "Description": "Increases the chance of finding rate gathering points.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases the likelihood of rare gathering points respawing."
+    ]
+  },
+  "detector": {
+    "Name": "Detector",
+    "Description": "Shows rate gathering points on the Wildlife Map.",
+    "Levels": 1,
+    "Tiers": [
+      "Marks rare sites on the wildlife map."
+    ]
+  },
+  "bbq master": {
+    "Name": "BBQ Master",
+    "Description": "Improves your skill at cooking meat.",
+    "Levels": 1,
+    "Tiers": [
+      "Makes it easier to cook well-done steaks."
+    ]
+  },
+  "tool specialist": {
+    "Name": "Tool Specialist",
+    "Description": "Reduces the recharge time for specialized tools.",
+    "Levels": 3,
+    "Tiers": [
+      "Shortens time until reuse by 5%.",
+      "Shortens time until reuse by 10%.",
+      "Shortens time until reuse by 20%."
+    ]
+  },
+  "tool specialist": {
+    "Name": "Tool Specialist",
+    "Description": "Reduces the recharge time for specialized tools.",
+    "Levels": 3,
+    "Tiers": [
+      "Shortens time until reuse by 5%.",
+      "Shortens time until reuse by 10%.",
+      "Shortens time until reuse by 20%."
+    ]
+  },
+  "affinity sliding": {
+    "Name": "Affinity Sliding",
+    "Description": "Sliding increases your affinity for a short time.",
+    "Levels": 1,
+    "Tiers": [
+      "Increases affinity by 30% for a short time after sliding."
+    ]
+  },
+  "intimidator": {
+    "Name": "Intimidator",
+    "Description": "Reduces the chances small monsters will attack after spotting you.",
+    "Levels": 3,
+    "Tiers": [
+      "Discourages monsters from engaging you even if you've been spotted.",
+      "Highly discourages monsters from engaging you even if you've been spotted.",
+      "Prevents monsters from engaging you even if you've been spotted."
+    ]
+  },
+  "health recovery": {
+    "Name": "Health Recovery",
+    "Description": "Regenerated your health as you continually attacks a monster. Recover varies by weapon."
+  },
+  "super recovery": {
+    "Name": "Super Recovery",
+    "Description": "Allows recovery to exceed the red portion of the health gauge."
+  },
+  "poison duration up": {
+    "Name": "Poison Duration Up",
+    "Description": "Extends the duration of your poison's effect on monsters."
+  },
+  "adrenaline": {
+    "Name": "Adrenaline",
+    "Description": "Temporarily reduces stamina depletion when health is at 40% or lower."
+  },
+  "stamina cap up": {
+    "Name": "Stamina Cap Up",
+    "Description": "Increases stamina cap."
+  },
+  "critical element": {
+    "Name": "Critical Element",
+    "Description": "Increases elemental damage (fire, water, thunder, ice, dragon) when landing critical hits."
+  },
+  "mind's eye/ballistics": {
+    "Name": "Mind's Eye/Ballistics",
+    "Description": "Prevents attacks from being deflected. Also shortens the distance before ammo and arrows reach maximum power."
+  },
+  "bludgeoner": {
+    "Name": "Bludgeoner",
+    "Description": "Raises attack as your weapon loses sharpness. Also boosts ranged weapon melee attacks and odds of stunning."
+  },
+  "non-elemental boost": {
+    "Name": "Non-elemental Boost",
+    "Description": "Powers yp non-elemental weapons you have equipped."
+  },
+  "capture master": {
+    "Name": "Capture Master",
+    "Description": "High chance of increasing capture rewards."
+  },
+  "guard up": {
+    "Name": "Guard Up",
+    "Description": "Allows you to guard against ordinarily unblockable attacks."
+  },
+  "guts": {
+    "Name": "Guts",
+    "Description": "Above a certain health threshold, you withstand an attack that would normally cart you (once only)."
+  },
+  "master's touch": {
+    "Name": "Master's Touch",
+    "Description": "Prevents your weapon from losing sharpness during critical hits."
+  },
+  "nullify wind pressure": {
+    "Name": "Nullify Wind Pressure",
+    "Description": "Negates all wind pressure."
+  },
+  "razor sharp/spare shot": {
+    "Name": "Razor Sharp/Spare Shot",
+    "Description": "Halves sharpness loss. For bows and bowguns, shots have a chance to not expend coatings or ammo."
+  },
+  "Critical Status": {
+    "Name": "Critical Status",
+    "Description": "Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits."
+  },
+  "good luck": {
+    "Name": "Good Luck",
+    "Description": "Good chance of increasing quest rewards."
+  },
+  "punishing draw": {
+    "Name": "Punishing Draw",
+    "Description": "Adds a stun effect to draw attacks and slightly incerases attack power."
+  },
+  "protectve polish": {
+    "Name": "Protective Polish",
+    "Description": "Weapon sharpness does not decrease for a set time after sharpening."
+  },
+  "poison functionality": {
+    "Name": "Poison Functionality",
+    "Description": "Allows you to apply poison coatings.",
+    "Levels": 1,
+    "Tiers": [
+      "Lets you use poison coating."
+    ]
+  },
+  "para functionality": {
+    "Name": "Para Functionality",
+    "Description": "Allows you to apply paralysis coatings.",
+    "Levels": 1,
+    "Tiers": [
+      "Lets you use paralysis coating."
+    ]
+  },
+  "sleep functionality": {
+    "Name": "Sleep Functionality",
+    "Description": "Allows you to apply sleep coatings.",
+    "Levels": 1,
+    "Tiers": [
+      "Lets you use sleep coating."
+    ]
+  },
+  "blast functionality": {
+    "Name": "Blast Functionality",
+    "Description": "Allows you to apply blast coatings.",
+    "Levels": 1,
+    "Tiers": [
+      "Lets you use blast coating."
+    ]
+  },  
+  "elderseal boost": {
+    "Name": "Elderseal Boost",
+    "Description": "Increases the Elderseal of weapons and dragon ammo.",
+    "Levels": 1,
+    "Tiers": [
+      "Boosts Elderseal one level."
+    ]
+  }
+}
