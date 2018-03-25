@@ -17,6 +17,9 @@ class World:
         with open('mhw/motionvalues.json') as f:
             self.motion_values = json.load(f)
 
+        with open('mhw/skills.json') as f:
+            self.skills = json.load(f)
+
     @commands.command()
     async def charm(self, ctx, *, name: str.lower):
         match = self.charm_re.match(name)
@@ -128,6 +131,31 @@ class World:
 
         for p in paginator.pages:
             await ctx.send(p)
+
+    @commands.command()
+    async def skill(self, ctx, *, skill: str.lower):
+        skill = self.skills.get(skill)
+        if skill is None:
+            return await ctx.send('Skill not found.')
+
+        embed = discord.Embed(title=skill['Name'])
+        embed.description = skill['Description']
+
+        levels = skill.get('Tiers')
+        if levels:
+            embed.add_field(name='Levels', value='\n'.join(f'{"I" * i} - {level}' for i, level in enumerate(levels, 1)))
+
+        obtained = []
+        for charm in self.charms.values():
+            for level in charm['Levels']:
+                for skill_ in level['Skills']:
+                    if skill_['Name'] == skill['Name']:
+                        obtained.append(f'{level["Name"]} - {skill_["Level"]} points')
+
+        if obtained:
+            embed.add_field(name='Equipment', value='\n'.join(obtained), inline=False)
+
+        await ctx.send(embed=embed)
 
 
 def setup(bot):
