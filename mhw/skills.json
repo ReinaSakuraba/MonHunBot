@@ -960,7 +960,7 @@
       "Speeds up progress on research levels and special investigations."
     ]
   },
-  "Entomologist": {
+  "entomologist": {
     "Name": "Entomologist",
     "Description": "Decreases the chances of destroying the bodies of small insect monsters, allowing them to be carved.",
     "Levels": 3,
@@ -1110,7 +1110,7 @@
     "Name": "Razor Sharp/Spare Shot",
     "Description": "Halves sharpness loss. For bows and bowguns, shots have a chance to not expend coatings or ammo."
   },
-  "Critical Status": {
+  "critical status": {
     "Name": "Critical Status",
     "Description": "Increases abnormal status effect damage (paralysis, poison, sleep, blast) when landing critical hits."
   },
