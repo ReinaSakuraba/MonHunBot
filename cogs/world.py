@@ -130,16 +130,29 @@ class World:
             await ctx.send(p)
 
     @commands.command()
-    async def skill(self, ctx, *, skill: str.lower):
+    async def skill(self, ctx, *, name: str.lower):
         query = """
                 SELECT name, description, levels
                 FROM world.skills
                 WHERE LOWER(name)=$1;
                 """
-        skill = await ctx.bot.pool.fetchrow(query, skill)
+        skill = await ctx.bot.pool.fetchrow(query, name)
 
         if skill is None:
-            return await ctx.send('Skill not found.')
+            query = """
+                    SELECT ARRAY(
+                        SELECT name
+                        FROM world.skills
+                        WHERE name % $1
+                        ORDER BY SIMILARITY(name, $1) DESC
+                    );
+                    """
+            possible_skills = await ctx.bot.pool.fetchval(query, name)
+            if not possible_skills:
+                return await ctx.send('Skill not found.')
+
+            names = '\n'.join(possible_skills)
+            return await ctx.send(f'Skill not found. Did you mean...\n{names}')
 
         name, description, levels = skill
 
