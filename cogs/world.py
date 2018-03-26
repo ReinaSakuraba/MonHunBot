@@ -17,9 +17,6 @@ class World:
         with open('mhw/motionvalues.json') as f:
             self.motion_values = json.load(f)
 
-        with open('mhw/skills.json') as f:
-            self.skills = json.load(f)
-
     @commands.command()
     async def charm(self, ctx, *, name: str.lower):
         match = self.charm_re.match(name)
@@ -134,14 +131,21 @@ class World:
 
     @commands.command()
     async def skill(self, ctx, *, skill: str.lower):
-        skill = self.skills.get(skill)
+        query = """
+                SELECT name, description, levels
+                FROM world.skills
+                WHERE LOWER(name)=$1;
+                """
+        skill = await ctx.bot.pool.fetchrow(query, skill)
+
         if skill is None:
             return await ctx.send('Skill not found.')
 
-        embed = discord.Embed(title=skill['Name'])
-        embed.description = skill['Description']
+        name, description, levels = skill
 
-        levels = skill.get('Tiers')
+        embed = discord.Embed(title=name)
+        embed.description = description
+
         if levels:
             embed.add_field(name='Levels', value='\n'.join(f'{"I" * i} - {level}' for i, level in enumerate(levels, 1)))
 
@@ -149,7 +153,7 @@ class World:
         for charm in self.charms.values():
             for level in charm['Levels']:
                 for skill_ in level['Skills']:
-                    if skill_['Name'] == skill['Name']:
+                    if skill_['Name'] == name:
                         obtained.append(f'{level["Name"]} - {skill_["Level"]} points')
 
         if obtained:
