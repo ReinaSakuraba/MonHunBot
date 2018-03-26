@@ -8,9 +8,11 @@ import config
 
 
 class Bot(commands.Bot):
-    def __init__(self, **kwargs):
+    def __init__(self, *, pool, **kwargs):
         super().__init__(command_prefix='mhw!', case_insensitive=True,
                           pm_help=None, game=discord.Game(name='mhw!help'))
+
+        self.pool = pool
 
         startup_extensions =  [f'cogs.{x.stem}' for x in Path('cogs').glob('*.py')]
         for extension in startup_extensions:
@@ -45,12 +47,3 @@ class Bot(commands.Bot):
 
         invite = discord.utils.oauth_url(app_info.id, permissions=permissions)
         await ctx.send(invite)
-
-
-def main():
-    bot = Bot()
-    bot.run(config.token)
-
-
-if __name__ == '__main__':
-    main()
