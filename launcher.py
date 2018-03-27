@@ -23,11 +23,22 @@ async def create_db(pool):
                 PRIMARY KEY(name, level)
             );
 
+            CREATE TABLE IF NOT EXISTS world.charms (
+                name TEXT PRIMARY KEY
+            );
+
             CREATE TABLE IF NOT EXISTS world.charm_skills (
-                name TEXT,
+                name TEXT REFERENCES world.charms(name),
                 skill TEXT REFERENCES world.skills(name),
                 level SMALLINT NOT NULL,
                 PRIMARY KEY(name, skill)
+            );
+
+            CREATE TABLE IF NOT EXISTS world.charm_materials (
+                name TEXT REFERENCES world.charms(name),
+                material TEXT,
+                amount SMALLINT NOT NULL,
+                PRIMARY KEY(name, material)
             );
 
             CREATE TABLE IF NOT EXISTS world.decorations (
@@ -75,6 +86,20 @@ async def create_db(pool):
         for level, effect in enumerate(levels, 1):
             await pool.execute(query, skill['Name'], level, effect)
 
+    with open('mhw/charms.json') as f:
+        charms = json.load(f)
+
+    query = """
+            INSERT INTO world.charms (
+                name
+            ) VALUES ($1)
+            ON CONFLICT (name)
+            DO NOTHING;
+            """
+
+    for charm in charms:
+        await pool.execute(query, charm['Name'])
+
     query = """
             INSERT INTO world.charm_skills (
                 name,
@@ -86,12 +111,28 @@ async def create_db(pool):
             SET level = excluded.level;
             """
 
-    with open('mhw/charms.json') as f:
-        charms = json.load(f)
-
     for charm in charms:
         for skill in charm['Skills']:
             await pool.execute(query, charm['Name'], skill['Name'], skill['Level'])
+
+    query = """
+            INSERT INTO world.charm_materials (
+                name,
+                material,
+                amount
+            ) VALUES ($1, $2, $3)
+            ON CONFLICT (name, material)
+            DO UPDATE
+            SET amount = excluded.amount;
+            """
+
+    for charm in charms:
+        materials = charm.get('Materials')
+        if materials is None:
+            continue
+
+        for material in materials:
+            await pool.execute(query, charm['Name'], material['Name'], material['Amount'])
 
     query = """
             INSERT INTO world.decorations (
