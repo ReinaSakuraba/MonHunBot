@@ -52,7 +52,7 @@
     ]
   },
   {
-    "Name": "Bleed Resistance",
+    "Name": "Bleeding Resistance",
     "Description": "Grants protection against bleeding.",
     "Levels": [
       "Reduces damage while bleeding.",
@@ -78,6 +78,17 @@
       "Nullifies weak monster roars.",
       "Nullifies weak monster roars and reduces the effects of strong monster roars.",
       "Nullifies weak and strong monster roars."
+    ]
+  },
+  {
+    "Name": "Windproof",
+    "Description": "Grants protection against wind pressure.",
+    "Levels": [
+      "Slightly reduces the effects of minor wind pressure.",
+      "Reduces the effects of minor wind pressure.",
+      "Negates minor wind pressure.",
+      "Negates minor wind pressure and reduces the effects of major wind pressure.",
+      "Negates minor and major wind pressure."
     ]
   },
   {
@@ -152,6 +163,15 @@
       "Recovery +10%",
       "Recovery +20%",
       "Recovery +30%"
+    ]
+  },
+  {
+    "Name": "Recovery Speed",
+    "Description": "Speeds healing of recoverable damage (the red portion of the health gauge).",
+    "Levels": [
+      "Doubles the speed at which you heal recoverable damage.",
+      "Triples the speed at which you heal recoverable damage.",
+      "Quadruples the speed at which you heal recoverable damage."
     ]
   },
   {
@@ -631,7 +651,7 @@
     ]
   },
   {
-    "Name": "Wide-Ranged",
+    "Name": "Wide-Range",
     "Description": "Allows the effects of certain items to also affect nearby allies.",
     "Levels": [
       "Items affect nearby allies with 33% of their efficacy.",
@@ -1001,6 +1021,10 @@
   {
     "Name": "Good Luck",
     "Description": "Good chance of increasing quest rewards."
+  },
+  {
+    "Name": "Bow Charge Plus",
+    "Description": "Increases max bow charge level by one."
   },
   {
     "Name": "Punishing Draw",
