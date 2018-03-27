@@ -178,6 +178,16 @@ class World:
             fmt = '\n'.join(f'{name} - {level} points' for name, level in charms)
             embed.add_field(name='Charm', value=fmt, inline=False)
 
+        query = """
+                SELECT name
+                FROM world.decorations
+                WHERE skill=$1;
+                """
+        jewel = await ctx.bot.pool.fetchval(query, name)
+
+        if jewel:
+            embed.add_field(name='Jewel', value=jewel)
+
         await ctx.send(embed=embed)
 
 

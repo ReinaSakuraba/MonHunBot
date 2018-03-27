@@ -1,0 +1,584 @@
+[
+  {
+    "Name": "Antidote Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Poison Resistance"
+  },
+  {
+    "Name": "Geology Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Geologist"
+  },
+  {
+    "Name": "Heavy Artillery Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Heavy Artillery"
+  },
+  {
+    "Name": "Hungerless Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Hunger Resistance"
+  },
+  {
+    "Name": "Satiated Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Free Meal"
+  },
+  {
+    "Name": "Protection Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Divine Blessing"
+  },
+  {
+    "Name": "Meowster Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Palico Rally"
+  },
+  {
+    "Name": "Botany Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Botanist"
+  },
+  {
+    "Name": "Tip Toe Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Stealth"
+  },
+  {
+    "Name": "Flight Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 5,
+    "Skill": "Airborne"
+  },
+  {
+    "Name": "Smoke Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Sporepuff Expert"
+  },
+  {
+    "Name": "Mirewalker Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Aquatic Expert"
+  },
+  {
+    "Name": "Specimen Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Entomologist"
+  },
+  {
+    "Name": "Miasma Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Effluvia Resistance"
+  },
+  {
+    "Name": "Scent Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Scenthound"
+  },
+  {
+    "Name": "Intimidator Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Intimidator"
+  },
+  {
+    "Name": "Crisis Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Resuscitate"
+  },
+  {
+    "Name": "Antipara Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Paralysis Resistance"
+  },
+  {
+    "Name": "Fortitude Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Fortify"
+  },
+  {
+    "Name": "Water Res Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Water Resistance"
+  },
+  {
+    "Name": "Suture Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Bleeding Resistance"
+  },
+  {
+    "Name": "Dragon Res Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Dragon Resistance"
+  },
+  {
+    "Name": "Fire Res Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Fire Resistance"
+  },
+  {
+    "Name": "Ice Res Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Ice Resistance"
+  },
+  {
+    "Name": "Def Lock Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Iron Skin"
+  },
+  {
+    "Name": "Thunder Res Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Thunder Resistance"
+  },
+  {
+    "Name": "Pep Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Sleep Resistance"
+  },
+  {
+    "Name": "Antiblast Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 5,
+    "Skill": "Blast Resistance"
+  },
+  {
+    "Name": "Gobbler Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Speed Eating"
+  },
+  {
+    "Name": "Physique Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Constitution"
+  },
+  {
+    "Name": "Blaze Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Fire Attack"
+  },
+  {
+    "Name": "Evasion Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Evade Window"
+  },
+  {
+    "Name": "Jumping Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Evade Extender"
+  },
+  {
+    "Name": "Sheath Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Quick Sheath"
+  },
+  {
+    "Name": "Friendship Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Wide-Range"
+  },
+  {
+    "Name": "Enduring Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Item Prolonger"
+  },
+  {
+    "Name": "Medicine Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Recovery Up"
+  },
+  {
+    "Name": "Grinder Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Speed Sharpening"
+  },
+  {
+    "Name": "Steadfast Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Stun Resistance"
+  },
+  {
+    "Name": "Bomber Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Bombardier"
+  },
+  {
+    "Name": "Recovery Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Recovery Speed"
+  },
+  {
+    "Name": "Slider Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Affinity Sliding"
+  },
+  {
+    "Name": "Defense Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Defense Boost"
+  },
+  {
+    "Name": "Stonethrower Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Slinger Capacity"
+  },
+  {
+    "Name": "Footing Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Tremor Resistance"
+  },
+  {
+    "Name": "Brace Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 6,
+    "Skill": "Flinch Free"
+  },
+  {
+    "Name": "Wind Resist Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Windproof"
+  },
+  {
+    "Name": "Earplug Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 6,
+    "Skill": "Earplugs"
+  },
+  {
+    "Name": "Vitality Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Health Boost"
+  },
+  {
+    "Name": "Resistor Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Blight Resistance"
+  },
+  {
+    "Name": "Sonorous Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Horn Maestro"
+  },
+  {
+    "Name": "KO Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Slugger"
+  },
+  {
+    "Name": "Stream Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Water Attack"
+  },
+  {
+    "Name": "Frost Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Ice Attack"
+  },
+  {
+    "Name": "Bolt Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Thunder Attack"
+  },
+  {
+    "Name": "Dragon Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Dragon Attack"
+  },
+  {
+    "Name": "Venom Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Poison Attack"
+  },
+  {
+    "Name": "Poisoncoat Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 6,
+    "Skill": "Poison Resistance"
+  },
+  {
+    "Name": "Expert Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Critical Eye"
+  },
+  {
+    "Name": "Tenderizer Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Weakness Exploit"
+  },
+  {
+    "Name": "Destroyer Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Partbreaker"
+  },
+  {
+    "Name": "Elementless Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 6,
+    "Skill": "Non-elemental Boost"
+  },
+  {
+    "Name": "Drain Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 6,
+    "Skill": "Stamina Thief"
+  },
+  {
+    "Name": "Paracoat Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 7,
+    "Skill": "Para Functionality"
+  },
+  {
+    "Name": "Sharp Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 7,
+    "Skill": "Protective Polish"
+  },
+  {
+    "Name": "Shield Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Guard Up"
+  },
+  {
+    "Name": "Dragonseal Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 7,
+    "Skill": "Elderseal Boost"
+  },
+  {
+    "Name": "Trueshot Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 7,
+    "Skill": "Special Ammo Boost"
+  },
+  {
+    "Name": "Enhancer Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Power Prolonger"
+  },
+  {
+    "Name": "Forceshot Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 7,
+    "Skill": "Normal Shots"
+  },
+  {
+    "Name": "Furor Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Resentment"
+  },
+  {
+    "Name": "Potential Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Heroics"
+  },
+  {
+    "Name": "Paralyzer Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 7,
+    "Skill": "Paralysis Attack"
+  },
+  {
+    "Name": "Sleep Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 7,
+    "Skill": "Sleep Attack"
+  },
+  {
+    "Name": "Ironwall Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 7,
+    "Skill": "Guard"
+  },
+  {
+    "Name": "Refresh Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Stamina Surge"
+  },
+  {
+    "Name": "Blast Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 7,
+    "Skill": "Blast Attack"
+  },
+  {
+    "Name": "Sleepcoat Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 7,
+    "Skill": "Sleep Functionality"
+  },
+  {
+    "Name": "Blastcoat Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 7,
+    "Skill": "Blast Functionality"
+  },
+  {
+    "Name": "Throttle Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Latent Power"
+  },
+  {
+    "Name": "Challenger Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Agitator"
+  },
+  {
+    "Name": "Attack Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 7,
+    "Skill": "Attack Boost"
+  },
+  {
+    "Name": "Flawless Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Peak Performance"
+  },
+  {
+    "Name": "Magazine Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Capacity Boost"
+  },
+  {
+    "Name": "Mighty Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 7,
+    "Skill": "Maximum Might"
+  },
+  {
+    "Name": "Sprinter Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 8,
+    "Skill": "Marathon Runner"
+  },
+  {
+    "Name": "Critical Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 8,
+    "Skill": "Critical Boost"
+  },
+  {
+    "Name": "Artillery Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 8,
+    "Skill": "Artillery"
+  },
+  {
+    "Name": "Fungiform Jewel 1",
+    "Slot Level": 1,
+    "Rarity": 8,
+    "Skill": "Mushroomancer"
+  },
+  {
+    "Name": "Release Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 8,
+    "Skill": "Free Elem/Ammo Up"
+  },
+  {
+    "Name": "Spread Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 8,
+    "Skill": "Spread/Power Shots"
+  },
+  {
+    "Name": "Charger Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 8,
+    "Skill": "Focus"
+  },
+  {
+    "Name": "Handicraft Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 8,
+    "Skill": "Handicraft"
+  },
+  {
+    "Name": "Mighty Bow Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 8,
+    "Skill": "Bow Charge Plus"
+  },
+  {
+    "Name": "Mind's Eye Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 8,
+    "Skill": "Mind's Eye/Ballistics"
+  },
+  {
+    "Name": "Draw Jewel 2",
+    "Slot Level": 2,
+    "Rarity": 8,
+    "Skill": "Critical Draw"
+  },
+  {
+    "Name": "Pierce Jewel 3",
+    "Slot Level": 3,
+    "Rarity": 8,
+    "Skill": "Piercing Shots"
+  }
+]

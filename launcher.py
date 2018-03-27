@@ -29,6 +29,13 @@ async def create_db(pool):
                 level SMALLINT NOT NULL,
                 PRIMARY KEY(name, skill)
             );
+
+            CREATE TABLE IF NOT EXISTS world.decorations (
+                name TEXT PRIMARY KEY,
+                slot_level SMALLINT NOT NULL,
+                rarity SMALLINT NOT NULL,
+                skill TEXT REFERENCES world.skills(name) NOT NULL
+            );
             """
 
     await pool.execute(query)
@@ -86,6 +93,27 @@ async def create_db(pool):
         for level in charm['Levels']:
             for skill in level['Skills']:
                 await pool.execute(query, level['Name'], skill['Name'], skill['Level'])
+
+    query = """
+            INSERT INTO world.decorations (
+                name,
+                slot_level,
+                rarity,
+                skill
+            ) VALUES ($1, $2, $3, $4)
+            ON CONFLICT (name)
+            DO UPDATE
+            SET
+                slot_level = excluded.slot_level,
+                rarity = excluded.rarity,
+                skill = excluded.skill;
+            """
+
+    with open('mhw/decorations.json') as f:
+        decorations = json.load(f)
+
+    for decoration in decorations:
+        await pool.execute(query, decoration['Name'], decoration['Slot Level'], decoration['Rarity'], decoration['Skill'])
 
 
 def main():
