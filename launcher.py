@@ -13,8 +13,21 @@ async def create_db(pool):
 
             CREATE TABLE IF NOT EXISTS world.skills (
                 name TEXT PRIMARY KEY,
-                description TEXT NOT NULL,
-                levels TEXT[]
+                description TEXT NOT NULL
+            );
+
+            CREATE TABLE IF NOT EXISTS world.skill_levels (
+                name TEXT REFERENCES world.skills(name),
+                level SMALLINT,
+                effect TEXT NOT NULL,
+                PRIMARY KEY(name, level)
+            );
+
+            CREATE TABLE IF NOT EXISTS world.charm_skills (
+                name TEXT,
+                skill TEXT,
+                level SMALLINT NOT NULL,
+                PRIMARY KEY(name, skill)
             );
             """
 
@@ -23,22 +36,64 @@ async def create_db(pool):
     query = """
             INSERT INTO world.skills (
                 name,
-                description,
-                levels
-            ) VALUES ($1, $2, $3)
+                description
+            ) VALUES ($1, $2)
             ON CONFLICT (name)
             DO UPDATE
             SET
                 name = excluded.name,
-                description = excluded.description,
-                levels = excluded.levels;
+                description = excluded.description;
             """
 
     with open('mhw/skills.json') as f:
         skills = json.load(f)
 
     for skill in skills:
-        await pool.execute(query, skill["Name"], skill["Description"], skill.get("Levels"))
+        await pool.execute(query, skill["Name"], skill["Description"])
+
+    query = """
+            INSERT INTO world.skill_levels (
+                name,
+                level,
+                effect
+            ) VALUES ($1, $2, $3)
+            ON CONFLICT (name, level)
+            DO UPDATE
+            SET
+                name = excluded.name,
+                level = excluded.level,
+                effect = excluded.effect
+            """
+
+    for skill in skills:
+        levels = skill.get('Levels')
+        if levels is None:
+            continue
+
+        for level, effect in enumerate(levels, 1):
+            await pool.execute(query, skill['Name'], level, effect)
+
+    query = """
+            INSERT INTO world.charm_skills (
+                name,
+                skill,
+                level
+            ) VALUES ($1, $2, $3)
+            ON CONFLICT (name, skill)
+            DO UPDATE
+            SET
+                name = excluded.name,
+                skill = excluded.skill,
+                level = excluded.level;
+            """
+
+    with open('mhw/charms.json') as f:
+        charms = json.load(f)
+
+    for charm in charms.values():
+        for level in charm['Levels']:
+            for skill in level['Skills']:
+                await pool.execute(query, level['Name'], skill['Name'], skill['Level'])
 
 
 def main():

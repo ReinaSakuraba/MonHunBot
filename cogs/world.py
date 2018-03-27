@@ -132,13 +132,15 @@ class World:
     @commands.command()
     async def skill(self, ctx, *, name: str.lower):
         query = """
-                SELECT name, description, levels
+                SELECT skills.name, description, level, effect
                 FROM world.skills
-                WHERE LOWER(name)=$1;
+                LEFT JOIN world.skill_levels
+                ON skills.name = skill_levels.name
+                WHERE LOWER(skills.name)=$1;
                 """
-        skill = await ctx.bot.pool.fetchrow(query, name)
+        records = await ctx.bot.pool.fetch(query, name)
 
-        if skill is None:
+        if not records:
             query = """
                     SELECT ARRAY(
                         SELECT name
@@ -154,23 +156,25 @@ class World:
             names = '\n'.join(possible_skills)
             return await ctx.send(f'Skill not found. Did you mean...\n{names}')
 
-        name, description, levels = skill
+        name, description, *_ = records[0]
 
         embed = discord.Embed(title=name)
         embed.description = description
 
-        if levels:
-            embed.add_field(name='Levels', value='\n'.join(f'{"I" * i} - {level}' for i, level in enumerate(levels, 1)))
+        levels = [(r['level'], r['effect']) for r in records]
+        if levels[0][0] is not None:
+            embed.add_field(name='Levels', value='\n'.join(f'Lv {level} - {effect}' for level, effect in levels))
 
-        obtained = []
-        for charm in self.charms.values():
-            for level in charm['Levels']:
-                for skill_ in level['Skills']:
-                    if skill_['Name'] == name:
-                        obtained.append(f'{level["Name"]} - {skill_["Level"]} points')
+        query = """
+                SELECT name, level
+                FROM world.charm_skills
+                WHERE skill=$1;
+                """
+        charms = await ctx.bot.pool.fetch(query, name)
 
-        if obtained:
-            embed.add_field(name='Equipment', value='\n'.join(obtained), inline=False)
+        if charms:
+            fmt = '\n'.join(f'{name} - {level} points' for name, level in charms)
+            embed.add_field(name='Charm', value=fmt, inline=False)
 
         await ctx.send(embed=embed)
 
