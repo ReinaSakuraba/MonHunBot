@@ -136,7 +136,8 @@ class World:
                 FROM world.skills
                 LEFT JOIN world.skill_levels
                 ON skills.name = skill_levels.name
-                WHERE LOWER(skills.name)=$1;
+                WHERE LOWER(skills.name)=$1
+                ORDER BY level;
                 """
         records = await ctx.bot.pool.fetch(query, name)
 
@@ -168,7 +169,8 @@ class World:
         query = """
                 SELECT name, level
                 FROM world.charm_skills
-                WHERE skill=$1;
+                WHERE skill=$1
+                ORDER BY level;
                 """
         charms = await ctx.bot.pool.fetch(query, name)
 
