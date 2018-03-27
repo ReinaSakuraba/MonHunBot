@@ -89,10 +89,9 @@ async def create_db(pool):
     with open('mhw/charms.json') as f:
         charms = json.load(f)
 
-    for charm in charms.values():
-        for level in charm['Levels']:
-            for skill in level['Skills']:
-                await pool.execute(query, level['Name'], skill['Name'], skill['Level'])
+    for charm in charms:
+        for skill in charm['Skills']:
+            await pool.execute(query, charm['Name'], skill['Name'], skill['Level'])
 
     query = """
             INSERT INTO world.decorations (
