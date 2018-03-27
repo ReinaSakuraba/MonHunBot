@@ -25,7 +25,7 @@ async def create_db(pool):
 
             CREATE TABLE IF NOT EXISTS world.charm_skills (
                 name TEXT,
-                skill TEXT,
+                skill TEXT REFERENCES world.skills(name),
                 level SMALLINT NOT NULL,
                 PRIMARY KEY(name, skill)
             );
