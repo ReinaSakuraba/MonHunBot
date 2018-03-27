@@ -40,9 +40,7 @@ async def create_db(pool):
             ) VALUES ($1, $2)
             ON CONFLICT (name)
             DO UPDATE
-            SET
-                name = excluded.name,
-                description = excluded.description;
+            SET description = excluded.description;
             """
 
     with open('mhw/skills.json') as f:
@@ -59,10 +57,7 @@ async def create_db(pool):
             ) VALUES ($1, $2, $3)
             ON CONFLICT (name, level)
             DO UPDATE
-            SET
-                name = excluded.name,
-                level = excluded.level,
-                effect = excluded.effect
+            SET effect = excluded.effect
             """
 
     for skill in skills:
@@ -81,10 +76,7 @@ async def create_db(pool):
             ) VALUES ($1, $2, $3)
             ON CONFLICT (name, skill)
             DO UPDATE
-            SET
-                name = excluded.name,
-                skill = excluded.skill,
-                level = excluded.level;
+            SET level = excluded.level;
             """
 
     with open('mhw/charms.json') as f:
