@@ -12,39 +12,50 @@ class World:
     deco_re = re.compile(r"(?P<name>[\w' ]+?(?= Jewel| [\dI]+)|[\w' ]+)( )?(?(2)(Jewel))( )?(?(4)(?P<level>[\dI]+))", re.IGNORECASE)
 
     def __init__(self):
-        with open('mhw/charms.json') as f:
-            self.charms = json.load(f)
-
         with open('mhw/motionvalues.json') as f:
             self.motion_values = json.load(f)
 
     @commands.command()
     async def charm(self, ctx, *, name: str.lower):
         match = self.charm_re.match(name)
-
         name = match.group('name')
-        charm = self.charms.get(name)
 
-        if charm is None:
-            return await ctx.send(f'Charm {name} not found')
+        query = """
+                SELECT
+                    charms.name,
+                    STRING_AGG(skill || ' ' || level, ', ') AS skills
+                FROM world.charms
+                JOIN world.charm_skills
+                ON charms.name = charm_skills.name
+                WHERE charms.name ILIKE $1 || ' Charm%'
+                GROUP BY charms.name
+                ORDER BY charms.name;
+                """
+        records = await ctx.bot.pool.fetch(query, name)
+
+        if records is None:
+            return await ctx.send('Charm not found')
 
         embed = discord.Embed(title=f'{name.title()} Charm')
 
-        skills = []
-        for index, level in enumerate(charm["Levels"], 1):
-            skill_levels = ", ".join(f'{skill["Name"]} {skill["Level"]}' for skill in level["Skills"])
-            skills.append(f'{"I"* index} - {skill_levels}')
-
+        skills = [f'{"I" * index} - {skills}' for index, (_, skills) in enumerate(records, 1)]
         embed.add_field(name='Skills', value='\n'.join(skills))
 
-        try:
-            mats = []
-            for index, level in enumerate(charm["Levels"], 1):
-                materials = ", ".join(f'{mat["Name"]} x{mat["Amount"]}' for mat in level["Materials"])
-                mats.append(f'{"I"* index} - {materials}')
-        except KeyError:
-            pass
-        else:
+        query = """
+                SELECT
+                    charms.name,
+                    STRING_AGG(material || ' x' || amount, ', ') AS materials
+                FROM world.charms
+                LEFT JOIN world.charm_materials
+                ON charms.name = charm_materials.name
+                WHERE charms.name ILIKE $1 || ' Charm%'
+                GROUP BY charms.name
+                ORDER BY charms.name;
+                """
+        records = await ctx.bot.pool.fetch(query, name)
+
+        if records[0]['materials'] is not None:
+            mats = [f'{"I" * index} - {materials}' for index, (_, materials) in enumerate(records, 1)]
             embed.add_field(name='Materials', value='\n'.join(mats), inline=False)
 
         await ctx.send(embed=embed)
