@@ -75,6 +75,41 @@ async def create_db(pool):
     await pool.execute(query)
 
     query = """
+            INSERT INTO world.skills (
+                name,
+                description
+            ) VALUES ($1, $2)
+            ON CONFLICT (name)
+            DO UPDATE
+            SET description = excluded.description;
+            """
+
+    with open('mhw/skills.json') as f:
+        skills = json.load(f)
+
+    for skill in skills:
+        await pool.execute(query, skill["Name"], skill["Description"])
+
+    query = """
+            INSERT INTO world.skill_levels (
+                name,
+                level,
+                effect
+            ) VALUES ($1, $2, $3)
+            ON CONFLICT (name, level)
+            DO UPDATE
+            SET effect = excluded.effect
+            """
+
+    for skill in skills:
+        levels = skill.get('Levels')
+        if levels is None:
+            continue
+
+        for level, effect in enumerate(levels, 1):
+            await pool.execute(query, skill['Name'], level, effect)
+
+    query = """
             INSERT INTO world.armor (
                 name,
                 rarity,
@@ -132,41 +167,6 @@ async def create_db(pool):
     for armor in armors:
         for skill in armor['Skills']:
             await pool.execute(query, armor['Name'], skill['Name'], skill['Level'])
-
-    query = """
-            INSERT INTO world.skills (
-                name,
-                description
-            ) VALUES ($1, $2)
-            ON CONFLICT (name)
-            DO UPDATE
-            SET description = excluded.description;
-            """
-
-    with open('mhw/skills.json') as f:
-        skills = json.load(f)
-
-    for skill in skills:
-        await pool.execute(query, skill["Name"], skill["Description"])
-
-    query = """
-            INSERT INTO world.skill_levels (
-                name,
-                level,
-                effect
-            ) VALUES ($1, $2, $3)
-            ON CONFLICT (name, level)
-            DO UPDATE
-            SET effect = excluded.effect
-            """
-
-    for skill in skills:
-        levels = skill.get('Levels')
-        if levels is None:
-            continue
-
-        for level, effect in enumerate(levels, 1):
-            await pool.execute(query, skill['Name'], level, effect)
 
     with open('mhw/charms.json') as f:
         charms = json.load(f)
