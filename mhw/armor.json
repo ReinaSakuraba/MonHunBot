@@ -1,0 +1,6334 @@
+[
+  {
+    "Name": "Leather Headgear",
+    "Rarity": 1,
+    "Price": 100,
+    "Part": "Helm",
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Hunger Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Leather Mail",
+    "Rarity": 1,
+    "Price": 100,
+    "Part": "Torso",
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Leather Gloves",
+    "Rarity": 1,
+    "Price": 100,
+    "Part": "Arms",
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Leather Belt",
+    "Rarity": 1,
+    "Price": 100,
+    "Part": "Waist",
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Leather Trousers",
+    "Rarity": 1,
+    "Price": 100,
+    "Part": "Legs",
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Chainmail Headgear",
+    "Rarity": 1,
+    "Price": 100,
+    "Part": "Helm",
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Master Gatherer",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Chainmail Vest",
+    "Part": "Torso",
+    "Rarity": 1,
+    "Price": 100,
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Chainmail Gloves",
+    "Rarity": 1,
+    "Price": 100,
+    "Part": "Arms",
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Chainmail Belt",
+    "Rarity": 1,
+    "Price": 100,
+    "Part": "Waist",
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Chainmail Trousers",
+    "Rarity": 1,
+    "Price": 100,
+    "Part": "Legs",
+    "Min Def": 2,
+    "Max Def": 68,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": [
+      {
+        "Name": "Iron Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Hunter's Headgear",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Helm",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Scoutfly Range Up",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jagras Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Jagras Scale",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Hunter's Mail",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Torso",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Slinger Capacity",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jagras Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone S",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Hunter's Vambraces",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Arms",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Stealth",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jagras Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Jagras Scale",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Hunter's Coil",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Waist",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Scenthound",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jagras Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Bone S",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Hunter's Greaves",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Legs",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "BBQ Master",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jagras Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Bone S",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Bone Helm",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Helm",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Health Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Monster Bone S",
+        "Amount": 2
+      },
+      {
+        "Name": "Ancient Bone",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Bone Mail",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Torso",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Attack Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Monster Bone S",
+        "Amount": 1
+      },
+      {
+        "Name": "Ancient Bone",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Bone Vambraces",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Arms",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Slugger",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Monster Bone S",
+        "Amount": 3
+      },
+      {
+        "Name": "Kestodon Shell",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Bone Coil",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Waist",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Horn Maestro",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Monster Bone S",
+        "Amount": 1
+      },
+      {
+        "Name": "Kestodon Shell",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Bone Greaves",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Legs",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Entomologist",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Monster Bone S",
+        "Amount": 1
+      },
+      {
+        "Name": "Ancient Bone",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Vespoid Helm",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Helm",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": 1,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Quick Sheath",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Vespoid Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Vespoid Mail",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Torso",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": 1,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Windproof",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Vespoid Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Machilite Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Vespoid Vambraces",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Arms",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": 1,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Paralysis Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Vespoid Wing",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Vespoid Coil",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Waist",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": 1,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Paralysis Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Vespoid Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 4
+      }
+    ]
+  },
+  {
+    "Name": "Vespoid Greaves",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Legs",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": 1,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Honey Hunter",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Vespoid Wing",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Kestodon Guards",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Arms",
+    "Min Def": 12,
+    "Max Def": 78,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 4,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Affinity Sliding",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kestodon Shell",
+        "Amount": 6
+      },
+      {
+        "Name": "Kestodon Scalp",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Gajau Boots",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Legs",
+    "Min Def": 12,
+    "Max Def": 78,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 5,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Aquatic Expert",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Gajau Skin",
+        "Amount": 4
+      },
+      {
+        "Name": "Gajau Whisker",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Jagras Helm",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Helm",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Speed Eating",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Jagras Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Jagras Mane",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Jagras Claw",
+        "Amount": 2
+      },
+      {
+        "Name": "Ancient Bone",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Jagras Mail",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Torso",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Intimidator",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Jagras Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Jagras Claw",
+        "Amount": 1
+      },
+      {
+        "Name": "Great Jagras Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone S",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Jagras Vambraces",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Arms",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Palico Rally",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Jagras Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Jagras Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Jagras Hide",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Jagras Coil",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Waist",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Fortify",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Jagras Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Great Jagras Mane",
+        "Amount": 1
+      },
+      {
+        "Name": "Great Jagras Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Sharp Claw",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Jagras Greaves",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Legs",
+    "Min Def": 8,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Speed Crawler",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Jagras Scale",
+        "Amount": 1
+      },
+      {
+        "Name": "Great Jagras Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Great Jagras Mane",
+        "Amount": 1
+      },
+      {
+        "Name": "Jagras Scale",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Kulu Headpiece",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Helm",
+    "Min Def": 10,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Fire Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kulu-Ya-Ku Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Kulu-Ya-Ku Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Kulu-Ya-Ku Plume",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Kulu Mail",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Torso",
+    "Min Def": 10,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Stamina Surge",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kulu-Ya-Ku Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Kulu-Ya-Ku Plume",
+        "Amount": 1
+      },
+      {
+        "Name": "Kulu-Ya-Ku Beak",
+        "Amount": 1
+      },
+      {
+        "Name": "Machilite Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Kulu Vambraces",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Arms",
+    "Min Def": 10,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Pro Transporter",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kulu-Ya-Ku Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Kulu-Ya-Ku Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Kulu Coil",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Waist",
+    "Min Def": 10,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Item Prolonger",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kulu-Ya-Ku Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Kulu-Ya-Ku Beak",
+        "Amount": 1
+      },
+      {
+        "Name": "Wingdrake Hide",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Kulu Greaves",
+    "Rarity": 1,
+    "Price": 200,
+    "Part": "Legs",
+    "Min Def": 10,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Critical Eye",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kulu-Ya-Ku Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Kulu-Ya-Ku Scale",
+        "Amount": 3
+      },
+      {
+        "Name": "Wingdrake Hide",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Alloy Helm",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Helm",
+    "Min Def": 8,
+    "Max Def": 66,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Windproof",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Machilite Ore",
+        "Amount": 4
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 4
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Alloy Mail",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Torso",
+    "Min Def": 8,
+    "Max Def": 66,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Water Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Machilite Ore",
+        "Amount": 3
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 6
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Alloy Vambraces",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Arms",
+    "Min Def": 8,
+    "Max Def": 66,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Defense Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Machilite Ore",
+        "Amount": 3
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 6
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Alloy Coil",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Waist",
+    "Min Def": 8,
+    "Max Def": 66,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Poison Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Machilite Ore",
+        "Amount": 4
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 4
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Alloy Greaves",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Legs",
+    "Min Def": 8,
+    "Max Def": 66,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Speed Sharpening",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Machilite Ore",
+        "Amount": 3
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 6
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Pukei Hood",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Helm",
+    "Min Def": 12,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 3,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Sporepuff Expert",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pukei-Pukei Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Pukei-Pukei Tail",
+        "Amount": 1
+      },
+      {
+        "Name": "Pukei-Pukei Quill",
+        "Amount": 2
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Pukei Mail",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Torso",
+    "Min Def": 12,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 3,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Item Prolonger",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pukei-Pukei Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Pukei-Pukei Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Pukei Vambraces",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Arms",
+    "Min Def": 12,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 3,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Poison Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pukei-Pukei Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Pukei-Pukei Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "PoisonSac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Pukei Coil",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Waist",
+    "Min Def": 12,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 3,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Poison Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pukei-Pukei Shell",
+        "Amount": 3
+      },
+      {
+        "Name": "Pukei-Pukei Tail",
+        "Amount": 1
+      },
+      {
+        "Name": "Pukei-Pukei Sac",
+        "Amount": 1
+      },
+      {
+        "Name": "Poison Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Pukei Greaves",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Legs",
+    "Min Def": 12,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 3,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Botanist",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pukei-Pukei Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Pukei-Pukei Sac",
+        "Amount": 1
+      },
+      {
+        "Name": "Pukei-Pukei Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone M",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Barroth Helm",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Helm",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -1,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Guard",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Barroth Ridge",
+        "Amount": 2
+      },
+      {
+        "Name": "Barroth Tail",
+        "Amount": 1
+      },
+      {
+        "Name": "Barroth Claw",
+        "Amount": 2
+      },
+      {
+        "Name": "Kestodon Shell",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Barroth Mail",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Torso",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -1,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Stamina Thief",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Barroth Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Barroth Ridge",
+        "Amount": 1
+      },
+      {
+        "Name": "Barroth Claw",
+        "Amount": 1
+      },
+      {
+        "Name": "Boulder Bone",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Barroth Vambraces",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Arms",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -1,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Marathon Runner",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Barroth Ridge",
+        "Amount": 3
+      },
+      {
+        "Name": "Barroth Tail",
+        "Amount": 1
+      },
+      {
+        "Name": "Barroth Scalp",
+        "Amount": 1
+      },
+      {
+        "Name": "Kestodon Scalp",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Barroth Coil",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Waist",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -1,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Muck Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Barroth Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Barroth Ridge",
+        "Amount": 1
+      },
+      {
+        "Name": "Fertile Mud",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Barroth Greaves",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Legs",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -1,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Stun Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Barroth Ridge",
+        "Amount": 2
+      },
+      {
+        "Name": "Barroth Scalp",
+        "Amount": 1
+      },
+      {
+        "Name": "Barroth Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Fertile Mud",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Jyura Helm",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Helm",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Aquatic Expert",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jyuratodus Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Jyuratodus Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Jyuratodus Fin",
+        "Amount": 1
+      },
+      {
+        "Name": "Gajau Skin",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Jyura Mail",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Torso",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Muck Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jyuratodus Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Jyuratodus Fin",
+        "Amount": 1
+      },
+      {
+        "Name": "Jyuratodus Fang",
+        "Amount": 1
+      },
+      {
+        "Name": "Aqua Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Jyura Vambraces",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Arms",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Water Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jyuratodus Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Jyuratodus Fang",
+        "Amount": 1
+      },
+      {
+        "Name": "Gajau Whisker",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Jyura Coil",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Waist",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Ice Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jyuratodus Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Jyuratodus Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Aqua Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Jyura Greaves",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Legs",
+    "Min Def": 14,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Focus",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Jyuratodus Shell",
+        "Amount": 3
+      },
+      {
+        "Name": "Jyuratodus Fang",
+        "Amount": 2
+      },
+      {
+        "Name": "Jyuratodus Fin",
+        "Amount": 2
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Kadachi Helm",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Helm",
+    "Min Def": 16,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Constitution",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tobi-Kadachi Pelt",
+        "Amount": 2
+      },
+      {
+        "Name": "Tobi-Kadachi Electrode",
+        "Amount": 2
+      },
+      {
+        "Name": "Tobi-Kadachi Claw",
+        "Amount": 1
+      },
+      {
+        "Name": "Electro Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Kadachi Mail",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Torso",
+    "Min Def": 16,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Jump Master",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tobi-Kadachi Pelt",
+        "Amount": 2
+      },
+      {
+        "Name": "Tobi-Kadachi Electrode",
+        "Amount": 1
+      },
+      {
+        "Name": "Tobi-Kadachi Membrance",
+        "Amount": 2
+      },
+      {
+        "Name": "Wingdrake Hide",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Kadachi Coil",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Arms",
+    "Min Def": 16,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Evade Extender",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tobi-Kadachi Pelt",
+        "Amount": 2
+      },
+      {
+        "Name": "Tobi-Kadachi Claw",
+        "Amount": 1
+      },
+      {
+        "Name": "Tobi-Kadachi Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone M",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Kadachi Coil",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Waist",
+    "Min Def": 16,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Thunder Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tobi-Kadachi Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Tobi-Kadachi Pelt",
+        "Amount": 1
+      },
+      {
+        "Name": "Electro Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Kadachi Greaves",
+    "Rarity": 2,
+    "Price": 500,
+    "Part": "Legs",
+    "Min Def": 16,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 3,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Thunder Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tobi-Kadachi Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Tobi-Kadachi Pelt",
+        "Amount": 1
+      },
+      {
+        "Name": "Warm Pelt",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "High Metal Helm",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Ice Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 6
+      }
+    ]
+  },
+  {
+    "Name": "High Metal Mail",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Earplugs",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Sharp Claw",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "High Metal Braces",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Defense Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Sharp Claw",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "High Metal Coil",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Capacity Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 6
+      }
+    ]
+  },
+  {
+    "Name": "High Metal Greaves",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Heavy Artillery",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 6
+      }
+    ]
+  },
+  {
+    "Name": "King Beetle Vertex",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Male",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Evade Window",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 2
+      },
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Flame Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "King Beetle Thorax",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Male",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Quick Sheath",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 1
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Poison Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "King Beetle Brachia",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Male",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Leap of Faith",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 1
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 1
+      },
+      {
+        "Name": "Aqua Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "King Beetle Elytra",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Male",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Honey Hunter",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 1
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 1
+      },
+      {
+        "Name": "Electro Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "King Beetle Crura",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Male",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Forager's Luck",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 1
+      },
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 3
+      },
+      {
+        "Name": "Paralysis Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Butterfly Vertex",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Female",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Evade Window",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 2
+      },
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Flame Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Butterfly Thorax",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Female",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Quick Sheath",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 1
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Poison Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Butterfly Barchia",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Female",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Leap of Faith",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 1
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 1
+      },
+      {
+        "Name": "Aqua Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Butterfly Elytra",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Female",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Honey Hunter",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 1
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 1
+      },
+      {
+        "Name": "Electro Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Butterfly Crura",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Female",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Forager's Luck",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Hornfly",
+        "Amount": 1
+      },
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 3
+      },
+      {
+        "Name": "Paralysis Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Shamos Goggles",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Detector",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Shamos Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Shamos Scale",
+        "Amount": 3
+      },
+      {
+        "Name": "Coral Bone",
+        "Amount": 1
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Hornetaur Helm",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Dungmaster",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Hornetaur Head",
+        "Amount": 1
+      },
+      {
+        "Name": "Hornetaur Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Hornetaur Mail",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Effluvial Expert",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Hornetaur Wing",
+        "Amount": 2
+      },
+      {
+        "Name": "Hornetaur Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Hornetaur Vambraces",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Free Meal",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Hornetaur Wing",
+        "Amount": 1
+      },
+      {
+        "Name": "Hornetaur Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 3
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Hornetaur Coil",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Carving Pro",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Hornetaur Wing",
+        "Amount": 1
+      },
+      {
+        "Name": "Hornetaur Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 3
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Hornetaur Greaves",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": -1,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Handicraft",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Hornetaur Wing",
+        "Amount": 2
+      },
+      {
+        "Name": "Hornetaur Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 3
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Anja Helm",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -3,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Fire Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Anjanath Pelt",
+        "Amount": 3
+      },
+      {
+        "Name": "Anjanath Scale",
+        "Amount": 3
+      },
+      {
+        "Name": "Anjanath Tail",
+        "Amount": 1
+      },
+      {
+        "Name": "Flame Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Anja Mail",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -3,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Marathon Runner",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Anjanath Pelt",
+        "Amount": 3
+      },
+      {
+        "Name": "Anjanath Fang",
+        "Amount": 2
+      },
+      {
+        "Name": "Anjanath Nosebone",
+        "Amount": 1
+      },
+      {
+        "Name": "Anjanath Plate",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Anja Vambraces",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -3,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Special Ammo Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Anjanath Pelt",
+        "Amount": 2
+      },
+      {
+        "Name": "Anjanath Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Anjanath Nosebone",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Bone L",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Anja Coil",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -3,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Fire Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Anjanath Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Anjanath Pelt",
+        "Amount": 1
+      },
+      {
+        "Name": "Anjanath Fang",
+        "Amount": 2
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Anja Greaves",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -3,
+    "Thunder Resistance": -1,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Artillery",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Anjanath Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Anjanath Pelt",
+        "Amount": 1
+      },
+      {
+        "Name": "Flame Sac",
+        "Amount": 1
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Rathian Helm",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Health Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathian Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathian Scale",
+        "Amount": 3
+      },
+      {
+        "Name": "Rathian Webbing",
+        "Amount": 2
+      },
+      {
+        "Name": "Flame Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Rathian Mail",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Botanist",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathian Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathian Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Rathian Webbing",
+        "Amount": 1
+      },
+      {
+        "Name": "Ancient Bone",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Rathian Vambraces",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Poison Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathian Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathian Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathian Spike",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Bone L",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Rathian Coil",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Poison Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathian Scal",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathian Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Rathian Wingtalon",
+        "Amount": 2
+      },
+      {
+        "Name": "Boulder Bone",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Rathian Greaves",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 22,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Recovery Up",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathian Shell",
+        "Amount": 4
+      },
+      {
+        "Name": "Rathian Spike",
+        "Amount": 1
+      },
+      {
+        "Name": "Rath Wingtalon",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathian Plate",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Tzitzi Headgear",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": -3,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Blindsider",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tzizi-Ya-Ku Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Tzizi-Ya-Ku Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Tzizi-Ya-Ku Photophore",
+        "Amount": 1
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Tzitzi Mail",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": -3,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Constitution",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tzizi-Ya-Ku Hide",
+        "Amount": 3
+      },
+      {
+        "Name": "Tzizi-Ya-Ku Claw",
+        "Amount": 2
+      },
+      {
+        "Name": "Tzizi-Ya-Ku Photophore",
+        "Amount": 2
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Tzitzi Vambraces",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": -3,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Stun Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tzizi-Ya-Ku Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Tzizi-Ya-Ku Photophore",
+        "Amount": 1
+      },
+      {
+        "Name": "Tzizi-Ya-Ku Scale",
+        "Amount": 3
+      },
+      {
+        "Name": "Tzizi-Ya-KuCoral Crystal",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Tzitzi Coil",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": -3,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Wide-Range",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tzizi-Ya-Ku Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Tzizi-Ya-Ku Claw",
+        "Amount": 2
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Tzitzi Greaves",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 18,
+    "Max Def": 70,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": -3,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Sleep Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Tzizi-Ya-Ku Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Tzizi-Ya-Ku Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Tzizi-Ya-Ku Claw",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lumu Hat",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Stamina Surge",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Paolumu Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Paolumu Webbing",
+        "Amount": 2
+      },
+      {
+        "Name": "Paolumu Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lumu Mail",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Master Mounter",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Paolumu Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Paolumu Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Paolumu Pelt",
+        "Amount": 2
+      },
+      {
+        "Name": "Coral Bone",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lumu Vambraces",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Artillery",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Paolumu Pelt",
+        "Amount": 2
+      },
+      {
+        "Name": "Paolumu Scale",
+        "Amount": 1
+      },
+      {
+        "Name": "Paolumu Webbing",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lumu Coil",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Divine Blessing",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "PAolumu Pelt",
+        "Amount": 2
+      },
+      {
+        "Name": "Paolumu Scale",
+        "Amount": 1
+      },
+      {
+        "Name": "Paolumu Shell",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Lumu Greaves",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Windproof",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Paolumu Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Paolumu Pelt",
+        "Amount": 2
+      },
+      {
+        "Name": "Paolumu Webbing",
+        "Amount": 1
+      },
+      {
+        "Name": "Coral Bone",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Girros Mask",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Horn Maestro",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Girros Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Girros Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Great Girros Hood",
+        "Amount": 1
+      },
+      {
+        "Name": "Girros Scale",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Girros Mail",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Paralysis Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Girros Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Girros Tail",
+        "Amount": 1
+      },
+      {
+        "Name": "Great Girros Fang",
+        "Amount": 2
+      },
+      {
+        "Name": "Paralysis Sac",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Girros Vambraces",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Palico Rally",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Girros Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Girros Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Girros Fang",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Girros Coil",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Effluvial Expert",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Girros Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Girros Tail",
+        "Amount": 1
+      },
+      {
+        "Name": "Great Girros Hood",
+        "Amount": 1
+      },
+      {
+        "Name": "Girros Hide",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Girros Greaves",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 20,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": -3,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 1,
+    "Skills": [
+      {
+        "Name": "Paralysis Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Great Girros Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Girros Fang",
+        "Amount": 2
+      },
+      {
+        "Name": "Great Girros Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone M",
+        "Amount": 4
+      }
+    ]
+  },
+  {
+    "Name": "Baan Helm",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Helm",
+    "Min Def": 24,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -1,
+    "Dragon Resistance": -2,
+    "Skills": [
+      {
+        "Name": "Slugger",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Radobaan Sheel",
+        "Amount": 3
+      },
+      {
+        "Name": "Radobaan Ooilshell",
+        "Amount": 2
+      },
+      {
+        "Name": "Wyvern Bonemass",
+        "Amount": 2
+      },
+      {
+        "Name": "Radobaan Marrow",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Baan Mail",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Torso",
+    "Min Def": 24,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -1,
+    "Dragon Resistance": -2,
+    "Skills": [
+      {
+        "Name": "Sleep Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Radobaan Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Radobaan Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Radobaan Oilshell",
+        "Amount": 1
+      },
+      {
+        "Name": "Sleep Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Baan Vambraces",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Arms",
+    "Min Def": 24,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -1,
+    "Dragon Resistance": -2,
+    "Skills": [
+      {
+        "Name": "Sleep Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Radobaan Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Radobaan Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Radobaan Oilshell",
+        "Amount": 1
+      },
+      {
+        "Name": "Sturdy Bone",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Baan Coil",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Waist",
+    "Min Def": 24,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -1,
+    "Dragon Resistance": -2,
+    "Skills": [
+      {
+        "Name": "Guard",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Radobaan Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Radobaan Oilshell",
+        "Amount": 1
+      },
+      {
+        "Name": "Sleep Sac",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Bone L",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Baan Greaves",
+    "Rarity": 3,
+    "Price": 1500,
+    "Part": "Legs",
+    "Min Def": 24,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -1,
+    "Dragon Resistance": -2,
+    "Skills": [
+      {
+        "Name": "Bleeding Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Radobaan Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Radobaan Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Wyvern Bonemass",
+        "Amount": 2
+      },
+      {
+        "Name": "Warped Bone",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Ingot Helm",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Helm",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Thunder Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 8
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Ingot Mail",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Torso",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Thunder Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 1
+      },
+      {
+        "Name": "Iron Ore",
+        "Amount": 8
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Ingot Vambraces",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Arms",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Health Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 3
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 1
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 3
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Ingot Coil",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Waist",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Windproof",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 3
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 1
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 3
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Ingot Greaves",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Legs",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 3,
+    "Ice Resistance": -1,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Defense Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 1
+      },
+      {
+        "Name": "Earth Crystal",
+        "Amount": 3
+      },
+      {
+        "Name": "Machalite Ore",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Death Stench Brain",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Helm",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": -4,
+    "Skills": [
+      {
+        "Name": "Resuscitate",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Sinister Cloth",
+        "Amount": 1
+      },
+      {
+        "Name": "Warped Bone",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 2
+      },
+      {
+        "Name": "Sharp Claw",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Death Stench Muscle",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Torso",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": -4,
+    "Skills": [
+      {
+        "Name": "Fortify",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Sinister Cloth",
+        "Amount": 1
+      },
+      {
+        "Name": "Coral Bone",
+        "Amount": 2
+      },
+      {
+        "Name": "Sturdy Bone",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Death Stench Grip",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Arms",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": -4,
+    "Skills": [
+      {
+        "Name": "Focus",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Sinister Cloth",
+        "Amount": 1
+      },
+      {
+        "Name": "Warped Bone",
+        "Amount": 3
+      },
+      {
+        "Name": "Sturdy Bone",
+        "Amount": 6
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Death Stench Bowels",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Waist",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": -4,
+    "Skills": [
+      {
+        "Name": "Dragon Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Sinister Cloth",
+        "Amount": 1
+      },
+      {
+        "Name": "Warped Bone",
+        "Amount": 1
+      },
+      {
+        "Name": "Sturdy Bone",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Fluid",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Death Stench Heels",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Legs",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": -4,
+    "Skills": [
+      {
+        "Name": "Handicraft",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Sinister Cloth",
+        "Amount": 1
+      },
+      {
+        "Name": "Coral Bone",
+        "Amount": 3
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 4
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Brigade Lobos",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Helm",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 1,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Recovery Speed",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pinnacle Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Pukei Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Kulu Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Commendation",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Brigade Suit",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Torso",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 1,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Divine Blessing",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pinnacle Coin",
+        "Amount": 3
+      },
+      {
+        "Name": "Pukei Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathian Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Brigade Vambraces",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Arms",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 1,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Heavy Artillery",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pinnacle Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Pukei Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Kulu Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Commendation",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Brigade Coil",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Waist",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 1,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Geologist",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pinnacle Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Pukei Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Kulu Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Commendation",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Brigade Boots",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Legs",
+    "Min Def": 28,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 1,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Scholar",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Pinnacle Coin",
+        "Amount": 3
+      },
+      {
+        "Name": "Kulu Coin",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathian Coin",
+        "Amount": 4
+      },
+      {
+        "Name": "Commendation",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Legiana Helm",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Helm",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Divine Blessing",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Legiana Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Legiana Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Legiana Claw",
+        "Amount": 1
+      },
+      {
+        "Name": "Shamos Scale",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Legiana Mail",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Torso",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Evade Window",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Lagiana Hide",
+        "Amount": 3
+      },
+      {
+        "Name": "Legiana Claw",
+        "Amount": 2
+      },
+      {
+        "Name": "Legiana Webbing",
+        "Amount": 2
+      },
+      {
+        "Name": "Legiana Plate",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Legiana Vambraces",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Arms",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Airborne",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Legiana Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Legiana Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Legiana Webbing",
+        "Amount": 1
+      },
+      {
+        "Name": "Frost Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Legiana Coil",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Waist",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Ice Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Legiana Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Legiana Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Frost Sac",
+        "Amount": 1
+      },
+      {
+        "Name": "Shamos Hide",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Legiana Greaves",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Legs",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -1,
+    "Water Resistance": 2,
+    "Thunder Resistance": -3,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Ice Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Legiana Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Legiana Hide",
+        "Amount": 1
+      },
+      {
+        "Name": "Legiana Claw",
+        "Amount": 1
+      },
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Odogaron Helm",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Helm",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Bleeding Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Odogaron Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Odogaron Sinew",
+        "Amount": 1
+      },
+      {
+        "Name": "Odogaron Claw",
+        "Amount": 1
+      },
+      {
+        "Name": "Warped Bone",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Odogaron Mail",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Torso",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Speed Sharpening",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Odogaron Sinew",
+        "Amount": 2
+      },
+      {
+        "Name": "Odogaron Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Odogaron Fang",
+        "Amount": 1
+      },
+      {
+        "Name": "Hornetaur Shell",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Odogaron Vambraces",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Arms",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Constitution",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Odogaron Sinew",
+        "Amount": 2
+      },
+      {
+        "Name": "Odogaron Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Odogaron Tail",
+        "Amount": 1
+      },
+      {
+        "Name": "Hornetaur Wing",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Odogaron Coil",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Waist",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Critical Eye",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Odogaron Sinew",
+        "Amount": 3
+      },
+      {
+        "Name": "Odogaron Claw",
+        "Amount": 2
+      },
+      {
+        "Name": "Odogaron Fang",
+        "Amount": 2
+      },
+      {
+        "Name": "Odogaron Plate",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Odogaron Greaves",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Legs",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 2,
+    "Thunder Resistance": -2,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Quick Sheath",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Odogaron Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Odogaron Sinew",
+        "Amount": 1
+      },
+      {
+        "Name": "Odogaron Claw",
+        "Amount": 1
+      },
+      {
+        "Name": "Dragonite Ore",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Rathalos Helm",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Helm",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 1,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Attack Boost",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathalos Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathalos Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Rath Wingtalon",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathalos Marrow",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Rathalos Mail",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Torso",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 1,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Weakness Exploit",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathalos Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathalos Shell",
+        "Amount": 4
+      },
+      {
+        "Name": "Rath Webbing",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathalos Plate",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Rathalos Vambraces",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Arms",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 1,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Fire Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathalos Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathalos Webbing",
+        "Amount": 1
+      },
+      {
+        "Name": "Flame Sac",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Rathalos Coil",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Waist",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 1,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Fire Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathalos Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathalos Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathalos Webbing",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Rathalos Greaves",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Legs",
+    "Min Def": 30,
+    "Max Def": 74,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": 1,
+    "Thunder Resistance": -2,
+    "Ice Resistance": 1,
+    "Dragon Resistance": -3,
+    "Skills": [
+      {
+        "Name": "Jump Master",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Rathalos Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathalos Scale",
+        "Amount": 2
+      },
+      {
+        "Name": "Ratha Wingtalon",
+        "Amount": 2
+      },
+      {
+        "Name": "Rathalos Tail",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Diablos Helm",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Helm",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Critical Draw",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Diablos Ridge",
+        "Amount": 3
+      },
+      {
+        "Name": "Diablos Fang",
+        "Amount": 2
+      },
+      {
+        "Name": "Twisted Horn",
+        "Amount": 1
+      },
+      {
+        "Name": "Diablos Marrow",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Diablos Mail",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Torso",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Slugger",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Diablos Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Diablos Ridge",
+        "Amount": 1
+      },
+      {
+        "Name": "Twisted Horn",
+        "Amount": 2
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Diablos Vambraces",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Arms",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Heroics",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Diablos Ridge",
+        "Amount": 2
+      },
+      {
+        "Name": "Diablos Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Diablos Tailcase",
+        "Amount": 1
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Diablos Coil",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Waist",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Marathon Runner",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Diablos Shell",
+        "Amount": 1
+      },
+      {
+        "Name": "Diablos Ridge",
+        "Amount": 1
+      },
+      {
+        "Name": "Diablos Fang",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Bone L",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Diablos Greaves",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Legs",
+    "Min Def": 32,
+    "Max Def": 76,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 0,
+    "Ice Resistance": -3,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Tremor Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Diablos Ridge",
+        "Amount": 2
+      },
+      {
+        "Name": "Diablos Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Twisted Horn",
+        "Amount": 1
+      },
+      {
+        "Name": "Monster Bone+",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+    "Name": "Kirin Horn",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Helm",
+    "Min Def": 34,
+    "Max Def": 78,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 4,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Marathon Runner",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kirin Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Kirin Tail",
+        "Amount": 2
+      },
+      {
+        "Name": "Kirin Thunderhorn",
+        "Amount": 3
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Kirin Jacket",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Torso",
+    "Min Def": 34,
+    "Max Def": 78,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 4,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Divine Blessing",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kirin Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Kirin Name",
+        "Amount": 2
+      },
+      {
+        "Name": "Coral Crystal",
+        "Amount": 4
+      },
+      {
+        "Name": "Coral Bone",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+    "Name": "Kirin Longarms",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Arms",
+    "Min Def": 34,
+    "Max Def": 78,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 4,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Blight Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kirin Hide",
+        "Amount": 3
+      },
+      {
+        "Name": "Kirin Mane",
+        "Amount": 2
+      },
+      {
+        "Name": "Paolumu Shell",
+        "Amount": 2
+      },
+      {
+        "Name": "Lightcrystal",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Kirin Hoop",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Waist",
+    "Min Def": 34,
+    "Max Def": 78,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 4,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Thunder Attack",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kirin Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Kirin Thunderhorn",
+        "Amount": 1
+      },
+      {
+        "Name": "Kirin Tail",
+        "Amount": 1
+      },
+      {
+        "Name": "Electro Sac",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+    "Name": "Kirin Leg Guards",
+    "Rarity": 4,
+    "Price": 3000,
+    "Part": "Legs",
+    "Min Def": 34,
+    "Max Def": 78,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": -3,
+    "Water Resistance": -2,
+    "Thunder Resistance": 4,
+    "Ice Resistance": -2,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Thunder Resistance",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kirin Hide",
+        "Amount": 2
+      },
+      {
+        "Name": "Kirin Thunderhorn",
+        "Amount": 1
+      },
+      {
+        "Name": "Paolumu Shell",
+        "Amount": 2
+      }
+    ]
+  }
+]
