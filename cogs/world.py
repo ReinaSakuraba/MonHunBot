@@ -180,6 +180,18 @@ class World:
 
         query = """
                 SELECT name, level
+                FROM world.armor_skills
+                WHERE skill=$1
+                ORDER BY level;
+                """
+        armors = await ctx.bot.pool.fetch(query, name)
+
+        if armors:
+            fmt = '\n'.join(f'{name} - {level} points' for name, level in armors)
+            embed.add_field(name='Armor', value=fmt, inline=False)
+
+        query = """
+                SELECT name, level
                 FROM world.charm_skills
                 WHERE skill=$1
                 ORDER BY level;
