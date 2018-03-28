@@ -11,6 +11,23 @@ async def create_db(pool):
     query = f"""
             CREATE SCHEMA IF NOT EXISTS world;
 
+            CREATE TABLE IF NOT EXISTS world.armor (
+                name TEXT PRIMARY KEY,
+                rarity SMALLINT NOT NULL,
+                price SMALLINT NOT NULL,
+                part TEXT NOT NULL,
+                min_def SMALLINT NOT NULL,
+                max_def SMALLINT NOT NULL,
+                slots SMALLINT NOT NULL,
+                slot_levels SMALLINT[] NOT NULL,
+                sex TEXT NOT NULL,
+                fire_res SMALLINT NOT NULL,
+                water_res SMALLINT NOT NULL,
+                thunder_res SMALLINT NOT NULL,
+                ice_res SMALLINT NOT NULL,
+                dragon_res SMALLINT NOT NULL
+            );
+
             CREATE TABLE IF NOT EXISTS world.armor_skills (
                 name TEXT,
                 skill TEXT REFERENCES world.skills(name),
@@ -59,6 +76,50 @@ async def create_db(pool):
     await pool.execute(query)
 
     query = """
+            INSERT INTO world.armor (
+                name,
+                rarity,
+                price,
+                part,
+                min_def,
+                max_def,
+                slots,
+                slot_levels,
+                sex,
+                fire_res,
+                water_res,
+                thunder_res,
+                ice_res,
+                dragon_res
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
+            ON CONFLICT (name)
+            DO UPDATE
+            SET
+                rarity = excluded.rarity,
+                price = excluded.price,
+                part = excluded.part,
+                min_def = excluded.min_def,
+                max_def = excluded.max_def,
+                slots = excluded.slots,
+                slot_levels = excluded.slot_levels,
+                sex = excluded.sex,
+                fire_res = excluded.fire_res,
+                water_res = excluded.water_res,
+                thunder_res = excluded.thunder_res,
+                ice_res = excluded.ice_res,
+                dragon_res = excluded.dragon_res;
+            """
+
+    with open('mhw/armor.json') as f:
+        armors = json.load(f)
+
+    for armor in armors:
+        await pool.execute(query, armor['Name'], armor['Rarity'], armor['Price'], armor['Part'], armor['Min Def'],
+                           armor['Max Def'], armor['Slots'], armor['Slot Levels'], armor['Sex'],
+                           armor['Fire Resistance'], armor['Water Resistance'], armor['Thunder Resistance'],
+                           armor['Ice Resistance'], armor['Dragon Resistance'])
+
+    query = """
             INSERT INTO world.armor_skills (
                 name,
                 skill,
@@ -68,9 +129,6 @@ async def create_db(pool):
             DO UPDATE
             SET level = excluded.level;
             """
-
-    with open('mhw/armor.json') as f:
-        armors = json.load(f)
 
     for armor in armors:
         for skill in armor['Skills']:
