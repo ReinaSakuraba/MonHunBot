@@ -11,6 +11,17 @@ async def create_db(pool):
     query = f"""
             CREATE SCHEMA IF NOT EXISTS world;
 
+            CREATE TABLE IF NOT EXISTS world.skills (
+                name TEXT PRIMARY KEY,
+                description TEXT NOT NULL
+            );
+
+            CREATE TABLE IF NOT EXISTS world.skill_levels (
+                name TEXT REFERENCES world.skills(name),
+                level SMALLINT,
+                effect TEXT NOT NULL,
+                PRIMARY KEY(name, level)
+            );
             CREATE TABLE IF NOT EXISTS world.armor (
                 name TEXT PRIMARY KEY,
                 rarity SMALLINT NOT NULL,
@@ -33,18 +44,6 @@ async def create_db(pool):
                 skill TEXT REFERENCES world.skills(name),
                 level SMALLINT NOT NULL,
                 PRIMARY KEY(name, skill)
-            );
-
-            CREATE TABLE IF NOT EXISTS world.skills (
-                name TEXT PRIMARY KEY,
-                description TEXT NOT NULL
-            );
-
-            CREATE TABLE IF NOT EXISTS world.skill_levels (
-                name TEXT REFERENCES world.skills(name),
-                level SMALLINT,
-                effect TEXT NOT NULL,
-                PRIMARY KEY(name, level)
             );
 
             CREATE TABLE IF NOT EXISTS world.charms (
