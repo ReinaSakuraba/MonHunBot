@@ -22,6 +22,7 @@ async def create_db(pool):
                 effect TEXT NOT NULL,
                 PRIMARY KEY(name, level)
             );
+
             CREATE TABLE IF NOT EXISTS world.armor (
                 name TEXT PRIMARY KEY,
                 rarity SMALLINT NOT NULL,
