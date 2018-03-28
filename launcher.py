@@ -47,6 +47,13 @@ async def create_db(pool):
                 PRIMARY KEY(name, skill)
             );
 
+            CREATE TABLE IF NOT EXISTS world.armor_materials (
+                name TEXT REFERENCES world.armor(name),
+                material TEXT,
+                amount SMALLINT NOT NULL,
+                PRIMARY KEY(name, material)
+            );
+
             CREATE TABLE IF NOT EXISTS world.charms (
                 name TEXT PRIMARY KEY
             );
@@ -168,6 +175,21 @@ async def create_db(pool):
     for armor in armors:
         for skill in armor['Skills']:
             await pool.execute(query, armor['Name'], skill['Name'], skill['Level'])
+
+    query = """
+            INSERT INTO world.armor_materials (
+                name,
+                material,
+                amount
+            ) VALUES ($1, $2, $3)
+            ON CONFLICT (name, material)
+            DO UPDATE
+            SET amount = excluded.amount;
+            """
+
+    for armor in armors:
+        for material in armor['Materials']:
+            await pool.execute(query, armor['Name'], material['Name'], material['Amount'])
 
     with open('mhw/charms.json') as f:
         charms = json.load(f)
