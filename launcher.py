@@ -11,6 +11,13 @@ async def create_db(pool):
     query = f"""
             CREATE SCHEMA IF NOT EXISTS world;
 
+            CREATE TABLE IF NOT EXISTS world.armor_skills (
+                name TEXT,
+                skill TEXT REFERENCES world.skills(name),
+                level SMALLINT,
+                PRIMARY KEY(name, skill)
+            );
+
             CREATE TABLE IF NOT EXISTS world.skills (
                 name TEXT PRIMARY KEY,
                 description TEXT NOT NULL
@@ -50,6 +57,24 @@ async def create_db(pool):
             """
 
     await pool.execute(query)
+
+    query = """
+            INSERT INTO world.armor_skills (
+                name,
+                skill,
+                level
+            ) VALUES ($1, $2, $3)
+            ON CONFLICT (name, skill)
+            DO UPDATE
+            SET level = excluded.level;
+            """
+
+    with open('mhw/armors.json') as f:
+        armors = json.load(f)
+
+    for armor in armors:
+        for skill in armor['Skills']:
+            await pool.execute(query, armor['Name'], skill['Name'], skill['Level'])
 
     query = """
             INSERT INTO world.skills (
