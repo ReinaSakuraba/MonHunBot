@@ -14,7 +14,7 @@ async def create_db(pool):
             CREATE TABLE IF NOT EXISTS world.armor_skills (
                 name TEXT,
                 skill TEXT REFERENCES world.skills(name),
-                level SMALLINT NOT NULL,
+                level SMALLINT NOTNULL,
                 PRIMARY KEY(name, skill)
             );
 
@@ -69,7 +69,7 @@ async def create_db(pool):
             SET level = excluded.level;
             """
 
-    with open('mhw/armors.json') as f:
+    with open('mhw/armor.json') as f:
         armors = json.load(f)
 
     for armor in armors:
