@@ -14,7 +14,7 @@ async def create_db(pool):
             CREATE TABLE IF NOT EXISTS world.armor_skills (
                 name TEXT,
                 skill TEXT REFERENCES world.skills(name),
-                level SMALLINT,
+                level SMALLINT NOT NULL,
                 PRIMARY KEY(name, skill)
             );
 
