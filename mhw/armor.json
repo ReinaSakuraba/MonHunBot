@@ -706,7 +706,7 @@
         "Amount": 1
       },
       {
-        "Name": "Machilite Ore",
+        "Name": "Machalite Ore",
         "Amount": 1
       }
     ]
@@ -1186,7 +1186,7 @@
         "Amount": 1
       },
       {
-        "Name": "Machilite Ore",
+        "Name": "Machalite Ore",
         "Amount": 2
       }
     ]
@@ -1338,7 +1338,7 @@
     ],
     "Materials": [
       {
-        "Name": "Machilite Ore",
+        "Name": "Machalite Ore",
         "Amount": 4
       },
       {
@@ -1378,7 +1378,7 @@
     ],
     "Materials": [
       {
-        "Name": "Machilite Ore",
+        "Name": "Machalite Ore",
         "Amount": 3
       },
       {
@@ -1418,7 +1418,7 @@
     ],
     "Materials": [
       {
-        "Name": "Machilite Ore",
+        "Name": "Machalite Ore",
         "Amount": 3
       },
       {
@@ -1458,7 +1458,7 @@
     ],
     "Materials": [
       {
-        "Name": "Machilite Ore",
+        "Name": "Machalite Ore",
         "Amount": 4
       },
       {
@@ -1498,7 +1498,7 @@
     ],
     "Materials": [
       {
-        "Name": "Machilite Ore",
+        "Name": "Machalite Ore",
         "Amount": 3
       },
       {
@@ -1630,7 +1630,7 @@
         "Amount": 1
       },
       {
-        "Name": "PoisonSac",
+        "Name": "Poison Sac",
         "Amount": 1
       }
     ]
@@ -2230,7 +2230,7 @@
         "Amount": 1
       },
       {
-        "Name": "Tobi-Kadachi Membrance",
+        "Name": "Tobi-Kadachi Membrane",
         "Amount": 2
       },
       {
@@ -3654,7 +3654,7 @@
     ],
     "Materials": [
       {
-        "Name": "Rathian Scal",
+        "Name": "Rathian Scale",
         "Amount": 2
       },
       {
@@ -3662,7 +3662,7 @@
         "Amount": 1
       },
       {
-        "Name": "Rathian Wingtalon",
+        "Name": "Rath Wingtalon",
         "Amount": 2
       },
       {
@@ -3742,15 +3742,15 @@
     ],
     "Materials": [
       {
-        "Name": "Tzizi-Ya-Ku Scale",
+        "Name": "Tzitzi-Ya-Ku Scale",
         "Amount": 2
       },
       {
-        "Name": "Tzizi-Ya-Ku Hide",
+        "Name": "Tzitzi-Ya-Ku Hide",
         "Amount": 1
       },
       {
-        "Name": "Tzizi-Ya-Ku Photophore",
+        "Name": "Tzitzi-Ya-Ku Photophore",
         "Amount": 1
       },
       {
@@ -3786,15 +3786,15 @@
     ],
     "Materials": [
       {
-        "Name": "Tzizi-Ya-Ku Hide",
+        "Name": "Tzitzi-Ya-Ku Hide",
         "Amount": 3
       },
       {
-        "Name": "Tzizi-Ya-Ku Claw",
+        "Name": "Tzitzi-Ya-Ku Claw",
         "Amount": 2
       },
       {
-        "Name": "Tzizi-Ya-Ku Photophore",
+        "Name": "Tzitzi-Ya-Ku Photophore",
         "Amount": 2
       },
       {
@@ -3830,19 +3830,19 @@
     ],
     "Materials": [
       {
-        "Name": "Tzizi-Ya-Ku Hide",
+        "Name": "Tzitzi-Ya-Ku Hide",
         "Amount": 2
       },
       {
-        "Name": "Tzizi-Ya-Ku Photophore",
+        "Name": "Tzitzi-Ya-Ku Photophore",
         "Amount": 1
       },
       {
-        "Name": "Tzizi-Ya-Ku Scale",
+        "Name": "Tzitzi-Ya-Ku Scale",
         "Amount": 3
       },
       {
-        "Name": "Tzizi-Ya-KuCoral Crystal",
+        "Name": "Coral Crystal",
         "Amount": 2
       }
     ]
@@ -3874,11 +3874,11 @@
     ],
     "Materials": [
       {
-        "Name": "Tzizi-Ya-Ku Hide",
+        "Name": "Tzitzi-Ya-Ku Hide",
         "Amount": 2
       },
       {
-        "Name": "Tzizi-Ya-Ku Claw",
+        "Name": "Tzitzi-Ya-Ku Claw",
         "Amount": 2
       },
       {
@@ -3914,15 +3914,15 @@
     ],
     "Materials": [
       {
-        "Name": "Tzizi-Ya-Ku Scale",
+        "Name": "Tzitzi-Ya-Ku Scale",
         "Amount": 2
       },
       {
-        "Name": "Tzizi-Ya-Ku Hide",
+        "Name": "Tzitzi-Ya-Ku Hide",
         "Amount": 1
       },
       {
-        "Name": "Tzizi-Ya-Ku Claw",
+        "Name": "Tzitzi-Ya-Ku Claw",
         "Amount": 1
       }
     ]
@@ -4082,7 +4082,7 @@
     ],
     "Materials": [
       {
-        "Name": "PAolumu Pelt",
+        "Name": "Paolumu Pelt",
         "Amount": 2
       },
       {
@@ -4382,11 +4382,11 @@
     ],
     "Materials": [
       {
-        "Name": "Radobaan Sheel",
+        "Name": "Radobaan Shell",
         "Amount": 3
       },
       {
-        "Name": "Radobaan Ooilshell",
+        "Name": "Radobaan Oilshell",
         "Amount": 2
       },
       {
@@ -5306,7 +5306,7 @@
     ],
     "Materials": [
       {
-        "Name": "Lagiana Hide",
+        "Name": "Legiana Hide",
         "Amount": 3
       },
       {
@@ -5754,7 +5754,7 @@
         "Amount": 4
       },
       {
-        "Name": "Rath Webbing",
+        "Name": "Rathalos Webbing",
         "Amount": 2
       },
       {
@@ -5886,7 +5886,7 @@
         "Amount": 2
       },
       {
-        "Name": "Ratha Wingtalon",
+        "Name": "Rath Wingtalon",
         "Amount": 2
       },
       {
@@ -6190,7 +6190,7 @@
         "Amount": 2
       },
       {
-        "Name": "Kirin Name",
+        "Name": "Kirin Mane",
         "Amount": 2
       },
       {
