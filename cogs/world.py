@@ -36,7 +36,7 @@ class World:
                 """
         records = await ctx.bot.pool.fetch(query, name)
 
-        if records is None:
+        if not records:
             return await ctx.send('Charm not found')
 
         embed = discord.Embed(title=f'{name.title()} Charm')
