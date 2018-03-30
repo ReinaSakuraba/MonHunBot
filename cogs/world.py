@@ -313,7 +313,7 @@ class World:
 
         slots = ' '.join(filter(None, map(slot_transform.get, slots))) or 'None'
         defenses = f'{e_def}: {defense}\n{e_fire}: {fire_res}\n{e_water}: {water_res}\n{e_thunder}: {thunder_res}' \
-                    f'\n{e_ice}: {ice_res}\n{e_dragon}: {dragon_res}'
+                   f'\n{e_ice}: {ice_res}\n{e_dragon}: {dragon_res}'
 
         embed = discord.Embed(title=name)
         embed.add_field(name='Rarity', value=rarity)
