@@ -260,6 +260,77 @@ class World:
 
         await ctx.send(embed=embed)
 
+    @commands.command()
+    async def armor(self, ctx, *, name: str.lower):
+        query = """
+                SELECT
+                    armor.name,
+                    rarity,
+                    price,
+                    part,
+                    min_def || '~' || max_def AS def,
+                    slot_levels,
+                    fire_res,
+                    water_res,
+                    thunder_res,
+                    ice_res,
+                    dragon_res,
+                    STRING_AGG(material || ' x' || amount, ', ') AS materials
+                FROM world.armor
+                LEFT JOIN world.armor_materials
+                ON armor.name = armor_materials.name
+                WHERE LOWER(armor.name) = $1
+                GROUP BY armor.name;
+                """
+
+        record = await ctx.bot.pool.fetchrow(query, name)
+        if record is None:
+            return await ctx.send('Armor not found.')
+
+        name, rarity, price, part, defense, slots, fire_res, water_res, thunder_res, ice_res, dragon_res, mats = record
+
+        query = """
+                SELECT name, STRING_AGG(skill || ' ' || level, ', ') AS skills
+                FROM world.armor_skills
+                WHERE name = $1
+                GROUP BY name;
+                """
+
+        record = await ctx.bot.pool.fetchrow(query, name)
+
+        e_def = '<:mhw_def:429038203832369172>'
+        e_fire = '<:mhw_fire:429038203475853314>'
+        e_water = '<:mhw_water:429038204042215424>'
+        e_thunder = '<:mhw_thunder:429038203622653973>'
+        e_ice = '<:mhw_ice:429038203832369152>'
+        e_dragon = '<:mhw_dragon:429038203719122945>'
+        e_wide1 = '<:mhw_1wide:429038203920449536>'
+        e_wide2 = '<:mhw_2wide:429038203551481857>'
+        e_wide3 = '<:mhw_3wide:429038203698282497>'
+
+        slot_transform = {
+            1: e_wide1,
+            2: e_wide2,
+            3: e_wide3
+        }
+
+        slots = ' '.join(filter(None, map(slot_transform.get, slots))) or 'None'
+        defenses = f'{e_def}: {defense}\n{e_fire}: {fire_res}\n{e_water}: {water_res}\n{e_thunder}: {thunder_res}' \
+                    '\n{e_ice}: {ice_res}\n{e_dragon}: {dragon_res}'
+
+        embed = discord.Embed(title=name)
+        embed.add_field(name='Rarity', value=rarity)
+        embed.add_field(name='Price', value=price)
+        embed.add_field(name='Part', value=part)
+        embed.add_field(name='Defenses', value=defense, inline=False)
+        embed.add_field(name='Slots', value=slots)
+        if mats:
+            embed.add_field(name='Materials', value=mats, inline=False)
+        if record:
+            embed.add_field(name='Skills', value=record['skills'], inline=False)
+
+        await ctx.send(embed=embed)
+
 
 def setup(bot):
     bot.add_cog(World())
