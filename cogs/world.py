@@ -300,13 +300,13 @@ class World:
 
         slots = ' '.join(filter(None, map(slot_transform.get, slots))) or 'None'
         defenses = f'{e_def}: {defense}\n{e_fire}: {fire_res}\n{e_water}: {water_res}\n{e_thunder}: {thunder_res}' \
-                    '\n{e_ice}: {ice_res}\n{e_dragon}: {dragon_res}'
+                    f'\n{e_ice}: {ice_res}\n{e_dragon}: {dragon_res}'
 
         embed = discord.Embed(title=name)
         embed.add_field(name='Rarity', value=rarity)
         embed.add_field(name='Price', value=price)
         embed.add_field(name='Part', value=part)
-        embed.add_field(name='Defenses', value=defense, inline=False)
+        embed.add_field(name='Defenses', value=defenses, inline=False)
         embed.add_field(name='Slots', value=slots)
         if mats:
             embed.add_field(name='Materials', value=mats, inline=False)
