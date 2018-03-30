@@ -23,10 +23,13 @@ class World:
         query = """
                 SELECT
                     charms.name,
-                    STRING_AGG(skill || ' ' || level, ', ') AS skills
+                    STRING_AGG(DISTINCT skill || ' ' || level, ', ') AS skills,
+                    STRING_AGG(DISTINCT material || ' x' || amount, ', ') AS materials
                 FROM world.charms
                 JOIN world.charm_skills
                 ON charms.name = charm_skills.name
+                LEFT JOIN world.charm_materials
+                ON charms.name = charm_materials.name
                 WHERE charms.name ILIKE $1 || ' Charm%'
                 GROUP BY charms.name
                 ORDER BY charms.name;
@@ -38,24 +41,11 @@ class World:
 
         embed = discord.Embed(title=f'{name.title()} Charm')
 
-        skills = [f'{"I" * index} - {skills}' for index, (_, skills) in enumerate(records, 1)]
+        skills = [f'{"I" * index} - {skills}' for index, (_, skills, _) in enumerate(records, 1)]
         embed.add_field(name='Skills', value='\n'.join(skills))
 
-        query = """
-                SELECT
-                    charms.name,
-                    STRING_AGG(material || ' x' || amount, ', ') AS materials
-                FROM world.charms
-                LEFT JOIN world.charm_materials
-                ON charms.name = charm_materials.name
-                WHERE charms.name ILIKE $1 || ' Charm%'
-                GROUP BY charms.name
-                ORDER BY charms.name;
-                """
-        records = await ctx.bot.pool.fetch(query, name)
-
         if records[0]['materials'] is not None:
-            mats = [f'{"I" * index} - {materials}' for index, (_, materials) in enumerate(records, 1)]
+            mats = [f'{"I" * index} - {materials}' for index, (*_, materials) in enumerate(records, 1)]
             embed.add_field(name='Materials', value='\n'.join(mats), inline=False)
 
         await ctx.send(embed=embed)
@@ -275,10 +265,13 @@ class World:
                     thunder_res,
                     ice_res,
                     dragon_res,
-                    STRING_AGG(material || ' x' || amount, ', ') AS materials
+                    STRING_AGG(DISTINCT material || ' x' || amount, ', ') AS materials,
+                    STRING_AGG(DISTINCT skill || ' ' || level, ', ') AS skills
                 FROM world.armor
                 LEFT JOIN world.armor_materials
                 ON armor.name = armor_materials.name
+                LEFT JOIN world.armor_skills
+                ON armor.name = armor_skills.name
                 WHERE LOWER(armor.name) = $1
                 GROUP BY armor.name;
                 """
@@ -287,16 +280,7 @@ class World:
         if record is None:
             return await ctx.send('Armor not found.')
 
-        name, rarity, price, part, defense, slots, fire_res, water_res, thunder_res, ice_res, dragon_res, mats = record
-
-        query = """
-                SELECT name, STRING_AGG(skill || ' ' || level, ', ') AS skills
-                FROM world.armor_skills
-                WHERE name = $1
-                GROUP BY name;
-                """
-
-        record = await ctx.bot.pool.fetchrow(query, name)
+        name, rarity, price, part, defense, slots, fire_res, water_res, thunder_res, ice_res, dragon_res, mats, skills = record
 
         e_def = '<:mhw_def:429038203832369172>'
         e_fire = '<:mhw_fire:429038203475853314>'
@@ -326,8 +310,8 @@ class World:
         embed.add_field(name='Slots', value=slots)
         if mats:
             embed.add_field(name='Materials', value=mats, inline=False)
-        if record:
-            embed.add_field(name='Skills', value=record['skills'], inline=False)
+        if skills:
+            embed.add_field(name='Skills', value=skills, inline=False)
 
         await ctx.send(embed=embed)
 
