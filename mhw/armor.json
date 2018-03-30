@@ -1312,6 +1312,121 @@
     ]
   },
   {
+    "Name": "Origin Helm",
+    "Rarity": 1,
+    "Price": 0,
+    "Part": "Helm",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [
+      {
+        "Name": "Forager's Luck",
+        "Level": 1
+      }
+    ],
+    "Materials": []
+  },
+  {
+    "Name": "Origin Mail",
+    "Rarity": 1,
+    "Price": 0,
+    "Part": "Torso",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": []
+  },
+  {
+    "Name": "Origin Vambraces",
+    "Rarity": 1,
+    "Price": 0,
+    "Part": "Arms",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": []
+  },
+  {
+    "Name": "Origin Coil",
+    "Rarity": 1,
+    "Price": 0,
+    "Part": "Waist",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": []
+  },
+  {
+    "Name": "Origin Greaves",
+    "Rarity": 1,
+    "Price": 0,
+    "Part": "Legs",
+    "Min Def": 6,
+    "Max Def": 72,
+    "Slots": 0,
+    "Slot Levels": [
+      0,
+      0,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 0,
+    "Water Resistance": 0,
+    "Thunder Resistance": 0,
+    "Ice Resistance": 0,
+    "Dragon Resistance": 0,
+    "Skills": [],
+    "Materials": []
+  },
+  {
     "Name": "Alloy Helm",
     "Rarity": 2,
     "Price": 500,
