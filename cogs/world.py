@@ -278,7 +278,20 @@ class World:
 
         record = await ctx.bot.pool.fetchrow(query, name)
         if record is None:
-            return await ctx.send('Armor not found.')
+            query = """
+                    SELECT ARRAY(
+                        SELECT name
+                        FROM world.armor
+                        WHERE name % $1
+                        ORDER BY SIMILARITY(name, $1) DESC
+                    );
+                    """
+            possible_armor = await ctx.bot.pool.fetchval(query, name)
+            if not possible_armor:
+                return await ctx.send('Armor not found.')
+
+            names = '\n'.join(possible_armor)
+            return await ctx.send(f'Armor not found. Did you mean...\n{names}')
 
         name, rarity, price, part, defense, slots, fire_res, water_res, thunder_res, ice_res, dragon_res, mats, skills = record
 
