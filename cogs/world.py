@@ -134,16 +134,28 @@ class World:
     @commands.command()
     async def skill(self, ctx, *, name: str.lower):
         query = """
-                SELECT skills.name, description, level, effect
+                SELECT
+                    skills.name,
+                    description,
+                    STRING_AGG(DISTINCT 'Lv ' || skill_levels.level || ' - ' || effect, E'\n') AS levels,
+                    STRING_AGG(DISTINCT  armor_skills.name || ' - ' || armor_skills.level || ' points', E'\n') AS armors,
+                    STRING_AGG(DISTINCT  charm_skills.name || ' - ' || charm_skills.level || ' points', E'\n') AS charms,
+                    decorations.name AS decoration
                 FROM world.skills
                 LEFT JOIN world.skill_levels
                 ON skills.name = skill_levels.name
+                LEFT JOIN world.armor_skills
+                ON skills.name = armor_skills.skill
+                LEFT JOIN world.charm_skills
+                ON skills.name = charm_skills.skill
+                LEFT JOIN world.decorations
+                ON skills.name = decorations.skill
                 WHERE LOWER(skills.name)=$1
-                ORDER BY level;
+                GROUP BY skills.name, decoration;
                 """
-        records = await ctx.bot.pool.fetch(query, name)
+        record = await ctx.bot.pool.fetchrow(query, name)
 
-        if not records:
+        if record is None:
             query = """
                     SELECT ARRAY(
                         SELECT name
@@ -159,48 +171,22 @@ class World:
             names = '\n'.join(possible_skills)
             return await ctx.send(f'Skill not found. Did you mean...\n{names}')
 
-        name, description, *_ = records[0]
+        name, description, levels, armors, charms, decoration = record
 
         embed = discord.Embed(title=name)
         embed.description = description
 
-        levels = [(r['level'], r['effect']) for r in records]
-        if levels[0][0] is not None:
-            embed.add_field(name='Levels', value='\n'.join(f'Lv {level} - {effect}' for level, effect in levels))
-
-        query = """
-                SELECT name, level
-                FROM world.armor_skills
-                WHERE skill=$1
-                ORDER BY level;
-                """
-        armors = await ctx.bot.pool.fetch(query, name)
+        if levels:
+            embed.add_field(name='Levels', value=levels)
 
         if armors:
-            fmt = '\n'.join(f'{name} - {level} points' for name, level in armors)
-            embed.add_field(name='Armor', value=fmt, inline=False)
-
-        query = """
-                SELECT name, level
-                FROM world.charm_skills
-                WHERE skill=$1
-                ORDER BY level;
-                """
-        charms = await ctx.bot.pool.fetch(query, name)
+            embed.add_field(name='Armor', value=armors, inline=False)
 
         if charms:
-            fmt = '\n'.join(f'{name} - {level} points' for name, level in charms)
-            embed.add_field(name='Charm', value=fmt, inline=False)
+            embed.add_field(name='Charm', value=charms, inline=False)
 
-        query = """
-                SELECT name
-                FROM world.decorations
-                WHERE skill=$1;
-                """
-        jewel = await ctx.bot.pool.fetchval(query, name)
-
-        if jewel:
-            embed.add_field(name='Jewel', value=jewel)
+        if decoration:
+            embed.add_field(name='Decoration', value=decoration)
 
         await ctx.send(embed=embed)
 
