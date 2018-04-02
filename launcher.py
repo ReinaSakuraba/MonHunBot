@@ -1,6 +1,7 @@
 import json
 import asyncio
 
+import click
 import asyncpg
 
 import config
@@ -86,6 +87,16 @@ async def create_db(pool):
 
     await pool.execute(query)
 
+
+async def drop_db(pool):
+    query = """
+            DROP SCHEMA world CASCADE;
+            """
+
+    await pool.execute(query)
+
+
+async def update_db(pool):
     query = """
             INSERT INTO world.skills (
                 name,
@@ -279,12 +290,52 @@ async def create_db(pool):
         await pool.execute(query, decoration['Name'], decoration['Slot Level'], decoration['Rarity'], decoration['Skill'])
 
 
-def main():
+def run_bot():
+    loop = asyncio.get_event_loop()
+    pool = loop.run_until_complete(asyncpg.create_pool(config.dsn, command_timeout=60))
+    bot = Bot(pool=pool, loop=loop)
+    bot.run(config.token)
+
+
+@click.group(invoke_without_command=True)
+@click.pass_context
+def main(ctx):
+    """Launches the bot."""
+
+    if ctx.invoked_subcommand is None:
+        run_bot()
+
+
+@main.group()
+def db():
+    pass
+
+
+@db.command()
+def init():
+    """Creates the database."""
+
     loop = asyncio.get_event_loop()
     pool = loop.run_until_complete(asyncpg.create_pool(config.dsn, command_timeout=60))
     loop.run_until_complete(create_db(pool))
-    bot = Bot(pool=pool, loop=loop)
-    bot.run(config.token)
+
+
+@db.command()
+def update():
+    """Updates the database."""
+
+    loop = asyncio.get_event_loop()
+    pool = loop.run_until_complete(asyncpg.create_pool(config.dsn, command_timeout=60))
+    loop.run_until_complete(update_db(pool))
+
+
+@db.command()
+def drop():
+    """Drops the database."""
+
+    loop = asyncio.get_event_loop()
+    pool = loop.run_until_complete(asyncpg.create_pool(config.dsn, command_timeout=60))
+    loop.run_until_complete(drop_db(pool))
 
 
 if __name__ == '__main__':
