@@ -28,7 +28,7 @@ async def create_db(pool):
                 name TEXT PRIMARY KEY
             );
 
-            CREATE TABLE IF NOT EXISTS world.armor (
+            CREATE TABLE IF NOT EXISTS world.armors (
                 name TEXT PRIMARY KEY,
                 rarity SMALLINT NOT NULL,
                 price SMALLINT NOT NULL,
@@ -46,14 +46,14 @@ async def create_db(pool):
             );
 
             CREATE TABLE IF NOT EXISTS world.armor_skills (
-                name TEXT REFERENCES world.armor(name),
+                name TEXT REFERENCES world.armors(name),
                 skill TEXT REFERENCES world.skills(name),
                 level SMALLINT NOT NULL,
                 PRIMARY KEY(name, skill)
             );
 
             CREATE TABLE IF NOT EXISTS world.armor_materials (
-                name TEXT REFERENCES world.armor(name),
+                name TEXT REFERENCES world.armors(name),
                 material TEXT REFERENCES world.items(name),
                 amount SMALLINT NOT NULL,
                 PRIMARY KEY(name, material)
@@ -147,7 +147,7 @@ async def update_db(pool):
         await pool.execute(query, item)
 
     query = """
-            INSERT INTO world.armor (
+            INSERT INTO world.armors (
                 name,
                 rarity,
                 price,
