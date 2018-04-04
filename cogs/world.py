@@ -214,7 +214,7 @@ class World:
     async def armor(self, ctx, *, name: str.lower):
         query = """
                 SELECT
-                    armor.name,
+                    armors.name,
                     rarity,
                     price,
                     part,
@@ -227,13 +227,13 @@ class World:
                     dragon_res,
                     STRING_AGG(DISTINCT material || ' x' || amount, ', ') AS materials,
                     STRING_AGG(DISTINCT skill || ' ' || level, ', ') AS skills
-                FROM world.armor
+                FROM world.armors
                 LEFT JOIN world.armor_materials
-                ON armor.name = armor_materials.name
+                ON armors.name = armor_materials.name
                 LEFT JOIN world.armor_skills
-                ON armor.name = armor_skills.name
-                WHERE LOWER(armor.name) = $1
-                GROUP BY armor.name;
+                ON armors.name = armor_skills.name
+                WHERE LOWER(armors.name) = $1
+                GROUP BY armors.name;
                 """
 
         record = await ctx.bot.pool.fetchrow(query, name)
