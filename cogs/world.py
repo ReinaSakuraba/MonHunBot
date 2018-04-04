@@ -177,7 +177,7 @@ class World:
 
         await ctx.send(embed=embed)
 
-    @commands.command()
+    @commands.command(aliases=['deco'])
     async def decoration(self, ctx, *, name: str.lower):
         match = self.deco_re.match(name)
 
