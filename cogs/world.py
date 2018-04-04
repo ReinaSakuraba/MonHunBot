@@ -276,17 +276,17 @@ class World:
         await ctx.send(embed=embed)
 
     async def show_possibilities(self, ctx, table_name, name):
-            query = f"""
-                    SELECT
-                        STRING_AGG(name, E'\n' ORDER BY SIMILARITY(name, $1) DESC)
-                    FROM world.{table_name}
-                    WHERE name % $1;
-                    """
-            possibilities = await ctx.bot.pool.fetchval(query, name)
-            if possibilities is None:
-                return await ctx.send(f'{table_name.title()[:-1]} not found.')
+        query = f"""
+                SELECT
+                    STRING_AGG(name, E'\n' ORDER BY SIMILARITY(name, $1) DESC)
+                FROM world.{table_name}
+                WHERE name % $1;
+                """
+        possibilities = await ctx.bot.pool.fetchval(query, name)
+        if possibilities is None:
+            return await ctx.send(f'{table_name.title()[:-1]} not found.')
 
-            return await ctx.send(f'{table_name.title()[:-1]} not found. Did you mean...\n{possibilities}')
+        return await ctx.send(f'{table_name.title()[:-1]} not found. Did you mean...\n{possibilities}')
 
 
 def setup(bot):
