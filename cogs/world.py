@@ -156,20 +156,7 @@ class World:
         record = await ctx.bot.pool.fetchrow(query, name)
 
         if record is None:
-            query = """
-                    SELECT ARRAY(
-                        SELECT name
-                        FROM world.skills
-                        WHERE name % $1
-                        ORDER BY SIMILARITY(name, $1) DESC
-                    );
-                    """
-            possible_skills = await ctx.bot.pool.fetchval(query, name)
-            if not possible_skills:
-                return await ctx.send('Skill not found.')
-
-            names = '\n'.join(possible_skills)
-            return await ctx.send(f'Skill not found. Did you mean...\n{names}')
+            return await self.show_possibilities(ctx, 'skills', name)
 
         name, description, levels, armors, charms, decoration = record
 
@@ -204,20 +191,7 @@ class World:
         record = await ctx.bot.pool.fetchrow(query, name)
 
         if record is None:
-            query = """
-                    SELECT ARRAY(
-                        SELECT name
-                        FROM world.decorations
-                        WHERE name % $1
-                        ORDER BY SIMILARITY(name, $1) DESC
-                    );
-                    """
-            possible_decos = await ctx.bot.pool.fetchval(query, name)
-            if not possible_decos:
-                return await ctx.send('Decoration not found.')
-
-            names = '\n'.join(possible_decos)
-            return await ctx.send(f'Decoration not found. Did you mean...\n{names}')
+            return await self.show_possibilities(ctx, 'decorations', name)
 
         name, skill, rarity = record
 
@@ -264,20 +238,7 @@ class World:
 
         record = await ctx.bot.pool.fetchrow(query, name)
         if record is None:
-            query = """
-                    SELECT ARRAY(
-                        SELECT name
-                        FROM world.armor
-                        WHERE name % $1
-                        ORDER BY SIMILARITY(name, $1) DESC
-                    );
-                    """
-            possible_armor = await ctx.bot.pool.fetchval(query, name)
-            if not possible_armor:
-                return await ctx.send('Armor not found.')
-
-            names = '\n'.join(possible_armor)
-            return await ctx.send(f'Armor not found. Did you mean...\n{names}')
+            return await self.show_possibilities(ctx, 'armors', name)
 
         name, rarity, price, part, defense, slots, fire_res, water_res, thunder_res, ice_res, dragon_res, mats, skills = record
 
@@ -313,6 +274,19 @@ class World:
             embed.add_field(name='Skills', value=skills, inline=False)
 
         await ctx.send(embed=embed)
+
+    async def show_possibilities(self, ctx, table_name, name):
+            query = f"""
+                    SELECT
+                        STRING_AGG(name, E'\n' ORDER BY SIMILARITY(name, $1) DESC)
+                    FROM world.{table_name}
+                    WHERE name % $1;
+                    """
+            possibilities = await ctx.bot.pool.fetchval(query, name)
+            if possibilities is None:
+                return await ctx.send(f'{table_name.title()[:-1]} not found.')
+
+            return await ctx.send(f'{table_name.title()[:-1]} not found. Did you mean...\n{possibilities}')
 
 
 def setup(bot):
