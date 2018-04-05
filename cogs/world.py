@@ -1,10 +1,17 @@
 import re
 import json
+import shlex
+import argparse
 
 import discord
 from discord.ext import commands
 
 import utils
+
+
+class Arguments(argparse.ArgumentParser):
+    def error(self, message):
+        raise RuntimeError(message)
 
 
 class World:
@@ -210,7 +217,7 @@ class World:
 
         await ctx.send(embed=embed)
 
-    @commands.command()
+    @commands.group(invoke_without_command=True, case_insensitive=True)
     async def armor(self, ctx, *, name: str.lower):
         query = """
                 SELECT
@@ -274,6 +281,40 @@ class World:
             embed.add_field(name='Skills', value=skills, inline=False)
 
         await ctx.send(embed=embed)
+
+    @armor.command(name='search')
+    async def armor_search(self, ctx, *, args: str):
+        parser = Arguments(add_help=False, allow_abbrev=False)
+        parser.add_argument('--slots', type=int, nargs='+', choices=(0, 1, 2, 3))
+
+        try:
+            args = parser.parse_args(shlex.split(args))
+        except Exception as e:
+            return await ctx.send(e)
+
+        pred = ''
+
+        if args.slots:
+            if len(args.slots) > 3:
+                return await ctx.send('Slot amount may not be greater than 4.')
+
+            args.slots.extend([0, 0])
+            pred += f"""
+                    AND slot_levels[1] >= {args.slots[0]}
+                    AND slot_levels[2] >= {args.slots[1]}
+                    AND slot_levels[3] >= {args.slots[2]}
+                    """
+
+        query = f"""
+                SELECT
+                    STRING_AGG(name, E'\n')
+                FROM world.armors
+                WHERE 1=1
+                {pred}
+                """
+        names = await ctx.bot.pool.fetchval(query)
+
+        await ctx.send(names or 'No armor found.')
 
     async def show_possibilities(self, ctx, table_name, name):
         query = f"""
