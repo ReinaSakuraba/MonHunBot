@@ -1,3 +1,5 @@
+import os
+import inspect
 import traceback
 from pathlib import Path
 
@@ -5,6 +7,7 @@ import discord
 from discord.ext import commands
 
 import config
+import utils
 
 
 class Bot(commands.Bot):
@@ -23,6 +26,7 @@ class Bot(commands.Bot):
                 traceback.print_exc()
 
         self.add_command(self.invite)
+        self.add_command(self.source)
 
     async def on_ready(self):
         print(f'Logged in as {self.user}')
@@ -47,3 +51,33 @@ class Bot(commands.Bot):
 
         invite = discord.utils.oauth_url(app_info.id, permissions=permissions)
         await ctx.send(invite)
+
+    @commands.command(aliases=['github'])
+    async def source(self, ctx, *, command: utils.CommandConverter = None):
+        """Posts the source code for the bot."""
+
+        source_url = await self.get_github_url()
+
+        if command is None:
+            return await ctx.send(source_url)
+
+        src = getattr(command, 'callback', command.__class__)
+
+        lines, first_line = inspect.getsourcelines(src)
+        last_line = first_line + len(lines) - 1
+        module = src.__module__
+        if not module.startswith('discord'):
+            location = os.path.relpath(inspect.getfile(src))
+            branch, _ = await utils.run_subprocess('git rev-parse HEAD')
+            branch = branch.strip()
+        else:
+            location = f'{module.replace(".", "/")}.py'
+            source_url = 'https://github.com/Rapptz/discord.py'
+            branch = 'rewrite'
+
+        final_url = f'{source_url}/blob/{branch}/{location}#L{first_line}-L{last_line}'
+        await ctx.send(final_url)
+
+    async def get_github_url(self):
+        result, _ = await utils.run_subprocess('git remote get-url origin')
+        return result.strip()[:-4]
