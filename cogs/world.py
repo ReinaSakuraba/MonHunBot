@@ -286,6 +286,7 @@ class World:
     async def armor_search(self, ctx, *, args: str):
         parser = Arguments(add_help=False, allow_abbrev=False)
         parser.add_argument('--slots', type=int, nargs='+', choices=(0, 1, 2, 3))
+        parser.add_argument('--part', type=str, choices=('Head', 'Torso', 'Arms', 'Waist', 'Legs'))
 
         try:
             args = parser.parse_args(shlex.split(args))
@@ -303,6 +304,11 @@ class World:
                     AND slot_levels[1] >= {args.slots[0]}
                     AND slot_levels[2] >= {args.slots[1]}
                     AND slot_levels[3] >= {args.slots[2]}
+                    """
+
+        if args.part:
+            pred += f"""
+                    AND part = '{args.part}'
                     """
 
         query = f"""
