@@ -28687,6 +28687,50 @@
     ]
   },
   {
+    "Name": "Kulu-Ya-Ku Head Alpha",
+    "Rarity": 5,
+    "Price": 4000,
+    "Part": "Helm",
+    "Min Def": 46,
+    "Max Def": 84,
+    "Slots": 2,
+    "Slot Levels": [
+      3,
+      1,
+      0
+    ],
+    "Sex": "Both",
+    "Fire Resistance": 2,
+    "Water Resistance": 0,
+    "Thunder Resistance": 2,
+    "Ice Resistance": 3,
+    "Dragon Resistance": 2,
+    "Skills": [
+      {
+        "Name": "Pro Transporter",
+        "Level": 1
+      }
+    ],
+    "Materials": [
+      {
+        "Name": "Kulu-Ya-Ku Ticket",
+        "Amount": 3
+      },
+      {
+        "Name": "Kulu-Ya-Ku Beak+",
+        "Amount": 1
+      },
+      {
+        "Name": "Kulu-Ya-Ku Plume+",
+        "Amount": 4
+      },
+      {
+        "Name": "Kulu-Ya-Ku Hide+",
+        "Amount": 5
+      }
+    ]
+  },
+  {
     "Name": "Pulverizing Feather",
     "Rarity": 5,
     "Price": 0,
