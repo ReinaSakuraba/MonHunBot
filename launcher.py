@@ -185,7 +185,7 @@ async def update_db(pool):
         armors = json.load(f)
 
     for armor in armors:
-        await pool.execute(query, armor['Name'], armor.get('Rarity', 0), armor.get('Price', 0), armor['Part'], armor['Min Def'],
+        await pool.execute(query, armor['Name'], armor['Rarity'], armor['Price'], armor['Part'], armor['Min Def'],
                            armor['Max Def'], armor['Slots'], armor['Slot Levels'], armor['Sex'],
                            armor['Fire Resistance'], armor['Water Resistance'], armor['Thunder Resistance'],
                            armor['Ice Resistance'], armor['Dragon Resistance'])
@@ -217,7 +217,7 @@ async def update_db(pool):
             """
 
     for armor in armors:
-        for material in armor.get('Materials', []):
+        for material in armor['Materials']:
             await pool.execute(query, armor['Name'], material['Name'], material['Amount'])
 
     with open('mhw/charms.json') as f:
