@@ -24,6 +24,8 @@ class World:
 
     @commands.command()
     async def charm(self, ctx, *, name: str.lower):
+        """Shows information about Charms."""
+
         match = self.charm_re.match(name)
         name = match.group('name')
 
@@ -59,6 +61,8 @@ class World:
 
     @commands.command()
     async def mv(self, ctx, *, weapon: str.lower):
+        """Shows the motion values for weapons."""
+
         transformations = {
             'gs': 'great sword',
             'great sword': 'great sword',
@@ -140,6 +144,8 @@ class World:
 
     @commands.command()
     async def skill(self, ctx, *, name: str.lower):
+        """Shows information about skills."""
+
         query = """
                 SELECT
                     skills.name,
@@ -186,6 +192,8 @@ class World:
 
     @commands.command(aliases=['deco'])
     async def decoration(self, ctx, *, name: str.lower):
+        """Shows information about decorations."""
+
         match = self.deco_re.match(name)
 
         name = match.group('name')
@@ -219,6 +227,8 @@ class World:
 
     @commands.group(invoke_without_command=True, case_insensitive=True)
     async def armor(self, ctx, *, name: str.lower):
+        """Shows information for armor."""
+
         query = """
                 SELECT
                     armors.name,
@@ -284,6 +294,14 @@ class World:
 
     @armor.command(name='search')
     async def armor_search(self, ctx, *, args: str):
+        """Searches for armor.
+
+        Search options are chosen by doing --option value
+        The following options are valid.
+        slots: The slots the armor should have,
+        part: The type of armor to search for.
+        """
+
         parser = Arguments(add_help=False, allow_abbrev=False)
         parser.add_argument('--slots', type=int, nargs='+', choices=(0, 1, 2, 3))
         parser.add_argument('--part', type=str, choices=('Head', 'Torso', 'Arms', 'Waist', 'Legs'))
